@@ -199,11 +199,39 @@ class RecommendationAgent:
         system = SYSTEM_PROMPT.format(num_recs=config.NUM_RECOMMENDATIONS)
         if config.LLM_PROVIDER == "anthropic":
             return self._call_anthropic(system, messages)
+        if config.LLM_PROVIDER == "huggingface":
+            return self._call_huggingface(system, messages)
+        if config.LLM_PROVIDER == "groq":
+            return self._call_groq(system, messages)
         return self._call_openai(system, messages)
 
     def _call_openai(self, system: str, messages: List[dict]) -> dict:
         from openai import OpenAI
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        full = [{"role": "system", "content": system}] + messages
+        resp = client.chat.completions.create(
+            model=config.LLM_MODEL,
+            messages=full,
+            tools=TOOL_SCHEMAS,
+            tool_choice="auto",
+            max_tokens=2000,
+        )
+        msg = resp.choices[0].message
+        result: dict = {"content": msg.content or ""}
+        if msg.tool_calls:
+            result["tool_calls"] = [
+                {
+                    "id": tc.id,
+                    "type": "function",
+                    "function": {"name": tc.function.name, "arguments": tc.function.arguments},
+                }
+                for tc in msg.tool_calls
+            ]
+        return result
+
+    def _call_huggingface(self, system: str, messages: List[dict]) -> dict:
+        from openai import OpenAI
+        client = OpenAI(api_key=config.api_key, base_url="https://router.huggingface.co/v1/")
         full = [{"role": "system", "content": system}] + messages
         resp = client.chat.completions.create(
             model=config.LLM_MODEL,
