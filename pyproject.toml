@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "agentic-rs"
+version = "0.1.0"
+description = "An agentic recommendation system using LLMs, ChromaDB, and tool-calling agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "openai>=1.30.0",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "streamlit>=1.35.0",
+    "pydantic>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+    "black>=24.0.0",
+]
+
+[project.scripts]
+agentic-rs-generate = "agentic_rs.data.generate:main"
+agentic-rs-build-store = "agentic_rs.vectorstore.build:main"
+agentic-rs-ui = "agentic_rs.ui.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
