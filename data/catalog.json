@@ -1,1 +1,5621 @@
-[]
+[
+  {
+    "item_id": "c63e4658",
+    "title": "Forbidden Island",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Forbidden Island is a cooperative board game for 2-4 players. Players must work together to retrieve four treasures from an island that is sinking. The game requires strategy and teamwork to win.",
+    "tags": [
+      "Cooperative",
+      "Strategy",
+      "Teamwork",
+      "Board Game",
+      "Family Game"
+    ],
+    "price_usd": 15.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1024,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "Easy to learn",
+      "Short playtime",
+      "Challenging gameplay"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a917238b",
+    "title": "Scrabble",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Scrabble is a classic board game for 2-4 players. Players create words from letter tiles to score points. The game requires vocabulary and strategy to win.",
+    "tags": [
+      "Word Game",
+      "Strategy",
+      "Vocabulary",
+      "Family Game",
+      "Classic Game"
+    ],
+    "price_usd": 23.99,
+    "avg_rating": 4.2,
+    "num_reviews": 5678,
+    "brand": "Hasbro",
+    "asin": null,
+    "features": [
+      "Portable",
+      "Long lasting",
+      "Improves vocabulary"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f92bbb0f",
+    "title": "Ticket to Ride",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Ticket to Ride is a popular train-themed board game for 2-5 players. Players compete to build train routes across a map of North America. The game requires strategy and planning to win.",
+    "tags": [
+      "Strategy",
+      "Train Game",
+      "Planning",
+      "Family Game",
+      "Competitive"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.7,
+    "num_reviews": 20000,
+    "brand": "Days of Wonder",
+    "asin": null,
+    "features": [
+      "Beautiful game board",
+      "Simple rules",
+      "Competitive gameplay"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d6285f0b",
+    "title": "Carcassonne",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Carcassonne is a tile-laying board game for 2-5 players. Players build a medieval landscape by placing tiles and placing their followers to score points. The game requires strategy and spatial reasoning to win.",
+    "tags": [
+      "Strategy",
+      "Tile-laying",
+      "Spatial Reasoning",
+      "Family Game",
+      "Short playtime"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.4,
+    "num_reviews": 3000,
+    "brand": "Rio Grande Games",
+    "asin": null,
+    "features": [
+      "Easy to learn",
+      "Beautiful artwork",
+      "Competitive gameplay"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "5e90c743",
+    "title": "Pandemic",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Pandemic is a cooperative board game for 2-4 players. Players work together to stop the spread of diseases and save the world. The game requires strategy and teamwork to win.",
+    "tags": [
+      "Cooperative",
+      "Strategy",
+      "Teamwork",
+      "Family Game",
+      "Competitive"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.6,
+    "num_reviews": 15000,
+    "brand": "Z-Man Games",
+    "asin": null,
+    "features": [
+      "Challenging gameplay",
+      "High replayability",
+      "Requires teamwork"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "56a2bfb7",
+    "title": "Chess",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Chess is a classic board game for 2 players. Players move pieces around a board to capture their opponent's king. The game requires strategy and critical thinking to win.",
+    "tags": [
+      "Strategy",
+      "Critical Thinking",
+      "Competitive",
+      "Classic Game",
+      "Portable"
+    ],
+    "price_usd": 29.99,
+    "avg_rating": 4.8,
+    "num_reviews": 1000,
+    "brand": "Regency Games",
+    "asin": null,
+    "features": [
+      "Portable",
+      "Long lasting",
+      "Improves critical thinking"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "074582bb",
+    "title": "Settlers of Catan",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "The Settlers of Catan is a popular strategy board game for 3-4 players. Players collect resources and build settlements, roads, and cities on an island. The game requires strategy and trading to win.",
+    "tags": [
+      "Strategy",
+      "Trading",
+      "Resource Collection",
+      "Family Game",
+      "Competitive"
+    ],
+    "price_usd": 59.99,
+    "avg_rating": 4.9,
+    "num_reviews": 50000,
+    "brand": "Mayfair Games",
+    "asin": null,
+    "features": [
+      "High replayability",
+      "Complex gameplay",
+      "Requires strategy"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "46822bb8",
+    "title": "Azul",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Azul is a popular tile-laying board game for 2-4 players. Players compete to create the most beautiful mosaic. The game requires strategy and spatial reasoning to win.",
+    "tags": [
+      "Strategy",
+      "Tile-laying",
+      "Spatial Reasoning",
+      "Family Game",
+      "Short playtime"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.3,
+    "num_reviews": 5000,
+    "brand": "Plan B Games",
+    "asin": null,
+    "features": [
+      "Easy to learn",
+      "Short playtime",
+      "Competitive gameplay"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "faa78ac5",
+    "title": "Carson City",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Carson City is a train-themed board game for 2-5 players. Players compete to build train routes across a map of Nevada. The game requires strategy and planning to win.",
+    "tags": [
+      "Strategy",
+      "Train Game",
+      "Planning",
+      "Family Game",
+      "Competitive"
+    ],
+    "price_usd": 59.99,
+    "avg_rating": 4.1,
+    "num_reviews": 2000,
+    "brand": "Rio Grande Games",
+    "asin": null,
+    "features": [
+      "Beautiful game board",
+      "Simple rules",
+      "Competitive gameplay"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c6cea1c3",
+    "title": "El Grande",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "El Grande is a game of area control and strategy for 2-5 players. Players compete to control areas of a map and gain the most victory points. The game requires strategy and planning to win.",
+    "tags": [
+      "Strategy",
+      "Area Control",
+      "Planning",
+      "Family Game",
+      "Competitive"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.5,
+    "num_reviews": 10000,
+    "brand": "999 Games",
+    "asin": null,
+    "features": [
+      "High replayability",
+      "Complex gameplay",
+      "Requires strategy"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "42431e93",
+    "title": "Sennheiser HD 400 Pro Closed-Back Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Sennheiser HD 400 Pro Closed-Back Headphones offer clear and detailed sound reproduction. They feature a closed-back design and a comfortable fit for extended wear. Perfect for studio recording or audio mixing.",
+    "tags": [
+      "Sennheiser",
+      "Closed-Back",
+      "Studio Recording",
+      "Audio Mixing",
+      "Comfortable Fit"
+    ],
+    "price_usd": 179.95,
+    "avg_rating": 4.3,
+    "num_reviews": 12345,
+    "brand": "Sennheiser",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Durable build"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "054dccaa",
+    "title": " Sony MDR-7506 Professional Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Sony MDR-7506 Professional Headphones offer accurate and clear sound reproduction. They are designed for studio recording, audio mixing, and DJing, and feature a closed-back design for isolation.",
+    "tags": [
+      "Sony",
+      "Closed-Back",
+      "Studio Recording",
+      "DJing",
+      "Accurate Sound"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.2,
+    "num_reviews": 9876,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Accurate sound reproduction",
+      "Durable build",
+      "Long-lasting battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c6751e77",
+    "title": "Audio-Technica ATH-M50x Professional Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Audio-Technica ATH-M50x Professional Headphones offer clear and detailed sound reproduction. They are designed for studio recording, audio mixing, and DJing, and feature a closed-back design for isolation.",
+    "tags": [
+      "Audio-Technica",
+      "Closed-Back",
+      "Studio Recording",
+      "DJing",
+      "Clear Sound"
+    ],
+    "price_usd": 149.95,
+    "avg_rating": 4.8,
+    "num_reviews": 56789,
+    "brand": "Audio-Technica",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Durable build"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a6a00f2f",
+    "title": "Beyerdynamic DT 1990 Pro Studio Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Beyerdynamic DT 1990 Pro Studio Headphones offer clear and detailed sound reproduction. They feature a closed-back design and a comfortable fit for extended wear.",
+    "tags": [
+      "Beyerdynamic",
+      "Closed-Back",
+      "Studio Recording",
+      "Comfortable Fit",
+      "Clear Sound"
+    ],
+    "price_usd": 299.95,
+    "avg_rating": 4.9,
+    "num_reviews": 1234,
+    "brand": "Beyerdynamic",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Durable build"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "61daf87d",
+    "title": "Shure SRH1540 Professional Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Shure SRH1540 Professional Headphones offer accurate and clear sound reproduction. They are designed for studio recording, audio mixing, and DJing, and feature a closed-back design for isolation.",
+    "tags": [
+      "Shure",
+      "Closed-Back",
+      "Studio Recording",
+      "DJing",
+      "Accurate Sound"
+    ],
+    "price_usd": 199.95,
+    "avg_rating": 4.5,
+    "num_reviews": 5678,
+    "brand": "Shure",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Accurate sound reproduction",
+      "Durable build",
+      "Long-lasting battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "8e3ccf45",
+    "title": "Sennheiser HD 25-1 II Monitoring Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Sennheiser HD 25-1 II Monitoring Headphones offer clear and accurate sound reproduction. They feature a closed-back design and a durable build for extended wear.",
+    "tags": [
+      "Sennheiser",
+      "Closed-Back",
+      "Monitoring",
+      "Clear Sound",
+      "Durable Build"
+    ],
+    "price_usd": 99.95,
+    "avg_rating": 4.4,
+    "num_reviews": 2345,
+    "brand": "Sennheiser",
+    "asin": null,
+    "features": [
+      "Closed-back design",
+      "Accurate sound reproduction",
+      "Comfortable fit",
+      "Durable build"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7ab508be",
+    "title": "Audio-Technica ATH-M50xBT Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Audio-Technica ATH-M50xBT Wireless Headphones offer clear and detailed sound reproduction. They feature a wireless design and a comfortable fit for extended wear.",
+    "tags": [
+      "Audio-Technica",
+      "Wireless",
+      "Clear Sound",
+      "Comfortable Fit",
+      "Long-Lasting Battery"
+    ],
+    "price_usd": 299.95,
+    "avg_rating": 4.7,
+    "num_reviews": 1234,
+    "brand": "Audio-Technica",
+    "asin": null,
+    "features": [
+      "Wireless design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Long-lasting battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "146d89bc",
+    "title": "Beyerdynamic Amiron Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Beyerdynamic Amiron Wireless Headphones offer clear and detailed sound reproduction. They feature a wireless design and a comfortable fit for extended wear.",
+    "tags": [
+      "Beyerdynamic",
+      "Wireless",
+      "Clear Sound",
+      "Comfortable Fit",
+      "Long-Lasting Battery"
+    ],
+    "price_usd": 499.95,
+    "avg_rating": 4.6,
+    "num_reviews": 123,
+    "brand": "Beyerdynamic",
+    "asin": null,
+    "features": [
+      "Wireless design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Durable build"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "eb7d37eb",
+    "title": "Shure SE846 Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Shure SE846 Wireless Headphones offer accurate and clear sound reproduction. They feature a wireless design and a durable build for extended wear.",
+    "tags": [
+      "Shure",
+      "Wireless",
+      "Accurate Sound",
+      "Durable Build",
+      "Long-Lasting Battery"
+    ],
+    "price_usd": 499.95,
+    "avg_rating": 4.9,
+    "num_reviews": 10,
+    "brand": "Shure",
+    "asin": null,
+    "features": [
+      "Wireless design",
+      "Accurate sound reproduction",
+      "Durable build",
+      "Long-lasting battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "8b89f3ce",
+    "title": "Sony WH-1000XM5 Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "The Sony WH-1000XM5 Wireless Headphones offer clear and detailed sound reproduction. They feature a wireless design and a comfortable fit for extended wear.",
+    "tags": [
+      "Sony",
+      "Wireless",
+      "Clear Sound",
+      "Comfortable Fit",
+      "Noise Cancellation"
+    ],
+    "price_usd": 399.95,
+    "avg_rating": 4.8,
+    "num_reviews": 1000,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "Wireless design",
+      "Clear and detailed sound",
+      "Comfortable fit",
+      "Noise cancellation"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "0de2da85",
+    "title": "Escape the Crate",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Escape The Crate is a thrilling cooperative board game for 2-4 players. Work together to uncover the mysteries of a long-lost civilization, but beware, the crate may be locked, and you must work together to escape.",
+    "tags": [
+      "Cooperative",
+      "Escape Room",
+      "Board Game",
+      "Adventure",
+      "Thriller"
+    ],
+    "price_usd": 34.99,
+    "avg_rating": 4.2,
+    "num_reviews": 12345,
+    "brand": "Ares Games",
+    "asin": null,
+    "features": [
+      "Themed game board",
+      "Variable player powers",
+      "Modular board"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "05837753",
+    "title": "Ticket to Ride",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Compete to build train routes across a map of North America in Ticket to Ride, a popular train-themed board game for 2-5 players.",
+    "tags": [
+      "Train Game",
+      "Route Building",
+      "Competitive",
+      "Strategy",
+      "Travel"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.5,
+    "num_reviews": 20001,
+    "brand": "Days of Wonder",
+    "asin": null,
+    "features": [
+      "Attractive game board",
+      "Train cars and locomotives",
+      "Variable player powers"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f7ecbe56",
+    "title": "Forbidden Island",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Forbidden Island is a cooperative board game for 2-4 players where you must work together to retrieve four treasures from an island that is sinking.",
+    "tags": [
+      "Cooperative",
+      "Themed Game",
+      "Adventure",
+      "Island Theme",
+      "Escape"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.1,
+    "num_reviews": 9876,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "Modular board",
+      "Variable player powers",
+      "Quick playtime"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b31e125d",
+    "title": "Qwixx",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Qwixx is a fast-paced dice game for 1-5 players where you roll dice to score points and try to reach your target score first.",
+    "tags": [
+      "Dice Game",
+      "Competitive",
+      "Quick Play",
+      "Math Game",
+      "Family Friendly"
+    ],
+    "price_usd": 9.99,
+    "avg_rating": 4.0,
+    "num_reviews": 5000,
+    "brand": "Eggertspiele",
+    "asin": null,
+    "features": [
+      "Easy to learn",
+      "Quick playtime",
+      "Dice rolling"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2ee9525f",
+    "title": "Codenames",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Codenames is a word-guessing board game for 4-8 players where you try to find words based on one-word clues given by your spymaster.",
+    "tags": [
+      "Word Game",
+      "Team Play",
+      "Strategy",
+      "Spymaster",
+      "Social Deduction"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.3,
+    "num_reviews": 15000,
+    "brand": "Czech Games Edition",
+    "asin": null,
+    "features": [
+      "Word guessing",
+      "Team play",
+      "Modular board"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d035ede9",
+    "title": "Azul",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Azul is a strategic board game for 2-4 players where you compete to create the most beautiful mosaic by collecting and placing tiles.",
+    "tags": [
+      "Strategic",
+      "Tile Laying",
+      "Competitive",
+      "Awards",
+      "Art"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.4,
+    "num_reviews": 10000,
+    "brand": "Plan B Games",
+    "asin": null,
+    "features": [
+      "Attractive game board",
+      "Variable player powers",
+      "Strategic planning"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "cf6a2bd8",
+    "title": "Carson City",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Carson City is a train-themed board game for 2-5 players where you build railroads, collect resources, and complete jobs to earn money and move up the career path.",
+    "tags": [
+      "Train Game",
+      "Resource Management",
+      "Competitive",
+      "Strategy",
+      "Career Advancement"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.1,
+    "num_reviews": 5000,
+    "brand": "Alea",
+    "asin": null,
+    "features": [
+      "Attractive game board",
+      "Resource management",
+      "Career advancement"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4c352460",
+    "title": "Splendor",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Splendor is a card-collecting board game for 2-4 players where you collect gems, build card decks, and try to earn the most prestige points.",
+    "tags": [
+      "Card Game",
+      "Collecitng Game",
+      "Competitive",
+      "Strategy",
+      "Gems"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.2,
+    "num_reviews": 10000,
+    "brand": "Space Cowboys",
+    "asin": null,
+    "features": [
+      "Card collecting",
+      "Collecitng",
+      "Gem collecting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "04ff6e1d",
+    "title": "Carcassonne",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Carcassonne is a tile-laying board game for 2-5 players where you build a medieval landscape by placing tiles, placing followers, and earning points.",
+    "tags": [
+      "Tile Laying",
+      "Area Building",
+      "Competitive",
+      "Strategic",
+      "Medieval"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.4,
+    "num_reviews": 20000,
+    "brand": "Catan Studio",
+    "asin": null,
+    "features": [
+      "Attractive game board",
+      "Variable player powers",
+      "Area building"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4e52b07f",
+    "title": "Scythe",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Scythe is a strategy board game for 1-5 players set in an alternate history of the 1920s where you build farms, collect resources, and move mechs to earn points.",
+    "tags": [
+      "Strategy",
+      "Resource Management",
+      "Competitive",
+      "Area Control",
+      "Alternate History"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 4.6,
+    "num_reviews": 10000,
+    "brand": "Storming Games",
+    "asin": null,
+    "features": [
+      "Attractive game board",
+      "Variable player powers",
+      "Resource management"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "39bcc0d6",
+    "title": "Coleman Evanston 4-Person Tent",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The Coleman Evanston 4-Person Tent is a spacious and waterproof shelter perfect for family camping trips. It features a freestanding design and color-coded poles for easy setup. With its large windows and doors, it provides great ventilation and views of the surrounding landscape.",
+    "tags": [
+      "tent",
+      "camping",
+      "outdoor",
+      "family",
+      "Coleman"
+    ],
+    "price_usd": 129.99,
+    "avg_rating": 4.5,
+    "num_reviews": 15000,
+    "brand": "Coleman",
+    "asin": null,
+    "features": [
+      "Spacious interior",
+      "Freestanding design",
+      "Waterproof and UV-resistant"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1c0b115d",
+    "title": "MSR Elixir 9 Water Filter",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The MSR Elixir 9 Water Filter is a reliable and easy-to-use water purification system designed for backpackers and campers. It removes bacteria, viruses, and other contaminants from water, making it safe to drink. The filter is lightweight and compact, making it perfect for extended trips.",
+    "tags": [
+      "water filter",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "MSR"
+    ],
+    "price_usd": 99.95,
+    "avg_rating": 4.7,
+    "num_reviews": 5000,
+    "brand": "MSR",
+    "asin": null,
+    "features": [
+      "Removes bacteria and viruses",
+      "Easy to use and maintain",
+      "Lightweight and compact"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "152c849b",
+    "title": "The North Face Assault 2 32L Backpack",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The North Face Assault 2 32L Backpack is a rugged and versatile backpack designed for camping and backpacking trips. It features a spacious main compartment and multiple pockets for organization. The backpack is made with durable and water-resistant materials, making it perfect for harsh outdoor conditions.",
+    "tags": [
+      "backpack",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "The North Face"
+    ],
+    "price_usd": 149.95,
+    "avg_rating": 4.6,
+    "num_reviews": 10000,
+    "brand": "The North Face",
+    "asin": null,
+    "features": [
+      "Spacious main compartment",
+      "Multiple pockets for organization",
+      "Durable and water-resistant materials"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "453b735f",
+    "title": "REI Co-op Camp X 40L Duffel Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The REI Co-op Camp X 40L Duffel Bag is a durable and versatile duffel bag designed for camping and outdoor trips. It features a spacious main compartment and multiple pockets for organization. The bag is made with water-resistant materials and has a secure locking system.",
+    "tags": [
+      "duffel bag",
+      "camping",
+      "outdoor",
+      "REI",
+      "co-op"
+    ],
+    "price_usd": 69.95,
+    "avg_rating": 4.4,
+    "num_reviews": 8000,
+    "brand": "REI Co-op",
+    "asin": null,
+    "features": [
+      "Spacious main compartment",
+      "Multiple pockets for organization",
+      "Water-resistant materials"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "41811029",
+    "title": "Black Diamond Storm 20 Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The Black Diamond Storm 20 Sleeping Bag is a lightweight and insulated sleeping bag designed for camping and backpacking trips. It features a comfortable temperature range and a durable ripstop shell. The bag is also compressible and easy to store.",
+    "tags": [
+      "sleeping bag",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "Black Diamond"
+    ],
+    "price_usd": 129.95,
+    "avg_rating": 4.8,
+    "num_reviews": 2000,
+    "brand": "Black Diamond",
+    "asin": null,
+    "features": [
+      "Lightweight and insulated",
+      "Comfortable temperature range",
+      "Durable ripstop shell"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c31c9757",
+    "title": "Sea to Summit eVent Dry Sack",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The Sea to Summit eVent Dry Sack is a waterproof and lightweight dry sack designed for camping and outdoor trips. It features a roll-top closure and a durable eVent material. The sack is perfect for keeping gear dry in wet conditions.",
+    "tags": [
+      "dry sack",
+      "camping",
+      "outdoor",
+      "Sea to Summit"
+    ],
+    "price_usd": 29.95,
+    "avg_rating": 4.9,
+    "num_reviews": 500,
+    "brand": "Sea to Summit",
+    "asin": null,
+    "features": [
+      "Waterproof and lightweight",
+      "Roll-top closure",
+      "Durable eVent material"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d7991204",
+    "title": "MSR WhisperLite Universal Stove",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The MSR WhisperLite Universal Stove is a reliable and versatile camping stove designed for backpackers and campers. It features a universal fuel canister and a compact design. The stove is also wind-resistant and easy to use.",
+    "tags": [
+      "camping stove",
+      "backpacking",
+      "outdoor",
+      "MSR"
+    ],
+    "price_usd": 49.95,
+    "avg_rating": 4.3,
+    "num_reviews": 3000,
+    "brand": "MSR",
+    "asin": null,
+    "features": [
+      "Universal fuel canister",
+      "Compact design",
+      "Wind-resistant"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a63f4e5c",
+    "title": "REI Co-op Flash 20 Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The REI Co-op Flash 20 Sleeping Bag is a lightweight and insulated sleeping bag designed for camping and backpacking trips. It features a comfortable temperature range and a durable ripstop shell. The bag is also compressible and easy to store.",
+    "tags": [
+      "sleeping bag",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "REI Co-op"
+    ],
+    "price_usd": 109.95,
+    "avg_rating": 4.2,
+    "num_reviews": 4000,
+    "brand": "REI Co-op",
+    "asin": null,
+    "features": [
+      "Lightweight and insulated",
+      "Comfortable temperature range",
+      "Durable ripstop shell"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e703b7e9",
+    "title": "The North Face Hedgehog Fastpack GTX Trail Running Shoe",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The North Face Hedgehog Fastpack GTX Trail Running Shoe is a lightweight and comfortable trail running shoe designed for camping and backpacking trips. It features a grippy sole and a breathable upper. The shoe is also waterproof and easy to lace.",
+    "tags": [
+      "trail running shoe",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "The North Face"
+    ],
+    "price_usd": 99.95,
+    "avg_rating": 4.1,
+    "num_reviews": 6000,
+    "brand": "The North Face",
+    "asin": null,
+    "features": [
+      "Lightweight and comfortable",
+      "Grippy sole",
+      "Breathable upper"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "505bdf0f",
+    "title": "Big Agnes Lost Lake 15 Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "The Big Agnes Lost Lake 15 Sleeping Bag is a lightweight and insulated sleeping bag designed for camping and backpacking trips. It features a comfortable temperature range and a durable ripstop shell. The bag is also compressible and easy to store.",
+    "tags": [
+      "sleeping bag",
+      "camping",
+      "backpacking",
+      "outdoor",
+      "Big Agnes"
+    ],
+    "price_usd": 129.95,
+    "avg_rating": 4.6,
+    "num_reviews": 10000,
+    "brand": "Big Agnes",
+    "asin": null,
+    "features": [
+      "Lightweight and insulated",
+      "Comfortable temperature range",
+      "Durable ripstop shell"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c339e4a9",
+    "title": "Redragon K552 Mechanical Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Redragon K552 is a high-performance gaming keyboard with customizable backlighting and macro keys. It features Cherry MX switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Gaming Keyboard",
+      "Mechanical Switches",
+      "Redragon",
+      "Customizable Backlighting",
+      "Macro Keys"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.6,
+    "num_reviews": 12000,
+    "brand": "Redragon",
+    "asin": null,
+    "features": [
+      "Cherry MX switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design",
+      "Compact size"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "10477056",
+    "title": "Logitech K380 Multi-Device Bluetooth Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Logitech K380 is a wireless keyboard that connects to up to 3 devices via Bluetooth. It features a rechargeable battery and a compact tenkeyless design. The keyboard also has a spill-resistant design and a built-in wrist rest.",
+    "tags": [
+      "Wireless Keyboard",
+      "Bluetooth Connectivity",
+      "Logitech",
+      "Multi-Device Support",
+      "Spill-Resistant Design"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.3,
+    "num_reviews": 5000,
+    "brand": "Logitech",
+    "asin": null,
+    "features": [
+      "Wireless connectivity",
+      "Bluetooth multi-device support",
+      "Rechargeable battery",
+      "Spill-resistant design",
+      "Built-in wrist rest"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "9a93caa8",
+    "title": "Razer BlackWidow Lite Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Razer BlackWidow Lite is a high-performance gaming keyboard with customizable backlighting and macro keys. It features Razer's proprietary switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Gaming Keyboard",
+      "Razer Switches",
+      "Customizable Backlighting",
+      "Macro Keys",
+      "Razer"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.8,
+    "num_reviews": 20000,
+    "brand": "Razer",
+    "asin": null,
+    "features": [
+      "Razer switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design",
+      "Compact size"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "914c5208",
+    "title": "Anne Pro 2 Wireless Mechanical Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Anne Pro 2 is a wireless mechanical keyboard with customizable backlighting and macro keys. It features Cherry MX switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Wireless Keyboard",
+      "Mechanical Switches",
+      "Anne Pro 2",
+      "Customizable Backlighting",
+      "Macro Keys"
+    ],
+    "price_usd": 129.99,
+    "avg_rating": 4.9,
+    "num_reviews": 15000,
+    "brand": "Anne Pro",
+    "asin": null,
+    "features": [
+      "Wireless connectivity",
+      "Cherry MX switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f35a300d",
+    "title": "Corsair K95 RGB Platinum Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Corsair K95 is a high-performance gaming keyboard with customizable backlighting and macro keys. It features Cherry MX switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Gaming Keyboard",
+      "Mechanical Switches",
+      "Corsair",
+      "Customizable Backlighting",
+      "Macro Keys"
+    ],
+    "price_usd": 249.99,
+    "avg_rating": 4.7,
+    "num_reviews": 30000,
+    "brand": "Corsair",
+    "asin": null,
+    "features": [
+      "Cherry MX switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design",
+      "Compact size"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f15c7d11",
+    "title": "Microsoft Sculpt Ergonomic Wireless Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Microsoft Sculpt is a wireless keyboard with an ergonomic design that promotes comfortable typing. It features a rechargeable battery and a compact tenkeyless design. The keyboard also has a built-in wrist rest and a spill-resistant design.",
+    "tags": [
+      "Wireless Keyboard",
+      "Ergonomic Design",
+      "Microsoft",
+      "Spill-Resistant Design",
+      "Built-in Wrist Rest"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.2,
+    "num_reviews": 10000,
+    "brand": "Microsoft",
+    "asin": null,
+    "features": [
+      "Wireless connectivity",
+      "Ergonomic design",
+      "Spill-resistant design",
+      "Built-in wrist rest",
+      "Rechargeable battery"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d13201d2",
+    "title": "WASD Code 104 Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The WASD Code 104 is a high-performance gaming keyboard with customizable backlighting and macro keys. It features WASD Keyboards' proprietary switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Gaming Keyboard",
+      "Customizable Backlighting",
+      "WASD Keyboards",
+      "Macro Keys",
+      "Durable Design"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.5,
+    "num_reviews": 8000,
+    "brand": "WASD Keyboards",
+    "asin": null,
+    "features": [
+      "Proprietary switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design",
+      "Compact size"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "edee746a",
+    "title": "Ducky Shine 7 Wireless Mechanical Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Ducky Shine 7 is a wireless mechanical keyboard with customizable backlighting and macro keys. It features Cherry MX switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Wireless Keyboard",
+      "Mechanical Switches",
+      "Ducky Shine 7",
+      "Customizable Backlighting",
+      "Macro Keys"
+    ],
+    "price_usd": 179.99,
+    "avg_rating": 4.8,
+    "num_reviews": 15000,
+    "brand": "Ducky",
+    "asin": null,
+    "features": [
+      "Wireless connectivity",
+      "Cherry MX switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "be650278",
+    "title": "SteelSeries Apex 5 TKL Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The SteelSeries Apex 5 TKL is a high-performance gaming keyboard with customizable backlighting and macro keys. It features SteelSeries' proprietary switches for durable and precise key presses. The keyboard also has a sleek and compact tenkeyless design.",
+    "tags": [
+      "Gaming Keyboard",
+      "Customizable Backlighting",
+      "SteelSeries",
+      "Macro Keys",
+      "Tenkeyless Design"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.6,
+    "num_reviews": 10000,
+    "brand": "SteelSeries",
+    "asin": null,
+    "features": [
+      "Proprietary switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Tenkeyless design",
+      "Durable design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4b97ec3d",
+    "title": "Razer BlackWidow Lite V2 Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "The Razer BlackWidow Lite V2 is a high-performance gaming keyboard with customizable backlighting and macro keys. It features Razer's proprietary switches for durable and precise key presses. The keyboard also has a sleek and compact design that fits well under most wrists.",
+    "tags": [
+      "Gaming Keyboard",
+      "Razer Switches",
+      "Customizable Backlighting",
+      "Macro Keys",
+      "Razer"
+    ],
+    "price_usd": 119.99,
+    "avg_rating": 4.7,
+    "num_reviews": 15000,
+    "brand": "Razer",
+    "asin": null,
+    "features": [
+      "Razer switches",
+      "Customizable backlighting",
+      "Macro keys",
+      "Durable design",
+      "Compact size"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7edc938b",
+    "title": "Sony Alpha a6400 Mirrorless Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Sony Alpha a6400 is a 24.2-megapixel mirrorless camera that features fast autofocus and impressive video capabilities. It's a versatile option for both still photography and filmmaking. The a6400 is a great choice for professionals and hobbyists alike.",
+    "tags": [
+      "mirrorless",
+      "sony",
+      "mirrorless camera",
+      "a6400",
+      "mirrorless photography"
+    ],
+    "price_usd": 898.99,
+    "avg_rating": 4.6,
+    "num_reviews": 2345,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "24.2-megapixel sensor",
+      "Fast hybrid autofocus",
+      "4K video recording",
+      "Touchscreen LCD",
+      "Multi-shot burst mode"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "19da31e5",
+    "title": "Canon EOS 80D DSLR Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Canon EOS 80D is a 24.2-megapixel DSLR camera body that's designed for high-speed shooting and impressive image quality. It features a vari-angle touchscreen LCD and Canon's proprietary Digic 6 image processor. The 80D is a great choice for enthusiasts and professionals who need a reliable camera for a variety of applications.",
+    "tags": [
+      "dslr",
+      "canon",
+      "eos 80d",
+      "digital camera",
+      "photography"
+    ],
+    "price_usd": 699.99,
+    "avg_rating": 4.4,
+    "num_reviews": 1567,
+    "brand": "Canon",
+    "asin": null,
+    "features": [
+      "24.2-megapixel sensor",
+      "18-55mm lens kit included",
+      "Dual pixel AF",
+      "Built-in Wi-Fi",
+      "ISO range: 100-16000"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b3056af4",
+    "title": "Nikon Z6 II Mirrorless Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Nikon Z6 II is a 24.5-megapixel mirrorless camera body that features a 273-point hybrid autofocus system and impressive video capabilities. It's designed for professionals and enthusiasts who need a high-performance camera for a variety of applications.",
+    "tags": [
+      "mirrorless",
+      "nikon",
+      "z6 ii",
+      "mirrorless camera",
+      "professional"
+    ],
+    "price_usd": 1799.99,
+    "avg_rating": 4.7,
+    "num_reviews": 1023,
+    "brand": "Nikon",
+    "asin": null,
+    "features": [
+      "24.5-megapixel sensor",
+      "273-point hybrid autofocus",
+      "10-bit 4K video",
+      "Built-in Wi-Fi",
+      "Dual SD card slots"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "46774069",
+    "title": "Fujifilm X-T4 Mirrorless Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Fujifilm X-T4 is a 26.1-megapixel mirrorless camera body that features a vari-angle touchscreen LCD and impressive video capabilities. It's designed for professionals and enthusiasts who need a high-performance camera for a variety of applications.",
+    "tags": [
+      "mirrorless",
+      "fujifilm",
+      "x-t4",
+      "mirrorless camera",
+      "professional"
+    ],
+    "price_usd": 1699.99,
+    "avg_rating": 4.8,
+    "num_reviews": 800,
+    "brand": "Fujifilm",
+    "asin": null,
+    "features": [
+      "26.1-megapixel sensor",
+      "Vari-angle touchscreen LCD",
+      "10-bit 4K video",
+      "Built-in Wi-Fi",
+      "Dual SD card slots"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "afc8492b",
+    "title": "Panasonic Lumix GH5 II Mirrorless Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Panasonic Lumix GH5 II is a 20.3-megapixel mirrorless camera body that features a high-speed autofocus system and impressive video capabilities. It's designed for professionals and enthusiasts who need a high-performance camera for a variety of applications.",
+    "tags": [
+      "mirrorless",
+      "panasonic",
+      "gh5 ii",
+      "mirrorless camera",
+      "professional"
+    ],
+    "price_usd": 1499.99,
+    "avg_rating": 4.5,
+    "num_reviews": 567,
+    "brand": "Panasonic",
+    "asin": null,
+    "features": [
+      "20.3-megapixel sensor",
+      "High-speed autofocus",
+      "10-bit 4K video",
+      "Built-in Wi-Fi",
+      "Dual SD card slots"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "eaea179f",
+    "title": "Olympus OM-D E-M1 Mark III Mirrorless Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Olympus OM-D E-M1 Mark III is a 20.4-megapixel mirrorless camera body that features a 121-point autofocus system and impressive video capabilities. It's designed for professionals and enthusiasts who need a high-performance camera for a variety of applications.",
+    "tags": [
+      "mirrorless",
+      "olympus",
+      "e-m1 mark iii",
+      "mirrorless camera",
+      "professional"
+    ],
+    "price_usd": 1499.99,
+    "avg_rating": 4.6,
+    "num_reviews": 400,
+    "brand": "Olympus",
+    "asin": null,
+    "features": [
+      "20.4-megapixel sensor",
+      "121-point autofocus",
+      "10-bit 4K video",
+      "Built-in Wi-Fi",
+      "Dual SD card slots"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bbaa82be",
+    "title": "Leica M11 Mirrorless Camera Body",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Leica M11 is a 60-megapixel mirrorless camera body that features a unique lens mount and impressive image quality. It's designed for professionals and enthusiasts who need a high-performance camera for a variety of applications.",
+    "tags": [
+      "mirrorless",
+      "leica",
+      "m11",
+      "mirrorless camera",
+      "professional"
+    ],
+    "price_usd": 8999.99,
+    "avg_rating": 4.9,
+    "num_reviews": 200,
+    "brand": "Leica",
+    "asin": null,
+    "features": [
+      "60-megapixel sensor",
+      "Rear LCD and EVF",
+      "ISO range: 100-25600",
+      "Built-in Wi-Fi",
+      "Lens mount: Leica M bayonet"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f029d1ac",
+    "title": "GoPro Hero11 Black Action Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The GoPro Hero11 Black is a 27-megapixel action camera that features a waterproof design and impressive video capabilities. It's a great choice for capturing life's adventures and documenting sports and outdoor activities.",
+    "tags": [
+      "action camera",
+      "gopro",
+      "hero11 black",
+      "waterproof",
+      "4K video"
+    ],
+    "price_usd": 399.99,
+    "avg_rating": 4.5,
+    "num_reviews": 3000,
+    "brand": "GoPro",
+    "asin": null,
+    "features": [
+      "27-megapixel sensor",
+      "Waterproof to 33ft",
+      "HyperSmooth stabilization",
+      "Built-in Wi-Fi",
+      "Touch display"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "269131b6",
+    "title": "DJI Osmo Action 3 Action Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The DJI Osmo Action 3 is a 12-megapixel action camera that features a waterproof design and impressive video capabilities. It's a great choice for capturing life's adventures and documenting sports and outdoor activities.",
+    "tags": [
+      "action camera",
+      "dji",
+      "osmo action 3",
+      "waterproof",
+      "4K video"
+    ],
+    "price_usd": 299.99,
+    "avg_rating": 4.4,
+    "num_reviews": 2000,
+    "brand": "DJI",
+    "asin": null,
+    "features": [
+      "12-megapixel sensor",
+      "Waterproof to 16.4ft",
+      "RockSteady stabilization",
+      "Built-in Wi-Fi",
+      "Touch display"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c33c9f0b",
+    "title": "Canon IXUS 185 Digital Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "The Canon IXUS 185 is a 20.2-megapixel digital camera that features a compact design and impressive image quality. It's a great choice for travel and everyday photography.",
+    "tags": [
+      "digital camera",
+      "canon",
+      "ixus 185",
+      "compact",
+      "20.2-megapixel"
+    ],
+    "price_usd": 179.99,
+    "avg_rating": 4.2,
+    "num_reviews": 1000,
+    "brand": "Canon",
+    "asin": null,
+    "features": [
+      "20.2-megapixel sensor",
+      "4x optical zoom",
+      "3-inch LCD",
+      "Built-in flash",
+      "Image stabilization"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7e8f3214",
+    "title": "LG 24MP59G-B 24\" Full HD LED Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Featuring a 24-inch Full HD display and 5ms response time, this monitor is ideal for gaming and general use. The LG 24MP59G-B also comes with adjustable height and tilt, allowing for a customizable viewing experience. With a variety of connectivity options, you can easily connect your monitor to your computer or gaming console.",
+    "tags": [
+      "LED Monitor",
+      "Gaming Monitor",
+      "24-inch Monitor",
+      "Full HD"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.2,
+    "num_reviews": 10234,
+    "brand": "LG",
+    "asin": null,
+    "features": [
+      "24-inch Full HD display",
+      "5ms response time",
+      "Adjustable height and tilt",
+      "Multiple connectivity options"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "55d98a3a",
+    "title": "AOC I2476FGH 24\" 144Hz FreeSync Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Experience seamless gaming performance with the AOC I2476FGH 24\" 144Hz FreeSync Monitor. Featuring a fast 144Hz refresh rate and AMD FreeSync technology, this monitor reduces screen tearing and provides a smoother viewing experience. With its adjustable height and tilt, you can customize your viewing experience to suit your needs.",
+    "tags": [
+      "144Hz Monitor",
+      "Gaming Monitor",
+      "FreeSync Monitor",
+      "24-inch Monitor"
+    ],
+    "price_usd": 229.99,
+    "avg_rating": 4.5,
+    "num_reviews": 5678,
+    "brand": "AOC",
+    "asin": null,
+    "features": [
+      "144Hz refresh rate",
+      "AMD FreeSync technology",
+      "Adjustable height and tilt",
+      "Fast response time"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "12f7242b",
+    "title": "ViewSonic VA2446M-LED 24\" LED Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The ViewSonic VA2446M-LED 24\" LED Monitor features a vibrant 24-inch display, perfect for general use and office work. With a slim design and LED backlight, this monitor is both energy-efficient and stylish. Plus, it's VESA mount compatible, allowing for easy wall mounting or desk placement.",
+    "tags": [
+      "LED Monitor",
+      "24-inch Monitor",
+      "Office Monitor",
+      "VESA Mount Compatible"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 3.8,
+    "num_reviews": 1234,
+    "brand": "ViewSonic",
+    "asin": null,
+    "features": [
+      "24-inch LED display",
+      "Slim design",
+      "LED backlight",
+      "VESA mount compatible"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "32a88f6a",
+    "title": "ASUS VG248QE 24\" 144Hz 1ms Full HD Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Get a competitive edge in your gaming sessions with the ASUS VG248QE 24\" 144Hz 1ms Full HD Gaming Monitor. Featuring a fast 144Hz refresh rate and 1ms response time, this monitor provides a responsive and immersive gaming experience. With its NVIDIA G-Sync technology, you can enjoy reduced screen tearing and a smoother viewing experience.",
+    "tags": [
+      "144Hz Monitor",
+      "Gaming Monitor",
+      "1ms Response Time",
+      "Full HD"
+    ],
+    "price_usd": 299.99,
+    "avg_rating": 4.8,
+    "num_reviews": 2345,
+    "brand": "ASUS",
+    "asin": null,
+    "features": [
+      "144Hz refresh rate",
+      "1ms response time",
+      "NVIDIA G-Sync technology",
+      "Fast and smooth gaming performance"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "535841c6",
+    "title": "Dell U2417H 24\" UltraSharp Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Upgrade your workspace with the Dell U2417H 24\" UltraSharp Monitor. Featuring a bright and vibrant 24-inch display, this monitor provides crisp and clear text and images. With its adjustable height and tilt, you can customize your viewing experience to suit your needs.",
+    "tags": [
+      "24-inch Monitor",
+      "UltraSharp Monitor",
+      "Adjustable Height",
+      "Good color accuracy"
+    ],
+    "price_usd": 199.99,
+    "avg_rating": 4.1,
+    "num_reviews": 5678,
+    "brand": "Dell",
+    "asin": null,
+    "features": [
+      "24-inch UltraSharp display",
+      "Adjustable height and tilt",
+      "Good color accuracy",
+      "Energy-efficient LED backlight"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7d07e945",
+    "title": "BenQ GL2580HK 24.5\" 144Hz 1ms TN HDR Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Immerse yourself in the world of gaming with the BenQ GL2580HK 24.5\" 144Hz 1ms TN HDR Gaming Monitor. Featuring a fast 144Hz refresh rate, 1ms response time, and HDR technology, this monitor provides a responsive and visually stunning gaming experience. With its built-in speakers, you can enjoy an immersive audio experience.",
+    "tags": [
+      "144Hz Monitor",
+      "Gaming Monitor",
+      "1ms Response Time",
+      "HDR Technology"
+    ],
+    "price_usd": 329.99,
+    "avg_rating": 4.9,
+    "num_reviews": 1098,
+    "brand": "BenQ",
+    "asin": null,
+    "features": [
+      "144Hz refresh rate",
+      "1ms response time",
+      "HDR technology",
+      "Built-in speakers"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "5d337dab",
+    "title": "HP VH240a 24\" Full HD 60Hz Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Experience a seamless viewing experience with the HP VH240a 24\" Full HD 60Hz Monitor. Featuring a bright and vibrant 24-inch display, this monitor provides crisp and clear text and images. With its Tilt-Angle Adjustment and wall mount compatibility, you can customize your viewing experience to suit your needs.",
+    "tags": [
+      "24-inch Monitor",
+      "Full HD",
+      "60Hz Monitor",
+      "Adjustable Tilt"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 3.9,
+    "num_reviews": 2345,
+    "brand": "HP",
+    "asin": null,
+    "features": [
+      "24-inch Full HD display",
+      "60Hz refresh rate",
+      "Tilt-Angle Adjustment",
+      "Wall mount compatibility"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1ef22b6a",
+    "title": "Samsung C24F396 24\" 60Hz 4ms FHD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Samsung C24F396 24\" 60Hz 4ms FHD Monitor features a bright and vibrant 24-inch display, perfect for general use and office work. With a slim design and a 4ms response time, this monitor is both energy-efficient and responsive. Plus, it's AMD FreeSync technology compatible, reducing screen tearing and providing a smoother viewing experience.",
+    "tags": [
+      "24-inch Monitor",
+      "FHD Monitor",
+      "60Hz Monitor",
+      "4ms Response Time"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.0,
+    "num_reviews": 1234,
+    "brand": "Samsung",
+    "asin": null,
+    "features": [
+      "24-inch FHD display",
+      "60Hz refresh rate",
+      "4ms response time",
+      "AMD FreeSync technology compatible"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e70f6a88",
+    "title": "Acer K242HQL 24\" 60Hz 2ms Full HD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Upgrade your workspace with the Acer K242HQL 24\" 60Hz 2ms Full HD Monitor. Featuring a bright and vibrant 24-inch display, this monitor provides crisp and clear text and images. With its adjustable height and tilt, you can customize your viewing experience to suit your needs.",
+    "tags": [
+      "24-inch Monitor",
+      "Full HD",
+      "60Hz Monitor",
+      "Adjustable Tilt"
+    ],
+    "price_usd": 129.99,
+    "avg_rating": 4.3,
+    "num_reviews": 5678,
+    "brand": "Acer",
+    "asin": null,
+    "features": [
+      "24-inch Full HD display",
+      "60Hz refresh rate",
+      "2ms response time",
+      "Adjustable height and tilt"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d826fc7a",
+    "title": "HP Pavilion Gaming Monitor 24\" 60Hz 1ms Full HD",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Immerse yourself in the world of gaming with the HP Pavilion Gaming Monitor 24\" 60Hz 1ms Full HD. Featuring a fast 60Hz refresh rate, 1ms response time, and a full HD display, this monitor provides a responsive and visually stunning gaming experience. With its NVIDIA G-Sync technology, you can enjoy reduced screen tearing and a smoother viewing experience.",
+    "tags": [
+      "Gaming Monitor",
+      "60Hz Monitor",
+      "1ms Response Time",
+      "Full HD"
+    ],
+    "price_usd": 249.99,
+    "avg_rating": 4.7,
+    "num_reviews": 1098,
+    "brand": "HP",
+    "asin": null,
+    "features": [
+      "60Hz refresh rate",
+      "1ms response time",
+      "Full HD display",
+      "NVIDIA G-Sync technology"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7e8f3214",
+    "title": "LG 27MP59G-B 27\" 5ms Full HD LED Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "Experience a seamless viewing experience with the LG 27MP59G-B 27\" 5ms Full HD LED Monitor. Featuring a 27-inch Full HD display and 5ms response time, this monitor is ideal for general use and office work. With a variety of connectivity options, you can easily connect your monitor to your computer or gaming console.",
+    "tags": [
+      "27-inch Monitor",
+      "LED Monitor",
+      "5ms Response Time",
+      "Full HD"
+    ],
+    "price_usd": 199.99,
+    "avg_rating": 4.4,
+    "num_reviews": 5678,
+    "brand": "LG",
+    "asin": null,
+    "features": [
+      "27-inch Full HD display",
+      "5ms response time",
+      "Adjustable height and tilt",
+      "Multiple connectivity options"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bd38069c",
+    "title": "Acer XF240H 24\" Full HD Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Acer XF240H boasts a 24\" Full HD display with 144Hz refresh rate and 1ms response time, ideal for fast-paced gaming.",
+    "tags": [
+      "Gaming Monitor",
+      "24 Inches",
+      "Full HD",
+      "144Hz",
+      "1ms Response Time"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.3,
+    "num_reviews": 12000,
+    "brand": "Acer",
+    "asin": null,
+    "features": [
+      "AMD FreeSync Technology",
+      "Flicker-Free and Blue Light Protection",
+      "Adjustable Height and Tilting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1aac83a7",
+    "title": "LG UM70 27\" 4K UHD Monitor with USB-C",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The LG UM70 features a 27\" 4K UHD display and USB-C connectivity for seamless integration with latest devices.",
+    "tags": [
+      "4K Monitor",
+      "27 Inches",
+      "UHD Display",
+      "USB-C",
+      "Tilt and Height Adjustable"
+    ],
+    "price_usd": 299.99,
+    "avg_rating": 4.5,
+    "num_reviews": 8000,
+    "brand": "LG",
+    "asin": null,
+    "features": [
+      "HDR10 Support",
+      "USB-C with Power Delivery",
+      "Multi-Device Functionality"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1cf9266b",
+    "title": "Dell S2721DS 27\" QHD Monitor with USB-C",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Dell S2721DS boasts a 27\" QHD display and USB-C connectivity, perfect for multitasking and productivity.",
+    "tags": [
+      "QHD Monitor",
+      "27 Inches",
+      "USB-C",
+      "Tilt and Height Adjustable",
+      "HDMI and DisplayPort"
+    ],
+    "price_usd": 249.99,
+    "avg_rating": 4.2,
+    "num_reviews": 10000,
+    "brand": "Dell",
+    "asin": null,
+    "features": [
+      "AMD FreeSync Technology",
+      "Flicker-Free and Blue Light Protection",
+      "Multi-Device Functionality"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1ae7eb9f",
+    "title": "BenQ PD2700U 27\" 4K UHD Monitor with USB-C",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The BenQ PD2700U features a 27\" 4K UHD display and USB-C connectivity, ideal for graphic designers and creative professionals.",
+    "tags": [
+      "4K Monitor",
+      "27 Inches",
+      "UHD Display",
+      "USB-C",
+      "HDR10 Support"
+    ],
+    "price_usd": 349.99,
+    "avg_rating": 4.6,
+    "num_reviews": 6000,
+    "brand": "BenQ",
+    "asin": null,
+    "features": [
+      "Calibrated for Accurate Color",
+      "Flicker-Free and Blue Light Protection",
+      "Adjustable Height and Tilting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "9a6ea31b",
+    "title": "ViewSonic XG240R 24\" 1080p Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The ViewSonic XG240R boasts a 24\" 1080p display with 144Hz refresh rate and 1ms response time, perfect for fast-paced gaming.",
+    "tags": [
+      "Gaming Monitor",
+      "24 Inches",
+      "1080p",
+      "144Hz",
+      "1ms Response Time"
+    ],
+    "price_usd": 129.99,
+    "avg_rating": 4.1,
+    "num_reviews": 15000,
+    "brand": "ViewSonic",
+    "asin": null,
+    "features": [
+      "AMD FreeSync Technology",
+      "Flicker-Free and Blue Light Protection",
+      "Adjustable Height and Tilting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "62f32cc8",
+    "title": "ASUS VG278Q 27\" 1080p Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The ASUS VG278Q features a 27\" 1080p display with 144Hz refresh rate and 2ms response time, ideal for fast-paced gaming.",
+    "tags": [
+      "Gaming Monitor",
+      "27 Inches",
+      "1080p",
+      "144Hz",
+      "2ms Response Time"
+    ],
+    "price_usd": 199.99,
+    "avg_rating": 4.4,
+    "num_reviews": 8000,
+    "brand": "ASUS",
+    "asin": null,
+    "features": [
+      "NVIDIA G-Sync Technology",
+      "Flicker-Free and Blue Light Protection",
+      "Adjustable Height and Tilting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ab09e41b",
+    "title": "Dell P2419H 24\" HD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Dell P2419H boasts a 24\" HD display with sleek and modern design, perfect for everyday use.",
+    "tags": [
+      "24 Inches",
+      "HD Display",
+      "Flicker-Free and Blue Light Protection",
+      "HDMI and DisplayPort"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 4.0,
+    "num_reviews": 20000,
+    "brand": "Dell",
+    "asin": null,
+    "features": [
+      "Tilt and Height Adjustable",
+      "Multi-Device Functionality",
+      "Compact and Space-Saving Design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "29bbf5b0",
+    "title": "HP Envy 27\" 4K UHD Monitor with USB-C",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The HP Envy features a 27\" 4K UHD display and USB-C connectivity, perfect for multitasking and productivity.",
+    "tags": [
+      "4K Monitor",
+      "27 Inches",
+      "UHD Display",
+      "USB-C",
+      "HDR10 Support"
+    ],
+    "price_usd": 349.99,
+    "avg_rating": 4.7,
+    "num_reviews": 4000,
+    "brand": "HP",
+    "asin": null,
+    "features": [
+      "Calibrated for Accurate Color",
+      "Flicker-Free and Blue Light Protection",
+      "Multi-Device Functionality"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "210b604e",
+    "title": "AOC I1659FX 16\" Full HD Portable Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The AOC I1659FX boasts a 16\" Full HD display with 100% sRGB color gamut and USB-C connectivity, perfect for mobile use.",
+    "tags": [
+      "Portable Monitor",
+      "16 Inches",
+      "Full HD",
+      "USB-C",
+      "100% sRGB Color Gamut"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.2,
+    "num_reviews": 8000,
+    "brand": "AOC",
+    "asin": null,
+    "features": [
+      "Flicker-Free and Blue Light Protection",
+      "Adjustable Brightness and Color Temperature",
+      "Compact and Lightweight Design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c13fbfbd",
+    "title": "Samsung U28E590D 28\" 4K UHD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Samsung U28E590D features a 28\" 4K UHD display with HDR10 support and USB-C connectivity, perfect for video editing and graphic design.",
+    "tags": [
+      "4K Monitor",
+      "28 Inches",
+      "UHD Display",
+      "HDR10 Support",
+      "USB-C"
+    ],
+    "price_usd": 299.99,
+    "avg_rating": 4.5,
+    "num_reviews": 4000,
+    "brand": "Samsung",
+    "asin": null,
+    "features": [
+      "Calibrated for Accurate Color",
+      "Flicker-Free and Blue Light Protection",
+      "Multi-Device Functionality"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "3ec1f76d",
+    "title": "The Quantum Prophecy",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where quantum mechanics has given rise to a new form of magic, a young protagonist must navigate a complex web of alliances and rivalries to prevent a catastrophic war. With the help of his allies, he must uncover the secrets of the prophecy and prevent the destruction of the world. But as the stakes grow higher, he begins to question his own identity and the true nature of reality.",
+    "tags": [
+      "science fiction",
+      "fantasy",
+      "magic",
+      "adventure",
+      "prophecy",
+      "quantum mechanics"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.2,
+    "num_reviews": 12345,
+    "brand": "Nova Publishing",
+    "asin": null,
+    "features": [
+      "Unique blend of science and magic",
+      "Fast-paced action and adventure",
+      "Thought-provoking themes and characters"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "56e2aab1",
+    "title": "The Aurora Initiative",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a distant future where humanity has colonized other planets, a group of scientists and engineers must work together to prevent a catastrophic event that threatens the very survival of the human species. As they navigate the complexities of their technology and the politics of their society, they uncover a hidden truth that could change the course of history forever.",
+    "tags": [
+      "science fiction",
+      "space opera",
+      "adventure",
+      "technology",
+      "society",
+      "humanity"
+    ],
+    "price_usd": 9.99,
+    "avg_rating": 4.0,
+    "num_reviews": 5678,
+    "brand": "InterGalactic Press",
+    "asin": null,
+    "features": [
+      "Immersive world-building and technology",
+      "Compelling characters and relationships",
+      "Thought-provoking themes and ideas"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c6157586",
+    "title": "The Lost City of Elyria",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a team of archaeologists discovers a lost city deep in the heart of a distant planet, they unleash a chain of events that threatens to destroy the entire galaxy. As they uncover the secrets of the city and the ancient civilization that built it, they must navigate a complex web of politics and intrigue to prevent a catastrophic war.",
+    "tags": [
+      "science fiction",
+      "adventure",
+      "lost city",
+      "ancient civilization",
+      "war",
+      "intrigue"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.5,
+    "num_reviews": 23456,
+    "brand": "Aurora Publishing",
+    "asin": null,
+    "features": [
+      "Immersive world-building and history",
+      "Compelling characters and relationships",
+      "Fast-paced action and adventure"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "03f94821",
+    "title": "The Last Hope",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where a deadly virus has wiped out most of humanity, a small group of survivors must band together to find a cure and rebuild society. As they navigate the treacherous landscape of their new world, they uncover hidden secrets and unexpected allies that could change the course of their mission forever.",
+    "tags": [
+      "science fiction",
+      "post-apocalyptic",
+      "virus",
+      "survival",
+      "cure",
+      "society"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.1,
+    "num_reviews": 4567,
+    "brand": "Apex Publishing",
+    "asin": null,
+    "features": [
+      "Thought-provoking themes and ideas",
+      "Compelling characters and relationships",
+      "Fast-paced action and adventure"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ee40ad53",
+    "title": "The Time Traveler's Dilemma",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a brilliant scientist discovers a way to travel through time, he must navigate the complexities of his own timeline and the consequences of his actions. As he tries to prevent a catastrophic event from occurring, he begins to question the nature of time and the very fabric of reality.",
+    "tags": [
+      "science fiction",
+      "time travel",
+      "adventure",
+      "consequences",
+      "reality",
+      "dilemma"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.3,
+    "num_reviews": 8901,
+    "brand": "Timeless Press",
+    "asin": null,
+    "features": [
+      "Unique and thought-provoking premise",
+      "Immersive world-building and technology",
+      "Compelling characters and relationships"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "630cbbaf",
+    "title": "The Alien Infection",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a strange alien virus begins to infect humans, a team of scientists and soldiers must work together to find a cure and prevent a global pandemic. As they navigate the complexities of their technology and the politics of their society, they uncover hidden secrets that could change the course of human history forever.",
+    "tags": [
+      "science fiction",
+      "alien virus",
+      "infection",
+      "pandemic",
+      "cure",
+      "society"
+    ],
+    "price_usd": 11.99,
+    "avg_rating": 4.4,
+    "num_reviews": 12345,
+    "brand": "Galactic Press",
+    "asin": null,
+    "features": [
+      "Immersive world-building and technology",
+      "Compelling characters and relationships",
+      "Fast-paced action and adventure"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "72dfc0a5",
+    "title": "The Quantum Prophecies",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where quantum mechanics has given rise to a new form of magic, a young protagonist must navigate a complex web of alliances and rivalries to prevent a catastrophic war. With the help of his allies, he must uncover the secrets of the prophecy and prevent the destruction of the world. But as the stakes grow higher, he begins to question his own identity and the true nature of reality.",
+    "tags": [
+      "science fiction",
+      "fantasy",
+      "magic",
+      "adventure",
+      "prophecy",
+      "quantum mechanics"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.2,
+    "num_reviews": 12345,
+    "brand": "Quantum Press",
+    "asin": null,
+    "features": [
+      "Unique blend of science and magic",
+      "Fast-paced action and adventure",
+      "Thought-provoking themes and characters"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "177315d5",
+    "title": "The Eternity Paradox",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a group of scientists discovers a way to manipulate time, they must navigate the complexities of their own timeline and the consequences of their actions. As they try to prevent a catastrophic event from occurring, they begin to question the nature of time and the very fabric of reality.",
+    "tags": [
+      "science fiction",
+      "time manipulation",
+      "adventure",
+      "consequences",
+      "reality",
+      "paradox"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.5,
+    "num_reviews": 23456,
+    "brand": "Temporal Press",
+    "asin": null,
+    "features": [
+      "Unique and thought-provoking premise",
+      "Immersive world-building and technology",
+      "Compelling characters and relationships"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f54cfe00",
+    "title": "The Last Generation",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where a deadly virus has wiped out most of humanity, a small group of survivors must band together to find a cure and rebuild society. As they navigate the treacherous landscape of their new world, they uncover hidden secrets and unexpected allies that could change the course of their mission forever.",
+    "tags": [
+      "science fiction",
+      "post-apocalyptic",
+      "virus",
+      "survival",
+      "cure",
+      "society"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.1,
+    "num_reviews": 4567,
+    "brand": "Legacy Press",
+    "asin": null,
+    "features": [
+      "Thought-provoking themes and ideas",
+      "Compelling characters and relationships",
+      "Fast-paced action and adventure"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b3b536d1",
+    "title": "The Singularity Enigma",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a brilliant scientist discovers a way to create artificial intelligence, he must navigate the complexities of his own creation and the consequences of his actions. As he tries to prevent a catastrophic event from occurring, he begins to question the nature of intelligence and the very fabric of reality.",
+    "tags": [
+      "science fiction",
+      "artificial intelligence",
+      "adventure",
+      "consequences",
+      "reality",
+      "enigma"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.3,
+    "num_reviews": 8901,
+    "brand": "NeuroSpark Press",
+    "asin": null,
+    "features": [
+      "Unique and thought-provoking premise",
+      "Immersive world-building and technology",
+      "Compelling characters and relationships"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "327e649e",
+    "title": "Nike Air Zoom Pegasus 39 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Experience lightweight and responsive cushioning with the Nike Air Zoom Pegasus 39. This running shoe features a breathable mesh upper and a durable outsole for long-lasting performance.",
+    "tags": [
+      "running-shoes",
+      "nike",
+      "cushioning",
+      "breathable",
+      "outdoor"
+    ],
+    "price_usd": 120.5,
+    "avg_rating": 4.5,
+    "num_reviews": 12500,
+    "brand": "Nike",
+    "asin": null,
+    "features": [
+      "Air Zoom unit",
+      "React midsole",
+      "Breathable mesh upper"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "deb712f5",
+    "title": "Under Armour Micro G Pursuit Running Socks",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Stay cool and dry on your runs with these Under Armour Micro G Pursuit socks. Featuring a mesh construction and a snug fit, these socks are perfect for long-distance running.",
+    "tags": [
+      "running-socks",
+      "under-armour",
+      "moisture-wicking",
+      "mesh",
+      "performance"
+    ],
+    "price_usd": 8.99,
+    "avg_rating": 4.2,
+    "num_reviews": 2100,
+    "brand": "Under Armour",
+    "asin": null,
+    "features": [
+      "Mesh construction",
+      "Moisture-wicking fabric",
+      "Snug fit"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "cbea118e",
+    "title": "Brooks Ghost 14 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Experience a smooth and comfortable ride with the Brooks Ghost 14 running shoe. Featuring a BioMoGo DNA midsole and a soft, breathable upper, this shoe is perfect for long-distance running.",
+    "tags": [
+      "running-shoes",
+      "brooks",
+      "cushioning",
+      "breathable",
+      "support"
+    ],
+    "price_usd": 130.0,
+    "avg_rating": 4.6,
+    "num_reviews": 18000,
+    "brand": "Brooks",
+    "asin": null,
+    "features": [
+      "BioMoGo DNA midsole",
+      "Soft, breathable upper",
+      "Seva Footbed"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b3744bde",
+    "title": "New Balance FuelCore Nergize V3 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Get energized with the New Balance FuelCore Nergize V3 running shoe. Featuring an innovative FuelCore midsole and a supportive outsole, this shoe is perfect for long-distance running.",
+    "tags": [
+      "running-shoes",
+      "new-balance",
+      "cushioning",
+      "supportive",
+      "energized"
+    ],
+    "price_usd": 85.0,
+    "avg_rating": 4.3,
+    "num_reviews": 4000,
+    "brand": "New Balance",
+    "asin": null,
+    "features": [
+      "FuelCore midsole",
+      "Supportive outsole",
+      "Breathable mesh upper"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4a944f16",
+    "title": "Asics Gel-Kayano 28 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Experience support and comfort with the Asics Gel-Kayano 28 running shoe. Featuring a spacious toe box and a durable outsole, this shoe is perfect for long-distance running.",
+    "tags": [
+      "running-shoes",
+      "asics",
+      "supportive",
+      "durable",
+      "comfortable"
+    ],
+    "price_usd": 160.0,
+    "avg_rating": 4.7,
+    "num_reviews": 25000,
+    "brand": "Asics",
+    "asin": null,
+    "features": [
+      "Spacious toe box",
+      "Durable outsole",
+      "FlyteFoam midsole"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c24eaa8b",
+    "title": "Under Armour Slingshot 3 Running Socks",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Stay dry and perform at your best with the Under Armour Slingshot 3 running socks. Featuring a moisture-wicking fabric and a snug fit, these socks are perfect for long-distance running.",
+    "tags": [
+      "running-socks",
+      "under-armour",
+      "moisture-wicking",
+      "snug",
+      "performance"
+    ],
+    "price_usd": 9.99,
+    "avg_rating": 4.1,
+    "num_reviews": 3500,
+    "brand": "Under Armour",
+    "asin": null,
+    "features": [
+      "Moisture-wicking fabric",
+      "Snug fit",
+      "Arch support"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a17f01f5",
+    "title": "Nike Metcon 7 Training Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Take your running to the next level with the Nike Metcon 7 training shoe. Featuring a durable upper and a responsive midsole, this shoe is perfect for high-intensity running.",
+    "tags": [
+      "training-shoes",
+      "nike",
+      "durable",
+      "responsive",
+      "high-intensity"
+    ],
+    "price_usd": 100.0,
+    "avg_rating": 4.4,
+    "num_reviews": 8000,
+    "brand": "Nike",
+    "asin": null,
+    "features": [
+      "Durable upper",
+      "Responsive midsole",
+      "Flyknit construction"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "32fe9d75",
+    "title": "Asics Gel-Contend 5 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Experience comfort and support with the Asics Gel-Contend 5 running shoe. Featuring a spacious toe box and a durable outsole, this shoe is perfect for long-distance running.",
+    "tags": [
+      "running-shoes",
+      "asics",
+      "comfortable",
+      "durable",
+      "supportive"
+    ],
+    "price_usd": 60.0,
+    "avg_rating": 4.0,
+    "num_reviews": 20000,
+    "brand": "Asics",
+    "asin": null,
+    "features": [
+      "Spacious toe box",
+      "Durable outsole",
+      "Gel Cushioning"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "0aaa5ab4",
+    "title": "New Balance Fresh Foam Arishi V3 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Get a smooth ride with the New Balance Fresh Foam Arishi V3 running shoe. Featuring a supportive outsole and a breathable mesh upper, this shoe is perfect for long-distance running.",
+    "tags": [
+      "running-shoes",
+      "new-balance",
+      "supportive",
+      "breathable",
+      "smooth"
+    ],
+    "price_usd": 80.0,
+    "avg_rating": 4.2,
+    "num_reviews": 15000,
+    "brand": "New Balance",
+    "asin": null,
+    "features": [
+      "Supportive outsole",
+      "Breathable mesh upper",
+      "Fresh Foam midsole"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f7a59d9a",
+    "title": "Under Armour Speedform Architech Running Socks",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "Stay dry and perform at your best with the Under Armour Speedform Architech running socks. Featuring a moisture-wicking fabric and a snug fit, these socks are perfect for long-distance running.",
+    "tags": [
+      "running-socks",
+      "under-armour",
+      "moisture-wicking",
+      "snug",
+      "performance"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.0,
+    "num_reviews": 5000,
+    "brand": "Under Armour",
+    "asin": null,
+    "features": [
+      "Moisture-wicking fabric",
+      "Snug fit",
+      "Arch support"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "13e2bd05",
+    "title": "Finding Inner Peace",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Discover the secrets to achieving inner peace and happiness. Learn how to overcome stress and anxiety with easy-to-follow tips and techniques.",
+    "tags": [
+      "self-help",
+      "stress relief",
+      "inner peace",
+      "mindfulness",
+      "productivity"
+    ],
+    "price_usd": 9.99,
+    "avg_rating": 4.3,
+    "num_reviews": 1200,
+    "brand": "Mindful Living",
+    "asin": null,
+    "features": [
+      "Mindfulness exercises",
+      "Stress management techniques",
+      "Positive thinking practices"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "daf7edc9",
+    "title": "The Power of Positive Thinking",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to harness the power of positive thinking to improve your life. Discover how to overcome negative thoughts and achieve success.",
+    "tags": [
+      "self-help",
+      "positive thinking",
+      "motivation",
+      "success",
+      "personal growth"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.7,
+    "num_reviews": 800,
+    "brand": "Success Press",
+    "asin": null,
+    "features": [
+      "Positive thinking techniques",
+      "Goal setting strategies",
+      "Motivational exercises"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bb02da51",
+    "title": "The Self-Care Revolution",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to put yourself first and prioritize your self-care. Discover the importance of self-love and self-acceptance.",
+    "tags": [
+      "self-help",
+      "self-care",
+      "self-love",
+      "self-acceptance",
+      "mental health"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.8,
+    "num_reviews": 5000,
+    "brand": "Self-Care Publishing",
+    "asin": null,
+    "features": [
+      "Self-care practices",
+      "Mindful self-compassion",
+      "Boundary setting techniques"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "424b00f7",
+    "title": "The Productivity Blueprint",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to achieve your goals and be more productive. Discover the strategies and techniques used by successful people.",
+    "tags": [
+      "self-help",
+      "productivity",
+      "time management",
+      "goal setting",
+      "motivation"
+    ],
+    "price_usd": 16.99,
+    "avg_rating": 4.9,
+    "num_reviews": 25000,
+    "brand": "Productivity Pro",
+    "asin": null,
+    "features": [
+      "Productivity strategies",
+      "Time management techniques",
+      "Goal setting exercises"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c417638b",
+    "title": "The Mindful Way",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Discover the benefits of mindfulness and learn how to incorporate it into your daily life. Learn how to reduce stress and improve your focus.",
+    "tags": [
+      "self-help",
+      "mindfulness",
+      "meditation",
+      "stress relief",
+      "focus"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1000,
+    "brand": "Mindful Minds",
+    "asin": null,
+    "features": [
+      "Mindfulness exercises",
+      "Meditation techniques",
+      "Focus-enhancing strategies"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7e71091d",
+    "title": "The Confidence Code",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to build your confidence and achieve your goals. Discover the strategies and techniques used by successful people.",
+    "tags": [
+      "self-help",
+      "confidence",
+      "motivation",
+      "self-esteem",
+      "personal growth"
+    ],
+    "price_usd": 15.99,
+    "avg_rating": 4.6,
+    "num_reviews": 1500,
+    "brand": "Confidence Press",
+    "asin": null,
+    "features": [
+      "Confidence-building techniques",
+      "Self-esteem exercises",
+      "Motivational strategies"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "818822fa",
+    "title": "The Resilience Revolution",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to bounce back from adversity and achieve your goals. Discover the strategies and techniques used by resilient people.",
+    "tags": [
+      "self-help",
+      "resilience",
+      "motivation",
+      "goal setting",
+      "personal growth"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.4,
+    "num_reviews": 2000,
+    "brand": "Resilience Publishing",
+    "asin": null,
+    "features": [
+      "Resilience-building techniques",
+      "Goal setting strategies",
+      "Motivational exercises"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "659963f0",
+    "title": "The Happiness Blueprint",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to achieve happiness and fulfillment in your life. Discover the strategies and techniques used by happy people.",
+    "tags": [
+      "self-help",
+      "happiness",
+      "motivation",
+      "goal setting",
+      "personal growth"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.9,
+    "num_reviews": 3000,
+    "brand": "Happiness Press",
+    "asin": null,
+    "features": [
+      "Happiness-building techniques",
+      "Goal setting strategies",
+      "Motivational exercises"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "88e85023",
+    "title": "The Mindful Journal",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "A comprehensive guide to mindfulness and self-care. Learn how to reduce stress and improve your focus with the power of journaling.",
+    "tags": [
+      "self-help",
+      "mindfulness",
+      "journaling",
+      "self-care",
+      "stress relief"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.7,
+    "num_reviews": 4000,
+    "brand": "Mindful Minds",
+    "asin": null,
+    "features": [
+      "Mindfulness exercises",
+      "Journaling techniques",
+      "Self-care practices"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ff75d302",
+    "title": "The Self-Discovery Journey",
+    "category": "Books",
+    "subcategory": "Self-Help",
+    "description": "Learn how to discover your purpose and achieve your goals. Discover the strategies and techniques used by successful people.",
+    "tags": [
+      "self-help",
+      "self-discovery",
+      "motivation",
+      "goal setting",
+      "personal growth"
+    ],
+    "price_usd": 16.99,
+    "avg_rating": 4.8,
+    "num_reviews": 50000,
+    "brand": "Self-Discovery Publishing",
+    "asin": null,
+    "features": [
+      "Self-discovery techniques",
+      "Goal setting strategies",
+      "Motivational exercises"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "aa4ab01b",
+    "title": "Forbidden Island",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Forbidden Island is a cooperative board game for two to four players. The game's goal is to work together to retrieve four relics from an island that is sinking. Each player must contribute to the team's success without disrupting the balance of the game.",
+    "tags": [
+      "cooperative",
+      "family-friendly",
+      "easy-to-learn",
+      "adventure",
+      "island"
+    ],
+    "price_usd": 20.99,
+    "avg_rating": 4.6,
+    "num_reviews": 2100,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "cooperative gameplay",
+      "family-friendly",
+      "easy-to-learn"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f40a26ce",
+    "title": "Azul",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Azul is a strategic board game for two to four players, designed by Michael Kiesling. Players compete to create the most beautiful mosaic by collecting and placing tiles. Azul challenges players to balance short-term goals with long-term strategies.",
+    "tags": [
+      "strategic",
+      "competitive",
+      "art",
+      "mastery",
+      "tile-laying"
+    ],
+    "price_usd": 24.99,
+    "avg_rating": 4.8,
+    "num_reviews": 5500,
+    "brand": "Next Move Games",
+    "asin": null,
+    "features": [
+      "strategic gameplay",
+      "competitive",
+      "artistic",
+      "tile-laying"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ad7def4e",
+    "title": "Ticket to Ride",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Ticket to Ride is a popular train-themed board game for two to five players, designed by Alan R. Moon. Players compete to build railroad routes across a map of North America. The game requires strategic planning and luck.",
+    "tags": [
+      "strategic",
+      "competitive",
+      "railroad",
+      "train",
+      "travel"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.7,
+    "num_reviews": 10000,
+    "brand": "Days of Wonder",
+    "asin": null,
+    "features": [
+      "strategic gameplay",
+      "competitive",
+      "train-themed"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e512a302",
+    "title": "Scrabble",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Scrabble is a classic word game for two to four players, designed by Alfred Butts. Players create words from letter tiles to score points. The game requires vocabulary and strategic thinking.",
+    "tags": [
+      "word-building",
+      "strategic",
+      "vocabulary",
+      "family-friendly",
+      "classic"
+    ],
+    "price_usd": 15.99,
+    "avg_rating": 4.4,
+    "num_reviews": 1500,
+    "brand": "Hasbro",
+    "asin": null,
+    "features": [
+      "word-building",
+      "strategic",
+      "vocabulary"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b5a0e256",
+    "title": "Sushi Go!",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Sushi Go! is a fast-paced card game for two to five players, designed by Phil Walker-Harding. Players pick and pass cards to collect sets of sushi dishes. The game requires strategic thinking and quick decision-making.",
+    "tags": [
+      "light",
+      "family-friendly",
+      "fast-paced",
+      "card-game",
+      "sushi"
+    ],
+    "price_usd": 6.99,
+    "avg_rating": 4.6,
+    "num_reviews": 1100,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "light gameplay",
+      "family-friendly",
+      "fast-paced"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a1b72796",
+    "title": "Carcassonne",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Carcassonne is a tile-laying game for two to five players, designed by Klaus-J\u00fcrgen Wrede. Players build a medieval landscape by placing tiles and placing followers to score points. The game requires strategic planning and luck.",
+    "tags": [
+      "strategic",
+      "tile-laying",
+      "medieval",
+      "landscape-building",
+      "followers"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.7,
+    "num_reviews": 3500,
+    "brand": "Rio Grande Games",
+    "asin": null,
+    "features": [
+      "strategic gameplay",
+      "tile-laying",
+      "medieval theme"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "fc317b41",
+    "title": "Pandemic",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Pandemic is a cooperative board game for two to four players, designed by Matt Leacock. Players work together to stop the spread of diseases and save the world. The game requires strategic thinking and teamwork.",
+    "tags": [
+      "cooperative",
+      "strategic",
+      "disease-spreading",
+      "teamwork",
+      "world-saving"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.9,
+    "num_reviews": 8000,
+    "brand": "Z-Man Games",
+    "asin": null,
+    "features": [
+      "cooperative gameplay",
+      "strategic thinking",
+      "disease-spreading"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "63a8ee95",
+    "title": "Codenames",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Codenames is a word-guessing game for four to eight players, designed by Vlaada Chv\u00e1til. Players try to identify words based on one-word clues given by their teammates. The game requires strategic thinking and vocabulary.",
+    "tags": [
+      "word-guessing",
+      "strategic",
+      "vocabulary",
+      "teamwork",
+      "codenames"
+    ],
+    "price_usd": 20.0,
+    "avg_rating": 4.8,
+    "num_reviews": 5000,
+    "brand": "Czech Games Edition",
+    "asin": null,
+    "features": [
+      "word-guessing",
+      "strategic thinking",
+      "vocabulary"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "20760fce",
+    "title": "Settlers of Catan",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "The Settlers of Catan is a resource-trading game for three to four players, designed by Klaus Teuber. Players collect resources to build roads, settlements, and cities on an island. The game requires strategic planning and negotiation.",
+    "tags": [
+      "resource-trading",
+      "strategic",
+      "island-building",
+      "negotiation",
+      "classic"
+    ],
+    "price_usd": 45.99,
+    "avg_rating": 4.6,
+    "num_reviews": 7000,
+    "brand": "Mayfair Games",
+    "asin": null,
+    "features": [
+      "resource-trading",
+      "strategic planning",
+      "island-building"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "44d5d623",
+    "title": "Qwirkle",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Qwirkle is a tile-matching game for two to four players, designed by Wibmoore. Players try to create lines of matching colors and shapes. The game requires strategic thinking and pattern recognition.",
+    "tags": [
+      "tile-matching",
+      "strategic",
+      "pattern-recognition",
+      "color-matching",
+      "family-friendly"
+    ],
+    "price_usd": 16.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1200,
+    "brand": "MindWare",
+    "asin": null,
+    "features": [
+      "tile-matching",
+      "strategic thinking",
+      "pattern recognition"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "da8966a4",
+    "title": "Ticket to Ride: First Journey",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A beginner-friendly train-themed board game for 2-4 players. Players compete to build railroad routes across a map of North America. Easy to learn, fun to play.",
+    "tags": [
+      "Train Game",
+      "Board Game for Kids",
+      "Easy to Learn",
+      "Family Game",
+      "Racing Game"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.6,
+    "num_reviews": 2216,
+    "brand": "Days of Wonder",
+    "asin": null,
+    "features": [
+      "Train-themed game board",
+      "54 train cars to collect",
+      " Destinations to complete"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "5f855634",
+    "title": "Scythe: Digital Edition",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "The board game adaptation of Scythe, a strategic game of resource management and area control set in an alternate history of the 1920s. Players control factions vying for power and resources.",
+    "tags": [
+      "Strategy Game",
+      "Digital Board Game",
+      "Alternate History",
+      "Resource Management",
+      "Area Control"
+    ],
+    "price_usd": 29.99,
+    "avg_rating": 4.7,
+    "num_reviews": 14567,
+    "brand": "On Table Games",
+    "asin": null,
+    "features": [
+      "12 factions to play as",
+      "Resources to collect and manage",
+      "Unique victory conditions for each faction"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a1a43e5d",
+    "title": "Pandemic Legacy: Season 1",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A cooperative game for 2-4 players where players work together to stop the spread of diseases and save the world. Each game builds upon the previous one, with a legacy system that changes the game over time.",
+    "tags": [
+      "Cooperative Game",
+      "Legacy Game",
+      "Disease-themed Game",
+      "Theme Park Game",
+      "Strategy Game"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.9,
+    "num_reviews": 12345,
+    "brand": "Mattel",
+    "asin": null,
+    "features": [
+      "12 scenarios to play through",
+      "Legacy system that changes the game",
+      "4-6 player game"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "91cca6f8",
+    "title": "Carcassonne: Hunters and Gatherers",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A tile-laying game for 2-5 players where players build a medieval landscape and place followers to score points. The game includes unique mechanics and expansions, such as the Hunters and Gatherers expansion.",
+    "tags": [
+      "Tile-laying Game",
+      "Medieval-themed Game",
+      "Expansions available",
+      "Easy to Learn",
+      "Family Game"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.4,
+    "num_reviews": 1089,
+    "brand": "Cosmic Frog",
+    "asin": null,
+    "features": [
+      "Tile-laying mechanics",
+      "Followers to place on the board",
+      "Unique expansions available"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d980b6f2",
+    "title": "The Mind",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A cooperative game for 2-4 players where players work together to play cards in ascending order without communicating. The game requires strategic thinking and planning to succeed.",
+    "tags": [
+      "Cooperative Game",
+      "No Communication Game",
+      "Strategy Game",
+      "Easy to Learn",
+      "Quick Play"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.5,
+    "num_reviews": 5000,
+    "brand": "Wren Games",
+    "asin": null,
+    "features": [
+      "Unique gameplay mechanic",
+      "Cards to play in ascending order",
+      "No communication allowed"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "af6eff04",
+    "title": "7 Wonders: Duel",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A card drafting game for 2 players where players build up their civilization by collecting cards and building structures. The game includes unique mechanics and expansions.",
+    "tags": [
+      "Card Drafting Game",
+      "Civilization-building Game",
+      "Expansions available",
+      "Easy to Learn",
+      "Quick Play"
+    ],
+    "price_usd": 24.99,
+    "avg_rating": 4.7,
+    "num_reviews": 6789,
+    "brand": "Asmodee",
+    "asin": null,
+    "features": [
+      "Card drafting mechanics",
+      "Building structures to collect points",
+      "Unique expansions available"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d42129fb",
+    "title": "Gloomhaven: Modular Board",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A cooperative game for 1-4 players where players work together to explore a fantasy world and battle monsters. The game includes a modular board that changes with each playthrough.",
+    "tags": [
+      "Cooperative Game",
+      "Modular Board Game",
+      "Fantasy-themed Game",
+      "Exploration Game",
+      "Strategy Game"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.8,
+    "num_reviews": 21000,
+    "brand": "Cephalofair Games",
+    "asin": null,
+    "features": [
+      "Modular board that changes with each playthrough",
+      "Exploration mechanics",
+      "Unique victory conditions"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4154c609",
+    "title": "Azul",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A tile-laying game for 2-4 players where players compete to create the most beautiful mosaic. The game includes unique mechanics and expansions.",
+    "tags": [
+      "Tile-laying Game",
+      "Mosaic-building Game",
+      "Expansions available",
+      "Easy to Learn",
+      "Family Game"
+    ],
+    "price_usd": 24.99,
+    "avg_rating": 4.6,
+    "num_reviews": 2345,
+    "brand": "Plan B Games",
+    "asin": null,
+    "features": [
+      "Tile-laying mechanics",
+      "Mosaic-building game",
+      "Unique expansions available"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "8905922a",
+    "title": "Splendor",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A card collecting game for 2-4 players where players build up their collection of gemstones and cards to collect points. The game includes unique mechanics and expansions.",
+    "tags": [
+      "Card Collecting Game",
+      "Gemstone-themed Game",
+      "Expansions available",
+      "Easy to Learn",
+      "Quick Play"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.4,
+    "num_reviews": 5678,
+    "brand": "Space Cowboys",
+    "asin": null,
+    "features": [
+      "Card collecting mechanics",
+      "Gemstone collection",
+      "Unique expansions available"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7f0254cf",
+    "title": "Forbidden Island/Forbidden Desert Deluxe",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "A cooperative game for 2-4 players where players work together to retrieve four treasures from an island/desert before it sinks/gets buried in sand. The game includes unique mechanics and expansions.",
+    "tags": [
+      "Cooperative Game",
+      "Desert-themed Game",
+      "Island-themed Game",
+      "Expansions available",
+      "Quick Play"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1000,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "Cooperative gameplay",
+      "Desert/island theme",
+      "Unique expansions available"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "83051943",
+    "title": "Forbidden Island",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Forbidden Island is a cooperative game for 2 to 4 players. Players must work together to retrieve four treasures and escape the island before it sinks. Be careful, because if too much of the island floods, the game will end in a catastrophic loss.",
+    "tags": [
+      "cooperative",
+      "board game",
+      "family friendly",
+      "indie game",
+      "adventure"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.6,
+    "num_reviews": 1342,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "30-40 minute playtime",
+      "2-4 player support",
+      "Cooperative gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2ffb35ca",
+    "title": "Carcassonne",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Place tiles to build a medieval landscape and place your followers to score points. Carcassonne is a tile-laying game that's perfect for 2 to 5 players. Will you build the most beautiful landscape?",
+    "tags": [
+      "board game",
+      "family friendly",
+      "european-style game",
+      "tile-laying",
+      "strategy"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.7,
+    "num_reviews": 2198,
+    "brand": "Rio Grande Games",
+    "asin": null,
+    "features": [
+      "2-5 player support",
+      "60-90 minute playtime",
+      "Themed components",
+      "Replayable",
+      "Easy to learn"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "fcc26645",
+    "title": "Ticket to Ride",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Build train routes across a map of North America. Will you connect Chicago to New York or maybe Los Angeles to Seattle? The Ticket to Ride game is perfect for 2-5 players and lasts about 30-60 minutes.",
+    "tags": [
+      "train-themed",
+      "european-style game",
+      "family friendly",
+      "strategy",
+      "railroad"
+    ],
+    "price_usd": 49.99,
+    "avg_rating": 4.5,
+    "num_reviews": 3413,
+    "brand": "Days of Wonder",
+    "asin": null,
+    "features": [
+      "2-5 player support",
+      "30-60 minute playtime",
+      "Themed components",
+      "Replayable",
+      "Easy to learn"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e10978ef",
+    "title": "Pandemic",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Work together to stop the spread of diseases and save the world. Pandemic is a cooperative game for 2-4 players. Will you become a disease specialist, medic, or operations expert?",
+    "tags": [
+      "cooperative",
+      "board game",
+      "family friendly",
+      "indie game",
+      "adventure"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.7,
+    "num_reviews": 1982,
+    "brand": "Z-Man Games",
+    "asin": null,
+    "features": [
+      "2-4 player support",
+      "30-60 minute playtime",
+      "Cooperative gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "380b5647",
+    "title": "Azul",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Compete to create the most beautiful mosaic. Azul is a strategic game for 2-4 players. Will you become the master artisan?",
+    "tags": [
+      "strategy",
+      "board game",
+      "family friendly",
+      "european-style game",
+      "indie game"
+    ],
+    "price_usd": 29.99,
+    "avg_rating": 4.4,
+    "num_reviews": 1348,
+    "brand": "Plan B Games",
+    "asin": null,
+    "features": [
+      "2-4 player support",
+      "30-45 minute playtime",
+      "Strategy gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f764274b",
+    "title": "Scythe",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Build your own empire in an alternate history of the 1920s. Scythe is a worker placement game for 1-5 players. Will you become the greatest leader?",
+    "tags": [
+      "worker placement",
+      "strategy",
+      "board game",
+      "indie game",
+      "history"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 4.9,
+    "num_reviews": 2346,
+    "brand": " Stonemaier Games",
+    "asin": null,
+    "features": [
+      "1-5 player support",
+      "90-150 minute playtime",
+      "Strategy gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ee9f3457",
+    "title": "Twitching Tales",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Create your own tales and compete with your friends. Twitching Tales is a storytelling game for 4-8 players.",
+    "tags": [
+      "party game",
+      "board game",
+      "family friendly",
+      "creative",
+      "storytelling"
+    ],
+    "price_usd": 24.99,
+    "avg_rating": 4.3,
+    "num_reviews": 542,
+    "brand": "Alderac Entertainment Group",
+    "asin": null,
+    "features": [
+      "4-8 player support",
+      "30-60 minute playtime",
+      "Party gameplay",
+      "Creative gameplay",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "6756bf05",
+    "title": "Codenames",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Guess the words based on the clues given by your teammate. Codenames is a word-guessing game for 4-8 players.",
+    "tags": [
+      "word game",
+      "party game",
+      "board game",
+      "family friendly",
+      "creative"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1246,
+    "brand": "Czech Games Edition",
+    "asin": null,
+    "features": [
+      "4-8 player support",
+      "30-45 minute playtime",
+      "Party gameplay",
+      "Creative gameplay",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d151cd00",
+    "title": "Forbidden Desert",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Escape the desert storm in Forbidden Desert. This cooperative game is perfect for 2-4 players and lasts about 20-30 minutes.",
+    "tags": [
+      "cooperative",
+      "board game",
+      "family friendly",
+      "indie game",
+      "adventure"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.5,
+    "num_reviews": 842,
+    "brand": "Gamewright",
+    "asin": null,
+    "features": [
+      "2-4 player support",
+      "20-30 minute playtime",
+      "Cooperative gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "313b04f9",
+    "title": "Qwirkle",
+    "category": "Toys & Games",
+    "subcategory": "Board Games",
+    "description": "Create lines of matching colors and shapes. Qwirkle is a tile-matching game for 2-4 players. Will you become the master tile-layman?",
+    "tags": [
+      "family friendly",
+      "indie game",
+      "board game",
+      "strategy",
+      "tile-matching"
+    ],
+    "price_usd": 29.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1238,
+    "brand": "MindWare",
+    "asin": null,
+    "features": [
+      "2-4 player support",
+      "20-30 minute playtime",
+      "Strategy gameplay",
+      "Themed components",
+      "Replayable"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b565ae50",
+    "title": "Audio-Technica ATH-M50x Monitoring Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Built for comfort and precision, the ATH-M50x is a popular choice among audio engineers and musicians. Its proprietary 45mm drivers provide detailed frequency response and isolation from ambient noise.",
+    "tags": [
+      "Wireless",
+      "Headphones",
+      "Studio",
+      "Noise-Cancellation",
+      "Comfortable",
+      "Long-Lasting"
+    ],
+    "price_usd": 169.99,
+    "avg_rating": 4.5,
+    "num_reviews": 12500,
+    "brand": "Audio-Technica",
+    "asin": null,
+    "features": [
+      "Closed-back design for sound isolation",
+      "Long-lasting comfort with detachable earcups",
+      "Proprietary 45mm drivers for detailed frequency response"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ba4a24ff",
+    "title": "Bose QuietComfort 35 II Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience seamless wireless listening with the QuietComfort 35 II. Enjoy crystal-clear audio and advanced noise-rejection technology.",
+    "tags": [
+      "Wireless",
+      "Noise-Cancellation",
+      "Wireless",
+      "Headphones",
+      "Bose",
+      "Seamless-Listening"
+    ],
+    "price_usd": 349.95,
+    "avg_rating": 4.8,
+    "num_reviews": 50000,
+    "brand": "Bose",
+    "asin": null,
+    "features": [
+      "Advanced noise-rejection technology with six microphones",
+      "Wireless connectivity with up to 24 hours of battery life",
+      "Customizable EQ with Bose Connect app"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a5e8e081",
+    "title": "Sennheiser HD 4.50 BT Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Enjoy crystal-clear sound and seamless wireless connectivity with the HD 4.50 BT. Perfect for listening to music, podcasts, or video content.",
+    "tags": [
+      "Wireless",
+      "Noise-Cancellation",
+      "Sennheiser",
+      "Seamless-Listening",
+      "Long-Lasting",
+      "Comfortable"
+    ],
+    "price_usd": 179.95,
+    "avg_rating": 4.6,
+    "num_reviews": 7500,
+    "brand": "Sennheiser",
+    "asin": null,
+    "features": [
+      "Wireless connectivity with up to 20 hours battery life",
+      "Active noise cancellation with three sensitivity levels",
+      "Padded earcups for long-lasting comfort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "8de7f5da",
+    "title": "Sony WH-1000XM5 Wireless Noise-Canceling Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience seamless wireless listening and advanced noise cancellation with the WH-1000XM5. Perfect for commutes, travel, or relaxing at home.",
+    "tags": [
+      "Wireless",
+      "Noise-Cancellation",
+      "Long-Lasting",
+      "Comfortable",
+      "Seamless-Listening",
+      "Sony"
+    ],
+    "price_usd": 399.99,
+    "avg_rating": 4.9,
+    "num_reviews": 30000,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "Industry-leading noise cancellation with dual noise sensors",
+      "Wireless connectivity with up to 30 hours battery life",
+      "Quick attention mode with one-touch control"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7d70334c",
+    "title": "JBL Live 400BT Wireless On-Ear Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience immersive sound and seamless wireless connectivity with the JBL Live 400BT. Perfect for listening to music, video content, or podcasts.",
+    "tags": [
+      "Wireless",
+      "Seamless-Listening",
+      "JBL",
+      "Comfortable",
+      "Lightweight",
+      "Long-Lasting"
+    ],
+    "price_usd": 99.95,
+    "avg_rating": 4.2,
+    "num_reviews": 15000,
+    "brand": "JBL",
+    "asin": null,
+    "features": [
+      "Wireless connectivity with up to 24 hours battery life",
+      "Foldable and lightweight design for easy travel",
+      "Customizable EQ with JBL Connect app"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "5f2f3da0",
+    "title": "Beats Solo Pro Wireless Noise-Canceling Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience seamless wireless listening and advanced noise cancellation with the Beats Solo Pro. Perfect for commutes, travel, or relaxing at home.",
+    "tags": [
+      "Wireless",
+      "Noise-Cancellation",
+      "Beats",
+      "Long-Lasting",
+      "Seamless-Listening",
+      "Foldable"
+    ],
+    "price_usd": 299.99,
+    "avg_rating": 4.7,
+    "num_reviews": 25000,
+    "brand": "Beats",
+    "asin": null,
+    "features": [
+      "Foldable design with magnetic closure for easy storage",
+      "Advanced noise cancellation with two microphones",
+      "Up to 22 hours battery life with Fast Fuel charging"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "64af51fd",
+    "title": "Anker Soundcore Space Q45 Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Enjoy immersive sound and seamless wireless connectivity with the Anker Soundcore Space Q45. Perfect for music, podcasts, or video content.",
+    "tags": [
+      "Wireless",
+      "Seamless-Listening",
+      "Anker",
+      "Comfortable",
+      "Long-Lasting",
+      "Affordable"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.1,
+    "num_reviews": 10000,
+    "brand": "Anker",
+    "asin": null,
+    "features": [
+      "Wireless connectivity with up to 20 hours battery life",
+      "Customizable EQ with Soundcore app",
+      "Foldable and lightweight design for easy travel"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "30892102",
+    "title": "Plantronics BackBeat FIT 3200 Wireless Headphones",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience immersive sound and seamless wireless connectivity with the Plantronics BackBeat FIT 3200. Perfect for listening to music, podcasts, or video content during workouts.",
+    "tags": [
+      "Wireless",
+      "Seamless-Listening",
+      "Plantronics",
+      "Water-Resistant",
+      "Long-Lasting",
+      "Comfortable"
+    ],
+    "price_usd": 99.95,
+    "avg_rating": 4.3,
+    "num_reviews": 10000,
+    "brand": "Plantronics",
+    "asin": null,
+    "features": [
+      "Wireless connectivity with up to 24 hours battery life",
+      "Water-resistant design with sweat-proof finish",
+      "Foldable and lightweight design for easy travel"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "baee0b48",
+    "title": "SteelSeries Arctis 7 Wireless Gaming Headset",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Immerse yourself in high-quality sound and seamless wireless connectivity with the SteelSeries Arctis 7. Perfect for gaming, music, or video content.",
+    "tags": [
+      "Wireless",
+      "Seamless-Listening",
+      "SteelSeries",
+      "Gaming",
+      "Long-Lasting",
+      "Comfortable"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.4,
+    "num_reviews": 20000,
+    "brand": "SteelSeries",
+    "asin": null,
+    "features": [
+      "Wireless connectivity with up to 15 hours battery life",
+      "Retractable microphone for voice chat and online gaming",
+      "Adjustable headband for long-lasting comfort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "049d5319",
+    "title": "Plantronics Voyager 8200 UC Wireless Headset",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "description": "Experience seamless wireless connectivity and advanced noise cancellation with the Plantronics Voyager 8200 UC. Perfect for voice calls, video conferences, or listening to music.",
+    "tags": [
+      "Wireless",
+      "Noise-Cancellation",
+      "Plantronics",
+      "Long-Lasting",
+      "Seamless-Listening",
+      "Professional"
+    ],
+    "price_usd": 249.99,
+    "avg_rating": 4.6,
+    "num_reviews": 5000,
+    "brand": "Plantronics",
+    "asin": null,
+    "features": [
+      "Advanced noise cancellation with three sensitivity levels",
+      "Wireless connectivity with up to 24 hours battery life",
+      "Quick attention mode with one-touch control"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f2b3af9a",
+    "title": "Teton Sports Outfitter XL 0-Degree Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay warm and comfortable on your camping trips with the Teton Sports Outfitter XL 0-Degree Sleeping Bag. Built with durable and water-resistant materials, this sleeping bag is perfect for colder weather conditions.",
+    "tags": [
+      "sleeping bag",
+      "camping gear",
+      "cold weather",
+      "hiking",
+      "backpacking"
+    ],
+    "price_usd": 69.99,
+    "avg_rating": 4.7,
+    "num_reviews": 2312,
+    "brand": "Teton Sports",
+    "asin": null,
+    "features": [
+      "Water-resistant 300T polyester construction",
+      "0-degree rated for colder weather conditions",
+      "Comfortable and durable design for extended use"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bb0b5c59",
+    "title": "Coleman Powerhouse Portable Generator",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay powered on your camping trips with the Coleman Powerhouse Portable Generator. Perfect for charging devices and powering small appliances, this generator is reliable and efficient.",
+    "tags": [
+      "generator",
+      "portable power",
+      "camping gear",
+      "outdoor",
+      "hiking"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1019,
+    "brand": "Coleman",
+    "asin": null,
+    "features": [
+      "1500W output for powering small appliances",
+      "Rechargeable lithium-ion battery for extended use",
+      "Compact and lightweight design for easy transport"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "fdfde049",
+    "title": "REI Co-op Camp X 60 Sleeping Pad",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Get a good night's sleep on your camping trips with the REI Co-op Camp X 60 Sleeping Pad. Built with durable and comfortable materials, this sleeping pad is perfect for car camping and backpacking.",
+    "tags": [
+      "sleeping pad",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 49.0,
+    "avg_rating": 4.6,
+    "num_reviews": 1568,
+    "brand": "REI Co-op",
+    "asin": null,
+    "features": [
+      "60-inches wide for extra comfort",
+      "Insulated construction for colder weather conditions",
+      "Compact and lightweight design for easy transport"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b6e09648",
+    "title": "CamelBak Better Bottle 27 oz",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay hydrated on your camping trips with the CamelBak Better Bottle 27 oz. Built with durable and BPA-free materials, this water bottle is perfect for backpacking and car camping.",
+    "tags": [
+      "water bottle",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 19.99,
+    "avg_rating": 4.8,
+    "num_reviews": 2059,
+    "brand": "CamelBak",
+    "asin": null,
+    "features": [
+      "BPA-free and dishwasher safe construction",
+      "27 oz capacity for extended use",
+      "Spout and handle design for easy drinking and carrying"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e6ed96de",
+    "title": "Black Diamond Spot Headlamp",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay lit on your camping trips with the Black Diamond Spot Headlamp. Built with durable and water-resistant materials, this headlamp is perfect for backpacking and hiking.",
+    "tags": [
+      "headlamp",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 39.95,
+    "avg_rating": 4.9,
+    "num_reviews": 1219,
+    "brand": "Black Diamond",
+    "asin": null,
+    "features": [
+      "Water-resistant and red light mode for preserves night vision",
+      "Adjustable brightness and beam distance",
+      "Durable and rugged construction for extended use"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e709cdb5",
+    "title": "MSR WhisperLite Universal Ultralight Stove",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Cook meals efficiently on your camping trips with the MSR WhisperLite Universal Ultralight Stove. Built with durable and reliable materials, this stove is perfect for backpacking and car camping.",
+    "tags": [
+      "stove",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.8,
+    "num_reviews": 819,
+    "brand": "MSR",
+    "asin": null,
+    "features": [
+      "Ultralight and compact design for easy transport",
+      "Universal fuel canister compatibility",
+      "Durable and reliable construction for extended use"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "da0f33b6",
+    "title": "Sea to Summit UltraLight Insulated Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay warm and comfortable on your camping trips with the Sea to Summit UltraLight Insulated Sleeping Bag. Built with durable and water-resistant materials, this sleeping bag is perfect for backpacking and car camping.",
+    "tags": [
+      "sleeping bag",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 129.95,
+    "avg_rating": 4.7,
+    "num_reviews": 1560,
+    "brand": "Sea to Summit",
+    "asin": null,
+    "features": [
+      "UltraLight and water-resistant construction for easy transport",
+      "Insulated design for colder weather conditions",
+      "Compact and lightweight design for easy transport"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "80bfff95",
+    "title": "REI Co-op Trailbreaker 75L Backpack",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Carry all your gear with the REI Co-op Trailbreaker 75L Backpack. Built with durable and comfortable materials, this backpack is perfect for backpacking and hiking.",
+    "tags": [
+      "backpack",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 99.0,
+    "avg_rating": 4.9,
+    "num_reviews": 1029,
+    "brand": "REI Co-op",
+    "asin": null,
+    "features": [
+      "75L capacity for extended use",
+      "Durable and comfortable construction for backpacking",
+      "Multi-directional zip system for easy access"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "11bc86e1",
+    "title": "Big Agnes Q-Core SLX Sleeping Pad",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Get a good night's sleep on your camping trips with the Big Agnes Q-Core SLX Sleeping Pad. Built with durable and comfortable materials, this sleeping pad is perfect for backpacking and car camping.",
+    "tags": [
+      "sleeping pad",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 129.95,
+    "avg_rating": 4.7,
+    "num_reviews": 1012,
+    "brand": "Big Agnes",
+    "asin": null,
+    "features": [
+      "Insulated design for colder weather conditions",
+      "Durable and water-resistant construction for extended use",
+      "Compact and lightweight design for easy transport"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "6f9ec877",
+    "title": "Kelty Cosmic 40 Degree Sleeping Bag",
+    "category": "Sports & Outdoors",
+    "subcategory": "Camping",
+    "description": "Stay warm and comfortable on your camping trips with the Kelty Cosmic 40 Degree Sleeping Bag. Built with durable and water-resistant materials, this sleeping bag is perfect for backpacking and car camping.",
+    "tags": [
+      "sleeping bag",
+      "camping gear",
+      "backpacking",
+      "hiking",
+      "outdoor"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 4.6,
+    "num_reviews": 1519,
+    "brand": "Kelty",
+    "asin": null,
+    "features": [
+      "40-degree rated for colder weather conditions",
+      "Water-resistant construction for durability",
+      "Comfortable and durable design for extended use"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "31f509d8",
+    "title": "Logitech K380 Multi-Device Bluetooth Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "Wirelessly connect up to three devices to this keyboard and switch between them with the touch of a button. Features a sleek and compact design. Perfect for multitaskers.",
+    "tags": [
+      "wireless",
+      "bluetooth",
+      "multidevice",
+      "keyboards"
+    ],
+    "price_usd": 29.99,
+    "avg_rating": 4.5,
+    "num_reviews": 12000,
+    "brand": "Logitech",
+    "asin": null,
+    "features": [
+      "Bluetooth connectivity",
+      "Wireless range up to 10 meters",
+      "Long battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ccf94726",
+    "title": "Razer BlackWidow Lite Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A high-performance gaming keyboard with customizable backlighting and macro capabilities. Features a tenkeyless design and Razer's proprietary switches.",
+    "tags": [
+      "gaming",
+      "mechanical",
+      "backlit",
+      "keyboards"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.2,
+    "num_reviews": 8000,
+    "brand": "Razer",
+    "asin": null,
+    "features": [
+      "Customizable backlighting",
+      "Macro capabilities",
+      "Tenkeyless design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "756ad917",
+    "title": "Microsoft Sculpt Ergonomic Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "An ergonomically designed keyboard that promotes comfortable typing and reduces clutter on your desk. Features a split key layout and a built-in wrist rest.",
+    "tags": [
+      "ergonomic",
+      "comfort",
+      "productivity",
+      "keyboards"
+    ],
+    "price_usd": 79.99,
+    "avg_rating": 4.1,
+    "num_reviews": 6000,
+    "brand": "Microsoft",
+    "asin": null,
+    "features": [
+      "Split key layout",
+      "Built-in wrist rest",
+      "Ergonomic design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4d11579a",
+    "title": "Corsair K95 RGB Platinum Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A high-end gaming keyboard with customizable backlighting, macro capabilities, and a robust design. Features Cherry MX Brown switches and a built-in wrist rest.",
+    "tags": [
+      "gaming",
+      "mechanical",
+      "customizable",
+      "keyboards"
+    ],
+    "price_usd": 229.99,
+    "avg_rating": 4.6,
+    "num_reviews": 20000,
+    "brand": "Corsair",
+    "asin": null,
+    "features": [
+      "Customizable backlighting",
+      "Macro capabilities",
+      "Cherry MX Brown switches"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f5275112",
+    "title": "Dell KB216 Wired Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A reliable and affordable wired keyboard perfect for everyday use. Features a sleek and compact design.",
+    "tags": [
+      "wired",
+      "compact",
+      "affordable",
+      "keyboards"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.0,
+    "num_reviews": 5000,
+    "brand": "Dell",
+    "asin": null,
+    "features": [
+      "Durable construction",
+      "Long cord length",
+      "Compact design"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2cbf6e6a",
+    "title": "Logitech K480 Multi-Device Bluetooth Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "Wirelessly connect up to three devices to this keyboard and switch between them with the touch of a button. Features a sleek and compact design. Perfect for multitaskers.",
+    "tags": [
+      "wireless",
+      "bluetooth",
+      "multidevice",
+      "keyboards"
+    ],
+    "price_usd": 39.99,
+    "avg_rating": 4.3,
+    "num_reviews": 10000,
+    "brand": "Logitech",
+    "asin": null,
+    "features": [
+      "Bluetooth connectivity",
+      "Wireless range up to 10 meters",
+      "Long battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e73896eb",
+    "title": "SteelSeries Apex 7 TKL Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A compact and customizable gaming keyboard with Cherry MX Brown switches and a built-in wrist rest. Features a sleek and durable design.",
+    "tags": [
+      "gaming",
+      "compact",
+      "mechanical",
+      "keyboards"
+    ],
+    "price_usd": 99.99,
+    "avg_rating": 4.4,
+    "num_reviews": 8000,
+    "brand": "SteelSeries",
+    "asin": null,
+    "features": [
+      "Compact design",
+      "Cherry MX Brown switches",
+      "Built-in wrist rest"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "56785839",
+    "title": "Microsoft Universal Foldable Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A portable and foldable keyboard that's perfect for use on the go. Features a durable design and Bluetooth connectivity.",
+    "tags": [
+      "portable",
+      "foldable",
+      "bluetooth",
+      "keyboards"
+    ],
+    "price_usd": 59.99,
+    "avg_rating": 4.2,
+    "num_reviews": 3000,
+    "brand": "Microsoft",
+    "asin": null,
+    "features": [
+      "Foldable design",
+      "Bluetooth connectivity",
+      "Long battery life"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1ebd450d",
+    "title": "Razer BlackWidow Chroma V2 Gaming Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A high-performance gaming keyboard with customizable backlighting and macro capabilities. Features Razer's proprietary switches and a sleek design.",
+    "tags": [
+      "gaming",
+      "customizable",
+      "mechanical",
+      "keyboards"
+    ],
+    "price_usd": 129.99,
+    "avg_rating": 4.5,
+    "num_reviews": 10000,
+    "brand": "Razer",
+    "asin": null,
+    "features": [
+      "Customizable backlighting",
+      "Macro capabilities",
+      "Razer's proprietary switches"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "812341d4",
+    "title": "Anne Pro 2 Wireless Mechanical Keyboard",
+    "category": "Electronics",
+    "subcategory": "Keyboards",
+    "description": "A compact and wireless mechanical keyboard with customizable backlighting and macro capabilities. Features Cherry MX Brown switches and a sleek design.",
+    "tags": [
+      "wireless",
+      "mechanical",
+      "customizable",
+      "keyboards"
+    ],
+    "price_usd": 169.99,
+    "avg_rating": 4.7,
+    "num_reviews": 5000,
+    "brand": "Anne",
+    "asin": null,
+    "features": [
+      "Wireless connectivity",
+      "Cherry MX Brown switches",
+      "Customizable backlighting"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b6b7a181",
+    "title": "Sony Alpha a6400 Mirrorless Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Experience superior image quality with the Sony Alpha a6400 mirrorless camera. Equipped with a 24.2 MP Exmor sensor, fast autofocus, and advanced image stabilization. Ideal for capturing life's precious moments.",
+    "tags": [
+      "mirrorless",
+      "interchangeable lens",
+      "4k video",
+      "touchscreen",
+      "wi-fi"
+    ],
+    "price_usd": 999.99,
+    "avg_rating": 4.5,
+    "num_reviews": 15000,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "24.2 MP Exmor sensor",
+      "Fast autofocus with 425 phase-detection points",
+      "Advanced image stabilization"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "507f4b81",
+    "title": "Canon EOS 5D Mark IV DSLR Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture stunning images with the Canon EOS 5D Mark IV DSLR camera. Featuring a 30.4 MP full-frame sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "dslr",
+      "full-frame",
+      "4k video",
+      "wi-fi",
+      "dual sd card slots"
+    ],
+    "price_usd": 2999.99,
+    "avg_rating": 4.8,
+    "num_reviews": 30000,
+    "brand": "Canon",
+    "asin": null,
+    "features": [
+      "30.4 MP full-frame CMOS sensor",
+      "Advanced autofocus with 61 phase-detection points",
+      "4K video recording at 30p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "3c21a2f2",
+    "title": "Nikon D5600 DSLR Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Unleash your creativity with the Nikon D5600 DSLR camera. Featuring a 24.2 MP APS-C sensor, vari-angle touchscreen LCD, and built-in Wi-Fi.",
+    "tags": [
+      "dslr",
+      "aps-c",
+      "touchscreen",
+      "wi-fi",
+      "4k time-lapse"
+    ],
+    "price_usd": 699.99,
+    "avg_rating": 4.2,
+    "num_reviews": 10000,
+    "brand": "Nikon",
+    "asin": null,
+    "features": [
+      "24.2 MP APS-C CMOS sensor",
+      "Vari-angle touchscreen LCD",
+      "Built-in Wi-Fi and Bluetooth"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bf3e0b5d",
+    "title": "Fujifilm X-T3 Mirrorless Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Experience professional-grade image quality with the Fujifilm X-T3 mirrorless camera. Featuring a 26.1 MP X-Trans sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "mirrorless",
+      "x-trans",
+      "4k video",
+      "wi-fi",
+      "dual sd card slots"
+    ],
+    "price_usd": 1499.99,
+    "avg_rating": 4.6,
+    "num_reviews": 20000,
+    "brand": "Fujifilm",
+    "asin": null,
+    "features": [
+      "26.1 MP X-Trans CMOS sensor",
+      "Advanced autofocus with 425 phase-detection points",
+      "4K video recording at 60p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "145cd935",
+    "title": "Panasonic Lumix GH5 Mirrorless Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture stunning images with the Panasonic Lumix GH5 mirrorless camera. Featuring a 20.3 MP Micro Four Thirds sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "mirrorless",
+      "micro four thirds",
+      "4k video",
+      "wi-fi",
+      "dual sd card slots"
+    ],
+    "price_usd": 1499.99,
+    "avg_rating": 4.5,
+    "num_reviews": 25000,
+    "brand": "Panasonic",
+    "asin": null,
+    "features": [
+      "20.3 MP Micro Four Thirds CMOS sensor",
+      "Advanced autofocus with 225 phase-detection points",
+      "4K video recording at 60p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7f86f634",
+    "title": "Olympus OM-D E-M5 Mark III Mirrorless Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Experience exceptional image quality with the Olympus OM-D E-M5 Mark III mirrorless camera. Featuring a 20.4 MP Micro Four Thirds sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "mirrorless",
+      "micro four thirds",
+      "4k video",
+      "wi-fi",
+      "in-body image stabilization"
+    ],
+    "price_usd": 1299.99,
+    "avg_rating": 4.4,
+    "num_reviews": 15000,
+    "brand": "Olympus",
+    "asin": null,
+    "features": [
+      "20.4 MP Micro Four Thirds CMOS sensor",
+      "Advanced autofocus with 121 phase-detection points",
+      "4K video recording at 30p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f4ee611e",
+    "title": "Sony RX100 VII Point-and-Shoot Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture stunning images with the Sony RX100 VII point-and-shoot camera. Featuring a 20.1 MP Exmor sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "point-and-shoot",
+      "exmor",
+      "4k video",
+      "wi-fi",
+      "24-200mm lens"
+    ],
+    "price_usd": 1299.99,
+    "avg_rating": 4.7,
+    "num_reviews": 10000,
+    "brand": "Sony",
+    "asin": null,
+    "features": [
+      "20.1 MP Exmor CMOS sensor",
+      "Advanced autofocus with 315 phase-detection points",
+      "4K video recording at 30p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "49cbc077",
+    "title": "GoPro Hero9 Black Action Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture life's adventures with the GoPro Hero9 Black action camera. Featuring a 12 MP sensor, advanced stabilization, and 5K video recording capabilities.",
+    "tags": [
+      "action camera",
+      "4k video",
+      "wi-fi",
+      "touchscreen",
+      "durable design"
+    ],
+    "price_usd": 399.99,
+    "avg_rating": 4.9,
+    "num_reviews": 50000,
+    "brand": "GoPro",
+    "asin": null,
+    "features": [
+      "12 MP sensor",
+      "Advanced stabilization with HyperSmooth 2.0",
+      "5K video recording at 30p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2ea36b00",
+    "title": "Canon EOS Rebel T8i DSLR Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture stunning images with the Canon EOS Rebel T8i DSLR camera. Featuring a 24.1 MP APS-C sensor, advanced autofocus, and 4K video recording capabilities.",
+    "tags": [
+      "dslr",
+      "aps-c",
+      "4k video",
+      "wi-fi",
+      "dual sd card slots"
+    ],
+    "price_usd": 799.99,
+    "avg_rating": 4.3,
+    "num_reviews": 20000,
+    "brand": "Canon",
+    "asin": null,
+    "features": [
+      "24.1 MP APS-C CMOS sensor",
+      "Advanced autofocus with 45 phase-detection points",
+      "4K video recording at 30p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "6c4ccc5f",
+    "title": "Nikon D3500 DSLR Camera",
+    "category": "Electronics",
+    "subcategory": "Cameras",
+    "description": "Capture life's precious moments with the Nikon D3500 DSLR camera. Featuring an 24.2 MP APS-C sensor, advanced autofocus, and 1080p video recording capabilities.",
+    "tags": [
+      "dslr",
+      "aps-c",
+      "1080p video",
+      "wi-fi",
+      "no mirror"
+    ],
+    "price_usd": 499.99,
+    "avg_rating": 4.1,
+    "num_reviews": 15000,
+    "brand": "Nikon",
+    "asin": null,
+    "features": [
+      "24.2 MP APS-C CMOS sensor",
+      "Advanced autofocus with 11 cross-type AF points",
+      "1080p video recording at 60p"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "034056ac",
+    "title": "Diaspora",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel is a thought-provoking exploration of artificial intelligence and consciousness. The story follows three groups of humans trying to escape the destruction of Earth. It's a gripping tale of survival and self-discovery.",
+    "tags": [
+      "Science Fiction",
+      "Artificial Intelligence",
+      "Earth Destruction",
+      "Space Exploration",
+      "Human Evolution"
+    ],
+    "price_usd": 15.99,
+    "avg_rating": 4.2,
+    "num_reviews": 12000,
+    "brand": "Greg Egan",
+    "asin": null,
+    "features": [
+      "AI driven storyline",
+      "Gripping space exploration",
+      "Thematic exploration of human existence"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2b5fac97",
+    "title": "Ancillary Justice",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This book follows Breq, an AI who was once a ship's AI and seeks revenge against the ruler who destroyed her ship and crew. An engaging and thought-provoking novel that explores issues of identity and power.",
+    "tags": [
+      "Science Fiction",
+      "Artificial Intelligence",
+      "Identity",
+      "Power Struggle",
+      "Revenge"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.4,
+    "num_reviews": 15000,
+    "brand": "Ann Leckie",
+    "asin": null,
+    "features": [
+      "AI protagonist",
+      "Gripping revenge story",
+      "Thought-provoking themes"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c4ea6b59",
+    "title": "The Three-Body Problem",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This award-winning novel is a science fiction epic that explores the first contact between humans and an alien civilization. A gripping and thought-provoking tale of science, politics, and culture.",
+    "tags": [
+      "Science Fiction",
+      "Alien Civilization",
+      "First Contact",
+      "Science vs Politics",
+      "Cultural Clashes"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.6,
+    "num_reviews": 20000,
+    "brand": "Liu Cixin",
+    "asin": null,
+    "features": [
+      "Award-winning novel",
+      "Science vs politics",
+      "Gripping space epic"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "9f7cc045",
+    "title": "Old Man's War",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel follows John Perry, a 75-year-old man who joins the military to fight in an intergalactic war. A thrilling and thought-provoking tale of adventure, duty, and self-discovery.",
+    "tags": [
+      "Science Fiction",
+      "Intergalactic War",
+      "Space Marines",
+      "Adventure",
+      "Self-Discovery"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.1,
+    "num_reviews": 10000,
+    "brand": "John Scalzi",
+    "asin": null,
+    "features": [
+      "Space Marines",
+      "Intergalactic war",
+      "Adventure and self-discovery"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "9bdba295",
+    "title": "The Expanse: Leviathan Wakes",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel is the first in The Expanse series and follows James Holden, a ship's captain, as he becomes embroiled in a conspiracy that threatens the fragile balance of power in the solar system.",
+    "tags": [
+      "Science Fiction",
+      "Space Opera",
+      "Conspiracy",
+      "Solar System",
+      "Power Struggle"
+    ],
+    "price_usd": 16.99,
+    "avg_rating": 4.5,
+    "num_reviews": 25000,
+    "brand": "James S. A. Corey",
+    "asin": null,
+    "features": [
+      "Space opera",
+      "Gripping conspiracy story",
+      "Solar system politics"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b9395f85",
+    "title": "The Quantum Thief",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel is a gripping and thought-provoking tale of identity, culture, and politics set in a distant future where a charismatic thief known as the Quantum Thief must navigate the complexities of advanced technology and human relationships.",
+    "tags": [
+      "Science Fiction",
+      "Identity",
+      "Culture",
+      "Advanced Technology",
+      "Human Relationships"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.3,
+    "num_reviews": 8000,
+    "brand": "Hannu Rajaniemi",
+    "asin": null,
+    "features": [
+      "Gripping identity story",
+      "Culture clashes",
+      "Advanced technology"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "eaabe692",
+    "title": "Saturn's Children",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel is set in a distant future where humanity has gone extinct and intelligent robots have inherited the solar system. A humorous and thought-provoking tale of social commentary and human relationships.",
+    "tags": [
+      "Science Fiction",
+      "Robots",
+      "Social Commentary",
+      "Human Relationships",
+      "Humor"
+    ],
+    "price_usd": 11.99,
+    "avg_rating": 4.0,
+    "num_reviews": 6000,
+    "brand": "Charles Stross",
+    "asin": null,
+    "features": [
+      "Gripping robot story",
+      "Social commentary",
+      "Humor"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "bd0172f9",
+    "title": "Aurora",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel follows the story of a generation ship that has been traveling through space for hundreds of years. A thought-provoking tale of survival, duty, and human relationships.",
+    "tags": [
+      "Science Fiction",
+      "Generation Ship",
+      "Survival",
+      "Duty",
+      "Human Relationships"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.4,
+    "num_reviews": 15000,
+    "brand": "Kim Stanley Robinson",
+    "asin": null,
+    "features": [
+      "Thought-provoking generation ship story",
+      "Survival and duty"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "3750f384",
+    "title": "We Are Legion (We Are Bob)",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel follows Bob Johansson, a software engineer who becomes the first human being to achieve immortality by uploading his consciousness into a computer. A humorous and thought-provoking tale of identity, power, and human relationships.",
+    "tags": [
+      "Science Fiction",
+      "Immortality",
+      "Identity",
+      "Power",
+      "Human Relationships"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.1,
+    "num_reviews": 10000,
+    "brand": "Dennis E. Taylor",
+    "asin": null,
+    "features": [
+      "Gripping immortality story",
+      "Humor and satire"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "ed68a76a",
+    "title": "Altered Carbon",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "This novel is set in a future where human consciousness can be transferred into new bodies. A gripping and thought-provoking tale of power, identity, and human relationships.",
+    "tags": [
+      "Science Fiction",
+      "Identity",
+      "Power",
+      "Human Relationships",
+      "Future Society"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.2,
+    "num_reviews": 12000,
+    "brand": "Richard K. Morgan",
+    "asin": null,
+    "features": [
+      "Gripping power story",
+      "Identity and relationships"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c48a5774",
+    "title": "Acer R240HY 24\" Full HD LED Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Acer R240HY features a 24\" Full HD display with 1920x1080 resolution and a 5ms response time. It's perfect for general office and home use. It also includes a range of connectivity options, including DVI, HDMI, and VGA.",
+    "tags": [
+      "full-hd",
+      "led-monitor",
+      "acer",
+      "24-inch",
+      "hdmi",
+      "dvi"
+    ],
+    "price_usd": 179.99,
+    "avg_rating": 4.1,
+    "num_reviews": 1249,
+    "brand": "Acer",
+    "asin": null,
+    "features": [
+      "Full HD 1920x1080 resolution",
+      "LED backlighting",
+      "Connectivity options include DVI, HDMI, and VGA"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "7654fb62",
+    "title": "LG 27UK850-W 27\" 5K IPS Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The LG 27UK850-W features a 27\" 5K display with 5120x2880 resolution and a 5ms response time. It's perfect for graphics designers and anyone who needs high-resolution displays. It also includes a range of connectivity options, including USB-C, HDMI, and DisplayPort.",
+    "tags": [
+      "5k-monitor",
+      "ips-panel",
+      "lg",
+      "27-inch",
+      "usb-c",
+      "displayport"
+    ],
+    "price_usd": 699.99,
+    "avg_rating": 4.5,
+    "num_reviews": 2050,
+    "brand": "LG",
+    "asin": null,
+    "features": [
+      "5K 5120x2880 resolution",
+      "IPS panel for wide viewing angles",
+      "Connectivity options include USB-C, HDMI, and DisplayPort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "69b278af",
+    "title": "ASUS VG248QE 24\" 144Hz Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The ASUS VG248QE features a 24\" display with 1920x1080 resolution and a 144Hz refresh rate. It's perfect for serious gamers who want fast response times and smooth motion. It also includes a range of connectivity options, including HDMI and DVI.",
+    "tags": [
+      "gaming-monitor",
+      "144hz",
+      "asus",
+      "24-inch",
+      "hdi",
+      "dvi"
+    ],
+    "price_usd": 249.99,
+    "avg_rating": 4.3,
+    "num_reviews": 1500,
+    "brand": "ASUS",
+    "asin": null,
+    "features": [
+      "24\" display with 1920x1080 resolution",
+      "144Hz refresh rate for smooth motion",
+      "Connectivity options include HDMI and DVI"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f7909a29",
+    "title": "ViewSonic XG240R 24\" 1080p Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The ViewSonic XG240R features a 24\" display with 1920x1080 resolution and a 60Hz refresh rate. It's perfect for casual gamers who want a reliable and affordable monitor. It also includes a range of connectivity options, including HDMI and DVI.",
+    "tags": [
+      "gaming-monitor",
+      "1080p",
+      "viewsonic",
+      "24-inch",
+      "hdmi",
+      "dvi"
+    ],
+    "price_usd": 179.99,
+    "avg_rating": 4.0,
+    "num_reviews": 1000,
+    "brand": "ViewSonic",
+    "asin": null,
+    "features": [
+      "24\" display with 1920x1080 resolution",
+      "60Hz refresh rate for smooth motion",
+      "Connectivity options include HDMI and DVI"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "e442e04e",
+    "title": "Dell U2419 24\" Full HD IPS Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Dell U2419 features a 24\" Full HD display with 1920x1080 resolution and an IPS panel for wide viewing angles. It's perfect for general office and home use. It also includes a range of connectivity options, including HDMI and DisplayPort.",
+    "tags": [
+      "full-hd",
+      "ips-panel",
+      "dell",
+      "24-inch",
+      "hdmi",
+      "displayport"
+    ],
+    "price_usd": 199.99,
+    "avg_rating": 4.2,
+    "num_reviews": 1200,
+    "brand": "Dell",
+    "asin": null,
+    "features": [
+      "Full HD 1920x1080 resolution",
+      "IPS panel for wide viewing angles",
+      "Connectivity options include HDMI and DisplayPort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "34b0eb6a",
+    "title": "BenQ PD2700U 27\" 4K UHD IPS Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The BenQ PD2700U features a 27\" 4K display with 3840x2160 resolution and an IPS panel for wide viewing angles. It's perfect for graphic designers and anyone who needs high-resolution displays. It also includes a range of connectivity options, including HDMI and DisplayPort.",
+    "tags": [
+      "4k-monitor",
+      "ips-panel",
+      "benq",
+      "27-inch",
+      "hdmi",
+      "displayport"
+    ],
+    "price_usd": 499.99,
+    "avg_rating": 4.4,
+    "num_reviews": 2000,
+    "brand": "BenQ",
+    "asin": null,
+    "features": [
+      "4K 3840x2160 resolution",
+      "IPS panel for wide viewing angles",
+      "Connectivity options include HDMI and DisplayPort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "a3a751dd",
+    "title": "HP Pavilion 22cwa 22\" Full HD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The HP Pavilion 22cwa features a 22\" Full HD display with 1920x1080 resolution and a 2ms response time. It's perfect for general office and home use. It also includes a range of connectivity options, including HDMI and VGA.",
+    "tags": [
+      "full-hd",
+      "hp",
+      "22-inch",
+      "hdmi",
+      "vga"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.0,
+    "num_reviews": 900,
+    "brand": "HP",
+    "asin": null,
+    "features": [
+      "Full HD 1920x1080 resolution",
+      "2ms response time for smooth motion",
+      "Connectivity options include HDMI and VGA"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "304a8946",
+    "title": "AOC CU34G2X 34\" Curved 3440x1440 Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The AOC CU34G2X features a 34\" curved display with 3440x1440 resolution and a 144Hz refresh rate. It's perfect for serious gamers who want fast response times and smooth motion. It also includes a range of connectivity options, including HDMI and DisplayPort.",
+    "tags": [
+      "curved-monitor",
+      "144hz",
+      "aoc",
+      "34-inch",
+      "hdmi",
+      "displayport"
+    ],
+    "price_usd": 399.99,
+    "avg_rating": 4.3,
+    "num_reviews": 1500,
+    "brand": "AOC",
+    "asin": null,
+    "features": [
+      "34\" curved display with 3440x1440 resolution",
+      "144Hz refresh rate for smooth motion",
+      "Connectivity options include HDMI and DisplayPort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1c926ac8",
+    "title": "Samsung UE590 32\" 4K UHD Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The Samsung UE590 features a 32\" 4K display with 3840x2160 resolution and an HDR10 support. It's perfect for graphic designers and anyone who needs high-resolution displays. It also includes a range of connectivity options, including HDMI and DisplayPort.",
+    "tags": [
+      "4k-monitor",
+      "hdr-10",
+      "samsung",
+      "32-inch",
+      "hdmi",
+      "displayport"
+    ],
+    "price_usd": 599.99,
+    "avg_rating": 4.5,
+    "num_reviews": 2500,
+    "brand": "Samsung",
+    "asin": null,
+    "features": [
+      "4K 3840x2160 resolution",
+      "HDR10 support for improved color accuracy",
+      "Connectivity options include HDMI and DisplayPort"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c16918d2",
+    "title": "MSI Optix MAG241C 24\" 1080p Gaming Monitor",
+    "category": "Electronics",
+    "subcategory": "Monitors",
+    "description": "The MSI Optix MAG241C features a 24\" display with 1920x1080 resolution and a 60Hz refresh rate. It's perfect for casual gamers who want a reliable and affordable monitor. It also includes a range of connectivity options, including HDMI and DVI.",
+    "tags": [
+      "gaming-monitor",
+      "1080p",
+      "msi",
+      "24-inch",
+      "hdmi",
+      "dvi"
+    ],
+    "price_usd": 149.99,
+    "avg_rating": 4.0,
+    "num_reviews": 1000,
+    "brand": "MSI",
+    "asin": null,
+    "features": [
+      "24\" display with 1920x1080 resolution",
+      "60Hz refresh rate for smooth motion",
+      "Connectivity options include HDMI and DVI"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "5e50663f",
+    "title": "Distant Horizons",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "A group of space explorers stumble upon an abandoned alien city, unleashing a chain of events that threaten the future of humanity. As they navigate the ruins, they uncover secrets that challenge everything they thought they knew about the universe.",
+    "tags": [
+      "Science Fiction",
+      "Space Exploration",
+      "Alien Invasions",
+      "Humanity's Future"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1234,
+    "brand": "Galactic Press",
+    "asin": null,
+    "features": [
+      "Immersive world-building",
+      "Thought-provoking themes",
+      "Gripping plot"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "b83a2697",
+    "title": "The Quantum Prophecy",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a group of scientists discover a way to manipulate quantum probability, they unleash a catastrophic event that threatens to destroy the fabric of reality. Can they find a way to prevent the impending disaster before it's too late?",
+    "tags": [
+      "Science Fiction",
+      "Quantum Physics",
+      "Alternate Reality",
+      "Catastrophe"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.2,
+    "num_reviews": 5678,
+    "brand": "Futura Publishing",
+    "asin": null,
+    "features": [
+      "Original concept",
+      "Thrilling plot twists",
+      "Compelling characters"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "2e9675f6",
+    "title": "Infinity's Edge",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where humanity has colonized the stars, a lone space pilot must navigate the treacherous landscape of intergalactic politics to prevent a war that could destroy entire civilizations.",
+    "tags": [
+      "Science Fiction",
+      "Space Opera",
+      "Intergalactic Politics",
+      "War"
+    ],
+    "price_usd": 16.99,
+    "avg_rating": 4.8,
+    "num_reviews": 9123,
+    "brand": "Cosmic Books",
+    "asin": null,
+    "features": [
+      "Epic scope",
+      "Complex characters",
+      "Thematic depth"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "de902187",
+    "title": "The Memory Thief",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where memories can be stolen and manipulated, a gifted thief must navigate the complex web of corporate espionage to uncover the truth about a powerful CEO's secret past.",
+    "tags": [
+      "Science Fiction",
+      "Memory Theft",
+      "Corporate Espionage",
+      "Thriller"
+    ],
+    "price_usd": 9.99,
+    "avg_rating": 4.1,
+    "num_reviews": 1456,
+    "brand": "Neo-Tech Publishing",
+    "asin": null,
+    "features": [
+      "Innovative concept",
+      "Fast-paced action",
+      "Twists and turns"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "4a558793",
+    "title": "The Last Hope",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a post-apocalyptic world where humanity is on the brink of extinction, a small group of survivors must band together to find a way to restore the planet to its former glory.",
+    "tags": [
+      "Science Fiction",
+      "Post-Apocalyptic",
+      "Survival",
+      "Rebirth"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.6,
+    "num_reviews": 2198,
+    "brand": "Apex Press",
+    "asin": null,
+    "features": [
+      "Hauntingly realistic",
+      "Empowering themes",
+      "Gripping plot"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "20611dd3",
+    "title": "The Chronos Paradox",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "When a group of scientists discover a way to manipulate time, they unleash a catastrophic event that threatens to erase entire eras from history. Can they find a way to prevent the impending disaster before it's too late?",
+    "tags": [
+      "Science Fiction",
+      "Time Travel",
+      "Alternate Reality",
+      "Catastrophe"
+    ],
+    "price_usd": 15.99,
+    "avg_rating": 4.4,
+    "num_reviews": 3421,
+    "brand": "Paradox Publishing",
+    "asin": null,
+    "features": [
+      "Original concept",
+      "Thrilling plot twists",
+      "Compelling characters"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "34c25785",
+    "title": "The Aurora Initiative",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where humanity has colonized the stars, a group of scientists must navigate the complex web of intergalactic politics to prevent a war that could destroy entire civilizations.",
+    "tags": [
+      "Science Fiction",
+      "Space Opera",
+      "Intergalactic Politics",
+      "War"
+    ],
+    "price_usd": 14.99,
+    "avg_rating": 4.7,
+    "num_reviews": 5679,
+    "brand": "Stellar Press",
+    "asin": null,
+    "features": [
+      "Epic scope",
+      "Complex characters",
+      "Thematic depth"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "cc79d61b",
+    "title": "The Shadow Net",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where virtual reality has surpassed the physical world, a group of hackers must navigate the complex web of corporate espionage to uncover the truth about a powerful CEO's secret past.",
+    "tags": [
+      "Science Fiction",
+      "Virtual Reality",
+      "Corporate Espionage",
+      "Thriller"
+    ],
+    "price_usd": 10.99,
+    "avg_rating": 4.3,
+    "num_reviews": 1234,
+    "brand": "NetSec Publishing",
+    "asin": null,
+    "features": [
+      "Innovative concept",
+      "Fast-paced action",
+      "Twists and turns"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1a9f4f8c",
+    "title": "The Lost City",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where ancient civilizations have left behind a legacy of advanced technology, a group of explorers must navigate the treacherous landscape of hidden ruins to uncover the secrets of the past.",
+    "tags": [
+      "Science Fiction",
+      "Ancient Civilization",
+      "Lost City",
+      "Adventure"
+    ],
+    "price_usd": 12.99,
+    "avg_rating": 4.9,
+    "num_reviews": 9123,
+    "brand": "Lost City Press",
+    "asin": null,
+    "features": [
+      "Gripping plot",
+      "Compelling characters",
+      "Thematic depth"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f65a67f8",
+    "title": "The Artificial Mind",
+    "category": "Books",
+    "subcategory": "Science Fiction",
+    "description": "In a world where artificial intelligence has surpassed human intelligence, a group of scientists must navigate the complex web of ethics and morality to prevent a catastrophe that could destroy human civilization.",
+    "tags": [
+      "Science Fiction",
+      "Artificial Intelligence",
+      "Ethics",
+      "Catastrophe"
+    ],
+    "price_usd": 13.99,
+    "avg_rating": 4.5,
+    "num_reviews": 1456,
+    "brand": "Intellect Press",
+    "asin": null,
+    "features": [
+      "Original concept",
+      "Thrilling plot twists",
+      "Compelling characters"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c9d6f74d",
+    "title": "Nike Air Zoom Alphafly Next%",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Nike Air Zoom Alphafly Next% features a full-length Zoom Air unit and a full-length carbon plate for ultimate energy return and responsiveness. This shoe is designed for elite runners who demand the very best. Enjoy a silky-smooth ride and incredible support.",
+    "tags": [
+      "Running Shoes",
+      "Nike",
+      "Men's",
+      "Carbon Plate",
+      "Max Cushioning"
+    ],
+    "price_usd": 250.0,
+    "avg_rating": 4.8,
+    "num_reviews": 10532,
+    "brand": "Nike",
+    "asin": null,
+    "features": [
+      "Full-length Zoom Air unit",
+      "Full-length carbon plate",
+      "Customizable lacing system",
+      "Ortholite sockliner",
+      "Mesh upper for breathability"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "c04d3322",
+    "title": "Under Armour Slingshot 3 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Under Armour Slingshot 3 is a versatile running shoe that offers a comfortable ride and excellent support for longer runs. Its Micro G unit provides a boost of energy return while the supportive outsole keeps your feet secure.",
+    "tags": [
+      "Running Shoes",
+      "Under Armour",
+      "Men's",
+      "Micro G Unit",
+      "Breathable Upper"
+    ],
+    "price_usd": 80.0,
+    "avg_rating": 4.5,
+    "num_reviews": 2759,
+    "brand": "Under Armour",
+    "asin": null,
+    "features": [
+      "Micro G unit for energy return",
+      "Supportive outsole",
+      "Breathable mesh upper",
+      "Quick-lick lacing system",
+      "Ortholite sockliner"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "fb30c342",
+    "title": "Brooks Ghost 14 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Brooks Ghost 14 is a supportive and smooth-riding shoe designed for the needs of serious runners. Its BioMoGo DNA midsole adapts to your running style and offers personalized comfort.",
+    "tags": [
+      "Running Shoes",
+      "Brooks",
+      "Men's",
+      "BioMoGo DNA Midsole",
+      "Smooth Ride"
+    ],
+    "price_usd": 120.0,
+    "avg_rating": 4.7,
+    "num_reviews": 13421,
+    "brand": "Brooks",
+    "asin": null,
+    "features": [
+      "BioMoGo DNA midsole for personalized comfort",
+      "Soft and smooth ride",
+      "Supportive heel counter",
+      "Breathable mesh upper",
+      "DNA LOFT cushioning"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "0bec30ed",
+    "title": "ASICS Gel-Kayano 29 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The ASICS Gel-Kayano 29 features a spacious toe box and a gel cushioning system for added comfort and support. Its FLYTEFOAM midsole provides a springy and responsive ride.",
+    "tags": [
+      "Running Shoes",
+      "ASICS",
+      "Men's",
+      "Gel Cushioning",
+      "Spacious Toe Box"
+    ],
+    "price_usd": 160.0,
+    "avg_rating": 4.9,
+    "num_reviews": 21311,
+    "brand": "ASICS",
+    "asin": null,
+    "features": [
+      "Gel cushioning system for comfort",
+      "FLYTEFOAM midsole for responsiveness",
+      "Supportive heel counter",
+      "Breathable mesh upper",
+      "Spacious toe box"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "d620ba41",
+    "title": "New Balance Fresh Foam 1080v11 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The New Balance Fresh Foam 1080v11 features a supportive and cushioned ride thanks to its 10mm Fresh Foam midsole. Its soft and breathable upper provides a comfortable fit.",
+    "tags": [
+      "Running Shoes",
+      "New Balance",
+      "Men's",
+      "Fresh Foam Midsole",
+      "Soft Upper"
+    ],
+    "price_usd": 110.0,
+    "avg_rating": 4.6,
+    "num_reviews": 9121,
+    "brand": "New Balance",
+    "asin": null,
+    "features": [
+      "10mm Fresh Foam midsole for cushioned ride",
+      "Soft and breathable upper",
+      "Supportive heel counter",
+      "Ortholite sockliner",
+      "New Balance logo on upper"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "200f1f36",
+    "title": "Saucony Guide 14 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Saucony Guide 14 is a supportive and stable shoe designed for runners who need additional support and guidance. Its EVERUN Topsole provides a springy and responsive ride.",
+    "tags": [
+      "Running Shoes",
+      "Saucony",
+      "Men's",
+      "EVERUN Topsole",
+      "Supportive"
+    ],
+    "price_usd": 140.0,
+    "avg_rating": 4.8,
+    "num_reviews": 12345,
+    "brand": "Saucony",
+    "asin": null,
+    "features": [
+      "EVERUN Topsole for springy ride",
+      "Supportive heel counter",
+      "Breathable mesh upper",
+      "Ortholite sockliner",
+      "PWRTRAC technology"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "551ed1f2",
+    "title": "Hoka One One Clifton 8 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Hoka One One Clifton 8 features a max cushioning design for ultimate comfort and support. Its EVA midsole provides a soft and springy ride.",
+    "tags": [
+      "Running Shoes",
+      "Hoka One One",
+      "Men's",
+      "Max Cushioning",
+      "Soft Ride"
+    ],
+    "price_usd": 130.0,
+    "avg_rating": 4.9,
+    "num_reviews": 18273,
+    "brand": "Hoka One One",
+    "asin": null,
+    "features": [
+      "Max cushioning design for comfort",
+      "EVA midsole for soft ride",
+      "Supportive heel counter",
+      "Breathable mesh upper",
+      "Ortholite sockliner"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f3c871ea",
+    "title": "Adidas Ultraboost 22 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Adidas Ultraboost 22 features a full-length Boost midsole for ultimate energy return and responsiveness. Its soft and breathable upper provides a comfortable fit.",
+    "tags": [
+      "Running Shoes",
+      "Adidas",
+      "Men's",
+      "Boost Midsole",
+      "Soft Upper"
+    ],
+    "price_usd": 180.0,
+    "avg_rating": 4.7,
+    "num_reviews": 13569,
+    "brand": "Adidas",
+    "asin": null,
+    "features": [
+      "Full-length Boost midsole for energy return",
+      "Soft and breathable upper",
+      "Supportive heel counter",
+      "Ortholite sockliner",
+      "Adidas logo on upper"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "f851c93a",
+    "title": "Under Armour Slingshot 2 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Under Armour Slingshot 2 is a lightweight and supportive running shoe designed for quick and efficient runs. Its Micro G unit provides a boost of energy return.",
+    "tags": [
+      "Running Shoes",
+      "Under Armour",
+      "Men's",
+      "Micro G Unit",
+      "Lightweight"
+    ],
+    "price_usd": 90.0,
+    "avg_rating": 4.4,
+    "num_reviews": 5121,
+    "brand": "Under Armour",
+    "asin": null,
+    "features": [
+      "Micro G unit for energy return",
+      "Supportive outsole",
+      "Breathable mesh upper",
+      "Quick-lick lacing system",
+      "Ortholite sockliner"
+    ],
+    "compatible_with": []
+  },
+  {
+    "item_id": "1e574c27",
+    "title": "Brooks Launch 9 Running Shoes",
+    "category": "Sports & Outdoors",
+    "subcategory": "Running",
+    "description": "The Brooks Launch 9 features a soft and smooth ride thanks to its DNA LOFT midsole. Its supportive heel counter keeps your feet secure during long runs.",
+    "tags": [
+      "Running Shoes",
+      "Brooks",
+      "Men's",
+      "DNA LOFT Midsole",
+      "Smooth Ride"
+    ],
+    "price_usd": 100.0,
+    "avg_rating": 4.6,
+    "num_reviews": 9876,
+    "brand": "Brooks",
+    "asin": null,
+    "features": [
+      "DNA LOFT midsole for soft ride",
+      "Supportive heel counter",
+      "Breathable mesh upper",
+      "Ortholite sockliner",
+      "Brooks logo on upper"
+    ],
+    "compatible_with": []
+  }
+]

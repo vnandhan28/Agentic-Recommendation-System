@@ -1,0 +1,540 @@
+[
+  {
+    "user_id": "8efe75e0",
+    "name": "Emily Wilson",
+    "age": 31,
+    "occupation": "Marketing Manager",
+    "taste_description": "Emily loves trendy fashion, always on the lookout for unique and stylish pieces to add to her wardrobe. She's a social media influencer and often recommends products to her followers based on their style and affordability. She prioritizes quality and comfort when making a purchase.",
+    "preferred_categories": [
+      "Clothing",
+      "Electronics",
+      "Home & Kitchen"
+    ],
+    "disliked_categories": [
+      "Toys & Games"
+    ],
+    "price_sensitivity": "mid-range",
+    "purchase_history": [
+      {
+        "item_id": "xg8j2b5h",
+        "title": "Smartwatch for Women",
+        "rating_given": 4.5,
+        "review_snippet": "Love this watch, stylish and functional!"
+      },
+      {
+        "item_id": "vbx7t9q2",
+        "title": "Leather Handbag",
+        "rating_given": 4.8,
+        "review_snippet": "This bag is everything I wanted, perfect size and quality material."
+      },
+      {
+        "item_id": "rty6u7v5",
+        "title": "Wireless Earbuds",
+        "rating_given": 4.2,
+        "review_snippet": "Great sound quality and easy to pair, highly recommended!"
+      }
+    ],
+    "wishlist_keywords": [
+      "sustainable fashion",
+      "smart home devices",
+      "cozy throw blankets"
+    ]
+  },
+  {
+    "user_id": "a5b9895e",
+    "name": "Daniel Lee",
+    "age": 42,
+    "occupation": "Software Engineer",
+    "taste_description": "Daniel is a tech-savvy individual who prioritizes innovation and functionality when making a purchase. He's a busy professional who values convenience and affordability, often shopping online for quick and easy solutions. He's a fan of high-quality electronics and gadgets.",
+    "preferred_categories": [
+      "Electronics",
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "disliked_categories": [
+      "Beauty & Personal Care"
+    ],
+    "price_sensitivity": "budget",
+    "purchase_history": [
+      {
+        "item_id": "fgh8y6t7",
+        "title": "Portable Power Bank",
+        "rating_given": 4.9,
+        "review_snippet": "Great value for the price, charges quickly and holds a lot of power!"
+      },
+      {
+        "item_id": "nmh5b7u9",
+        "title": "Action Camera",
+        "rating_given": 4.5,
+        "review_snippet": "Awesome camera for capturing outdoor adventures, highly recommend!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Gaming Headset",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent sound quality and long-lasting comfort, perfect for gaming marathons!"
+      }
+    ],
+    "wishlist_keywords": [
+      "latest gaming laptops",
+      "wireless charging pads",
+      "smart fitness trackers"
+    ]
+  },
+  {
+    "user_id": "1f2069fe",
+    "name": "Sophia Patel",
+    "age": 25,
+    "occupation": "Graphic Designer",
+    "taste_description": "Sophia is a creative and fashion-forward individual who prioritizes style and self-expression when making a purchase. She's a social media enthusiast who loves discovering new trends and influencers. She values high-quality, unique, and sustainable products.",
+    "preferred_categories": [
+      "Clothing",
+      "Home & Kitchen",
+      "Beauty & Personal Care"
+    ],
+    "disliked_categories": [
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "price_sensitivity": "premium",
+    "purchase_history": [
+      {
+        "item_id": "poiu8y6t",
+        "title": "Artisanal Soap Set",
+        "rating_given": 4.9,
+        "review_snippet": "Love these soaps, amazing scents and moisturizing properties!"
+      },
+      {
+        "item_id": "asdf5g6h",
+        "title": "Handmade Jewelry",
+        "rating_given": 4.8,
+        "review_snippet": "Stunning piece, unique design and excellent craftsmanship!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Wine and Cheese Gift Basket",
+        "rating_given": 4.6,
+        "review_snippet": "Perfect gift for wine lovers, great selection and presentation!"
+      },
+      {
+        "item_id": "nmh5k7u9",
+        "title": "Eco-Friendly Reusable Bag",
+        "rating_given": 4.5,
+        "review_snippet": "Love this bag, durable and stylish!"
+      },
+      {
+        "item_id": "vcxz7w6e",
+        "title": "Gourmet Food Subscription Box",
+        "rating_given": 4.4,
+        "review_snippet": "Delicious and unique products, great value for the price!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Designer Home Decor",
+        "rating_given": 4.8,
+        "review_snippet": "Stunning piece, excellent quality and design!"
+      }
+    ],
+    "wishlist_keywords": [
+      "sustainable fashion brands",
+      "artisanal home decor",
+      "wellness retreats"
+    ]
+  },
+  {
+    "user_id": "45c42bb7",
+    "name": "Michael Brown",
+    "age": 38,
+    "occupation": "Financial Analyst",
+    "taste_description": "Michael is a practical and detail-oriented individual who prioritizes value and functionality when making a purchase. He's a budget-conscious shopper who values affordability and reliability. He's a fan of classic designs and high-quality products.",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics",
+      "Sports & Outdoors"
+    ],
+    "disliked_categories": [
+      "Beauty & Personal Care",
+      "Toys & Games"
+    ],
+    "price_sensitivity": "budget",
+    "purchase_history": [
+      {
+        "item_id": "jklp9o8i",
+        "title": "Stand Mixer",
+        "rating_given": 4.9,
+        "review_snippet": "Great value for the price, performs well and easy to clean!"
+      },
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Smart Thermostat",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent product, energy-efficient and user-friendly!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Gaming Mouse",
+        "rating_given": 4.5,
+        "review_snippet": "Excellent performance and comfort, highly recommend!"
+      }
+    ],
+    "wishlist_keywords": [
+      "smart home security systems",
+      "gas grills",
+      "water bottles"
+    ]
+  },
+  {
+    "user_id": "fa61c39c",
+    "name": "Ruth Davis",
+    "age": 55,
+    "occupation": "Retired Teacher",
+    "taste_description": "Ruth is a classic and elegant individual who prioritizes quality and timelessness when making a purchase. She's a sentimental shopper who values meaningful products and experiences. She's a fan of traditional designs and comfort.",
+    "preferred_categories": [
+      "Clothing",
+      "Home & Kitchen",
+      "Books"
+    ],
+    "disliked_categories": [
+      "Electronics",
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "price_sensitivity": "mid-range",
+    "purchase_history": [
+      {
+        "item_id": "poiu8y6t",
+        "title": "Classic Leather Handbag",
+        "rating_given": 4.9,
+        "review_snippet": "Timeless design, excellent quality and perfect for everyday use!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Cozy Throw Blanket",
+        "rating_given": 4.8,
+        "review_snippet": "Love this blanket, soft and warm, perfect for chilly nights!"
+      },
+      {
+        "item_id": "nmh5k7u9",
+        "title": "Personalized Photo Album",
+        "rating_given": 4.5,
+        "review_snippet": "Stunning album, beautifully crafted and perfect for storing memories!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Gourmet Food Basket",
+        "rating_given": 4.4,
+        "review_snippet": "Delicious and unique products, great for entertaining guests!"
+      }
+    ],
+    "wishlist_keywords": [
+      "traditional home decor",
+      "luxury candles",
+      "vintage clothing"
+    ]
+  },
+  {
+    "user_id": "1306bc98",
+    "name": "Emma Taylor",
+    "age": 29,
+    "occupation": "Event Planner",
+    "taste_description": "Emma is a creative and social individual who prioritizes style and entertainment when making a purchase. She's a party planner who values unique and fun products. She's a fan of trendy designs and pop culture.",
+    "preferred_categories": [
+      "Home & Kitchen",
+      "Electronics",
+      "Beauty & Personal Care"
+    ],
+    "disliked_categories": [
+      "Clothing",
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "price_sensitivity": "premium",
+    "purchase_history": [
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Smart Speaker",
+        "rating_given": 4.9,
+        "review_snippet": "Love this speaker, great sound quality and easy to use!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Luxury Home Fragrance",
+        "rating_given": 4.8,
+        "review_snippet": "Stunning scent, beautifully packaged and perfect for gifting!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "High-End Beauty Products",
+        "rating_given": 4.6,
+        "review_snippet": "Excellent products, high-quality ingredients and beautiful presentation!"
+      }
+    ],
+    "wishlist_keywords": [
+      "party decorations",
+      "gourmet food delivery",
+      "high-end fashion brands"
+    ]
+  },
+  {
+    "user_id": "2bc5bbe2",
+    "name": "Christopher Martin",
+    "age": 41,
+    "occupation": "Entrepreneur",
+    "taste_description": "Christopher is a driven and innovative individual who prioritizes quality and performance when making a purchase. He's an entrepreneur who values functionality and efficiency. He's a fan of cutting-edge designs and advanced technology.",
+    "preferred_categories": [
+      "Electronics",
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "disliked_categories": [
+      "Beauty & Personal Care",
+      "Home & Kitchen"
+    ],
+    "price_sensitivity": "premium",
+    "purchase_history": [
+      {
+        "item_id": "fgh8y6t7",
+        "title": "High-End Smartphone",
+        "rating_given": 4.9,
+        "review_snippet": "Love this phone, outstanding performance and sleek design!"
+      },
+      {
+        "item_id": "nmh5b7u9",
+        "title": "Gaming PC",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent product, high-quality components and incredible performance!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Action Camera",
+        "rating_given": 4.5,
+        "review_snippet": "Awesome camera, great for capturing high-quality video and photos!"
+      }
+    ],
+    "wishlist_keywords": [
+      "laptop sleeves",
+      "gaming chair",
+      "fitness trackers"
+    ]
+  },
+  {
+    "user_id": "7a92fcae",
+    "name": "Sarah Lee",
+    "age": 35,
+    "occupation": "Graphic Designer",
+    "taste_description": "Sarah is a creative and playful individual who prioritizes style and self-expression when making a purchase. She's a fashion enthusiast who values unique and trendy products. She's a fan of pop culture and pop art.",
+    "preferred_categories": [
+      "Clothing",
+      "Electronics",
+      "Home & Kitchen"
+    ],
+    "disliked_categories": [
+      "Toys & Games",
+      "Sports & Outdoors"
+    ],
+    "price_sensitivity": "mid-range",
+    "purchase_history": [
+      {
+        "item_id": "poiu8y6t",
+        "title": "Graphic T-Shirt",
+        "rating_given": 4.9,
+        "review_snippet": "Love this shirt, fun design and comfortable material!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Smartwatch",
+        "rating_given": 4.8,
+        "review_snippet": "Great watch, stylish and functional!"
+      },
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Wine and Cheese Gift Basket",
+        "rating_given": 4.5,
+        "review_snippet": "Perfect gift, great selection and presentation!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Cozy Throw Blanket",
+        "rating_given": 4.4,
+        "review_snippet": "Love this blanket, soft and warm, perfect for chilly nights!"
+      }
+    ],
+    "wishlist_keywords": [
+      "fashion trends",
+      "smart home devices",
+      "gourmet food delivery"
+    ]
+  },
+  {
+    "user_id": "9b2ede11",
+    "name": "Rebecca Hall",
+    "age": 28,
+    "occupation": "Dietitian",
+    "taste_description": "Rebecca is a health-conscious and active individual who prioritizes wellness and nutrition when making a purchase. She's a fitness enthusiast who values high-quality and functional products. She's a fan of sports and outdoor activities.",
+    "preferred_categories": [
+      "Beauty & Personal Care",
+      "Sports & Outdoors",
+      "Home & Kitchen"
+    ],
+    "disliked_categories": [
+      "Electronics",
+      "Toys & Games",
+      "Clothing"
+    ],
+    "price_sensitivity": "mid-range",
+    "purchase_history": [
+      {
+        "item_id": "nmh5k7u9",
+        "title": "Fitness Tracker",
+        "rating_given": 4.9,
+        "review_snippet": "Love this tracker, accurate and easy to use!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Gourmet Protein Powder",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent product, high-quality ingredients and easy to mix!"
+      },
+      {
+        "item_id": "fgh8y6t7",
+        "title": "Smart Water Bottle",
+        "rating_given": 4.5,
+        "review_snippet": "Great product, hygienic and easy to carry!"
+      }
+    ],
+    "wishlist_keywords": [
+      "healthy snacks",
+      "fitness classes",
+      "outdoor gear"
+    ]
+  },
+  {
+    "user_id": "b24c7fe3",
+    "name": "James Wilson",
+    "age": 50,
+    "occupation": "Retired Police Officer",
+    "taste_description": "James is a no-nonsense and practical individual who prioritizes quality and reliability when making a purchase. He's a seasoned shopper who values durability and performance. He's a fan of classic designs and rugged products.",
+    "preferred_categories": [
+      "Sports & Outdoors",
+      "Home & Kitchen",
+      "Electronics"
+    ],
+    "disliked_categories": [
+      "Beauty & Personal Care",
+      "Clothing",
+      "Toys & Games"
+    ],
+    "price_sensitivity": "budget",
+    "purchase_history": [
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Gaming Console",
+        "rating_given": 4.9,
+        "review_snippet": "Love this console, excellent performance and great value for the price!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Golf Club Set",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent product, high-quality components and durable material!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Action Camera",
+        "rating_given": 4.5,
+        "review_snippet": "Awesome camera, great for capturing high-quality video and photos!"
+      }
+    ],
+    "wishlist_keywords": [
+      "outdoor furniture",
+      "home security systems",
+      "gaming laptops"
+    ]
+  },
+  {
+    "user_id": "8fe15ed1",
+    "name": "Amanda Rodriguez",
+    "age": 32,
+    "occupation": "Artist",
+    "taste_description": "Amanda is a creative and eclectic individual who prioritizes self-expression and originality when making a purchase. She's a fashionista who values unique and handmade products. She's a fan of pop culture and alternative art.",
+    "preferred_categories": [
+      "Clothing",
+      "Home & Kitchen",
+      "Beauty & Personal Care"
+    ],
+    "disliked_categories": [
+      "Electronics",
+      "Sports & Outdoors",
+      "Toys & Games"
+    ],
+    "price_sensitivity": "premium",
+    "purchase_history": [
+      {
+        "item_id": "poiu8y6t",
+        "title": "Handmade Jewelry",
+        "rating_given": 4.9,
+        "review_snippet": "Stunning piece, unique design and excellent craftsmanship!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Luxury Home Fragrance",
+        "rating_given": 4.8,
+        "review_snippet": "Beautiful scent, beautifully packaged and perfect for gifting!"
+      },
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Gourmet Food Basket",
+        "rating_given": 4.5,
+        "review_snippet": "Delicious and unique products, great for entertaining guests!"
+      }
+    ],
+    "wishlist_keywords": [
+      "vintage clothing",
+      "artisanal home decor",
+      "wellness retreats"
+    ]
+  },
+  {
+    "user_id": "5647831b",
+    "name": "Kevin Johnson",
+    "age": 39,
+    "occupation": "Mechanic",
+    "taste_description": "Kevin is a practical and hands-on individual who prioritizes quality and functionality when making a purchase. He's a DIY enthusiast who values high-quality and durable products. He's a fan of classic designs and rugged products.",
+    "preferred_categories": [
+      "Sports & Outdoors",
+      "Home & Kitchen",
+      "Electronics"
+    ],
+    "disliked_categories": [
+      "Beauty & Personal Care",
+      "Clothing",
+      "Toys & Games"
+    ],
+    "price_sensitivity": "budget",
+    "purchase_history": [
+      {
+        "item_id": "mnv6b7u9",
+        "title": "Tool Set",
+        "rating_given": 4.9,
+        "review_snippet": "Love this set, excellent quality and great value for the price!"
+      },
+      {
+        "item_id": "jklp9o8i",
+        "title": "Gaming Console",
+        "rating_given": 4.8,
+        "review_snippet": "Excellent product, high-quality components and durable material!"
+      },
+      {
+        "item_id": "tyu8i6o2",
+        "title": "Smart Speaker",
+        "rating_given": 4.5,
+        "review_snippet": "Great product, easy to use and great sound quality!"
+      }
+    ],
+    "wishlist_keywords": [
+      "gaming laptops",
+      "home security systems",
+      "fitness trackers"
+    ]
+  }
+]
