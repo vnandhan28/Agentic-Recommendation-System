@@ -156,9 +156,6 @@ class RecommendationAgent:
                         query=query,
                         recommendations=parsed["recommendations"],
                         reasoning_summary=parsed.get("reasoning_summary", ""),
-                    ) if callable(getattr(AgentResponse, "model_validate", None)) and hasattr(AgentResponse, "__dataclass_fields__") else _make_response(
-                        user_id, user_meta.get("name", user_id), query,
-                        parsed["recommendations"], parsed.get("reasoning_summary", "")
                     )
 
                     yield AgentStep(
@@ -239,6 +236,33 @@ class RecommendationAgent:
             tools=TOOL_SCHEMAS,
             tool_choice="auto",
             max_tokens=2000,
+        )
+        msg = resp.choices[0].message
+        result: dict = {"content": msg.content or ""}
+        if msg.tool_calls:
+            result["tool_calls"] = [
+                {
+                    "id": tc.id,
+                    "type": "function",
+                    "function": {"name": tc.function.name, "arguments": tc.function.arguments},
+                }
+                for tc in msg.tool_calls
+            ]
+        return result
+
+    def _call_groq(self, system: str, messages: List[dict]) -> dict:
+        from openai import OpenAI
+        client = OpenAI(
+            api_key=config.api_key,
+            base_url="https://api.groq.com/openai/v1",
+        )
+        full = [{"role": "system", "content": system}] + messages
+        resp = client.chat.completions.create(
+            model=config.LLM_MODEL,
+            messages=full,
+            tools=TOOL_SCHEMAS,
+            tool_choice="auto",
+            max_tokens=1500,
         )
         msg = resp.choices[0].message
         result: dict = {"content": msg.content or ""}
