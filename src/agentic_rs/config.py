@@ -6,7 +6,7 @@ from pathlib import Path
 
 try:
     from dotenv import load_dotenv
-    _ROOT = Path(__file__).parent.parent.parent.parent
+    _ROOT = Path(__file__).parent.parent.parent
     load_dotenv(_ROOT / ".env", override=False)
 except ImportError:
     pass  # dotenv optional

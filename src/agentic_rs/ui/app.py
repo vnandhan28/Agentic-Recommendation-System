@@ -45,8 +45,8 @@ def get_store() -> VectorStore:
 
 
 @st.cache_resource(show_spinner="Initialising agent…")
-def get_agent(store: VectorStore) -> RecommendationAgent:
-    return RecommendationAgent(store)
+def get_agent(_store: VectorStore) -> RecommendationAgent:
+    return RecommendationAgent(_store)
 
 
 # ---------------------------------------------------------------------------
