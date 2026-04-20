@@ -82,7 +82,7 @@ TOOL_SCHEMAS = [
                     "max_price":   {"type": "number"},
                     "min_rating":  {"type": "number"},
                     "brand":       {"type": "string"},
-                    "n_results":   {"type": "integer", "default": 10},
+                    "n_results":   {"type": "integer", "default": 5},
                 },
                 "required": [],
             },
@@ -167,7 +167,7 @@ class ToolExecutor:
         max_price: Optional[float] = None,
         min_rating: Optional[float] = None,
         brand: Optional[str] = None,
-        n_results: int = 10,
+        n_results: int = 5,
     ) -> dict:
         conditions = []
         if category:    conditions.append({"category":    {"$eq": category}})
