@@ -181,7 +181,7 @@ def recommend():
 The user asked: "{query}"
 
 Your task:
-1. Pick exactly 3 products from the candidate list that BEST MATCH THE QUERY.
+1. Pick exactly 5 products from the candidate list that BEST MATCH THE QUERY.
    The query is the primary signal — only recommend products clearly relevant to it.
 2. Use the browsing history (if provided) solely to write a more personalised explanation.
    Do NOT pick a product just because the user browsed a related category.
@@ -217,21 +217,42 @@ Respond with ONLY a JSON object (no markdown fences):
         model=model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.6,
-        max_tokens=800,
+        max_tokens=1200,
     )
     text = response.choices[0].message.content.strip()
 
-    # 6. Parse JSON — strip any accidental markdown fences
-    text = re.sub(r"^```[a-z]*\n?", "", text, flags=re.MULTILINE)
-    text = re.sub(r"\n?```$", "", text, flags=re.MULTILINE)
+    # 6. Parse JSON — strip markdown fences then try progressively looser strategies
+    text = re.sub(r"```[a-z]*\n?", "", text).strip()
+    text = re.sub(r"\n?```", "", text).strip()
+
+    payload = None
+
+    # Strategy 1: direct parse
     try:
         payload = json.loads(text)
     except json.JSONDecodeError:
-        # Fallback: grab first {...} block
+        pass
+
+    # Strategy 2: extract outermost {...} block
+    if payload is None:
         m = re.search(r"\{.*\}", text, re.DOTALL)
-        if not m:
-            return jsonify({"error": "LLM returned unparseable response", "raw": text}), 500
-        payload = json.loads(m.group())
+        if m:
+            try:
+                payload = json.loads(m.group())
+            except json.JSONDecodeError:
+                pass
+
+    # Strategy 3: truncated JSON — find last complete recommendation object and close arrays/objects
+    if payload is None:
+        recs = re.findall(
+            r'\{\s*"rank"\s*:\s*\d+.*?"explanation"\s*:\s*"[^"]*"\s*\}',
+            text, re.DOTALL
+        )
+        if recs:
+            payload = {"recommendations": [json.loads(r) for r in recs]}
+
+    if payload is None:
+        return jsonify({"error": "LLM returned unparseable response", "raw": text}), 500
 
     return jsonify(payload)
 
