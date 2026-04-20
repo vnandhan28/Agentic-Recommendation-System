@@ -5,8 +5,8 @@ CLI script: Run the recommendation agent interactively (no Streamlit).
 Useful for testing the agent loop from the terminal.
 
 Usage:
-    python scripts/run_agent.py --user user_001 --query "I need wireless headphones under $80"
-    python scripts/run_agent.py --list-users
+    python scripts/run_agent.py run --user user_001 --query "I need wireless headphones under $80"
+    python scripts/run_agent.py list-users
 """
 from __future__ import annotations
 
