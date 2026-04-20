@@ -162,7 +162,7 @@ class RecommendationAgent:
                         step_type=StepType.FINAL,
                         iteration=iteration,
                         recommendations=parsed["recommendations"],
-                        content="Final recommendations produced.",
+                        content=parsed.get("reasoning_summary", ""),
                     )
                     return response
 
@@ -251,31 +251,50 @@ class RecommendationAgent:
         return result
 
     def _call_groq(self, system: str, messages: List[dict]) -> dict:
-        from openai import OpenAI
+        import time
+        from openai import OpenAI, RateLimitError
         client = OpenAI(
             api_key=config.api_key,
             base_url="https://api.groq.com/openai/v1",
         )
         full = [{"role": "system", "content": system}] + messages
-        resp = client.chat.completions.create(
-            model=config.LLM_MODEL,
-            messages=full,
-            tools=TOOL_SCHEMAS,
-            tool_choice="auto",
-            max_tokens=1500,
-        )
-        msg = resp.choices[0].message
-        result: dict = {"content": msg.content or ""}
-        if msg.tool_calls:
-            result["tool_calls"] = [
-                {
-                    "id": tc.id,
-                    "type": "function",
-                    "function": {"name": tc.function.name, "arguments": tc.function.arguments},
-                }
-                for tc in msg.tool_calls
-            ]
-        return result
+
+        for attempt in range(4):
+            try:
+                resp = client.chat.completions.create(
+                    model=config.LLM_MODEL,
+                    messages=full,
+                    tools=TOOL_SCHEMAS,
+                    tool_choice="auto",
+                    max_tokens=800,   # reduced — keeps us under the 12k TPM free tier
+                )
+                msg = resp.choices[0].message
+                result: dict = {"content": msg.content or ""}
+                if msg.tool_calls:
+                    result["tool_calls"] = [
+                        {
+                            "id": tc.id,
+                            "type": "function",
+                            "function": {"name": tc.function.name, "arguments": tc.function.arguments},
+                        }
+                        for tc in msg.tool_calls
+                    ]
+                return result
+            except RateLimitError as exc:
+                if attempt == 3:
+                    raise
+                # Parse retry-after from error message if present, else back off
+                wait = 10 * (attempt + 1)
+                try:
+                    import re
+                    match = re.search(r"try again in ([0-9.]+)s", str(exc))
+                    if match:
+                        wait = float(match.group(1)) + 1.0
+                except Exception:
+                    pass
+                time.sleep(wait)
+
+        raise RuntimeError("Groq rate limit: all retries exhausted.")
 
     def _call_anthropic(self, system: str, messages: List[dict]) -> dict:
         from anthropic import Anthropic

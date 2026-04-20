@@ -27,7 +27,7 @@ class _Config:
     NUM_USERS: int            = int(os.getenv("NUM_USERS", "12"))
     CATALOG_CATEGORY: str     = os.getenv("CATALOG_CATEGORY", "Electronics")
     MAX_AGENT_ITERATIONS: int = int(os.getenv("MAX_AGENT_ITERATIONS", "10"))
-    NUM_RECOMMENDATIONS: int  = int(os.getenv("NUM_RECOMMENDATIONS", "3"))
+    NUM_RECOMMENDATIONS: int  = int(os.getenv("NUM_RECOMMENDATIONS", "5"))
 
     @property
     def api_key(self) -> str:
