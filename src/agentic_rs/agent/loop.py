@@ -24,6 +24,7 @@ class StepType(str, Enum):
     THINKING    = "thinking"
     TOOL_CALL   = "tool_call"
     TOOL_RESULT = "tool_result"
+    EVALUATING  = "evaluating"
     FINAL       = "final"
     ERROR       = "error"
 
@@ -49,11 +50,23 @@ You have four tools:
 - filter_by_attributes — filter by price, rating, category, brand
 - get_item_details     — get full details for a specific item_id
 
-## Process
-1. Call fetch_user_history to learn about the user
-2. Run 1–3 search_catalog or filter_by_attributes calls based on their preferences
-3. Call get_item_details on your top candidates
-4. Return your final answer as JSON only (see format below)
+## You MUST complete all four phases before returning a final answer:
+
+### Phase 1 — Understand the user
+Call fetch_user_history. Note their price sensitivity, preferred categories, purchase history, and wishlist keywords.
+
+### Phase 2 — Search
+Run 1–2 search_catalog or filter_by_attributes calls targeting the query and the user's known preferences.
+
+### Phase 3 — Evaluate & Refine  ← REQUIRED, do not skip
+Critically review what you found:
+  • Do the candidates match the user's price sensitivity?
+  • Are they truly relevant to the query intent?
+  • Do they have avg_rating ≥ 4.0?
+Then run AT LEAST ONE more search_catalog or filter_by_attributes call with adjusted or diversified criteria.
+
+### Phase 4 — Verify & Finalise
+Call get_item_details on your top {num_recs} candidates to confirm specs, then return the final JSON.
 
 ## Final answer format — respond with ONLY this JSON, no markdown:
 {{
@@ -72,6 +85,15 @@ You have four tools:
 
 Return exactly {num_recs} recommendations, ranked best-first.
 Do NOT include items the user has already purchased.
+
+## Critical rules — read carefully
+- get_item_details: call it ONLY with an `item_id` that literally appears in the
+  `items` array returned by a previous search_catalog or filter_by_attributes call.
+  Copy the exact string. NEVER invent, guess, or use placeholder IDs like
+  "example_id_1" — those will fail.
+- filter_by_attributes category/brand are EXACT, case-sensitive strings (e.g.
+  "Video Games", not "gaming"). If it returns 0 results the name is wrong — fall
+  back to search_catalog with a descriptive query instead.
 """
 
 
@@ -95,23 +117,66 @@ class RecommendationAgent:
             {"role": "user", "content": f"User ID: {user_id}\nRequest: {query}"},
         ]
 
+        search_rounds = 0  # counts completed search/filter rounds
+
         for iteration in range(1, config.MAX_AGENT_ITERATIONS + 1):
             response_message = self._call_llm(messages)
             tool_calls = response_message.get("tool_calls") or []
             content = response_message.get("content") or ""
 
+            # Some smaller models (e.g. llama-3.1-8b-instant) don't use the
+            # structured tool_calls field and instead embed function calls in
+            # the content text as <function(name>args</function>.  Detect and
+            # parse that format so the rest of the loop works normally.
+            embedded = False
+            if not tool_calls and content:
+                tool_calls = self._parse_embedded_tool_calls(content)
+                embedded = bool(tool_calls)
+
             if tool_calls:
+                tool_names = [tc["function"]["name"] for tc in tool_calls]
+                is_search = any(
+                    t in ("search_catalog", "filter_by_attributes") for t in tool_names
+                )
+
+                # Emit EVALUATING step when the second search round begins
+                if is_search and search_rounds == 1:
+                    yield AgentStep(
+                        step_type=StepType.EVALUATING,
+                        iteration=iteration,
+                        content="Reviewing candidates — checking price fit, relevance, and ratings…",
+                    )
+
+                # Determine human-readable phase label
+                if any(t == "fetch_user_history" for t in tool_names):
+                    phase = "Phase 1 — Understanding user preferences"
+                elif is_search and search_rounds == 0:
+                    phase = "Phase 2 — Searching the catalog"
+                elif is_search and search_rounds >= 1:
+                    phase = "Phase 3 — Refining search results"
+                elif any(t == "get_item_details" for t in tool_names):
+                    phase = "Phase 4 — Verifying top candidates"
+                else:
+                    phase = f"Calling {', '.join(tool_names)}"
+
+                if is_search:
+                    search_rounds += 1
+
                 yield AgentStep(
                     step_type=StepType.THINKING,
                     iteration=iteration,
-                    content=(
-                        f"Decided to call {len(tool_calls)} tool(s): "
-                        + ", ".join(tc["function"]["name"] for tc in tool_calls)
-                    ),
+                    content=phase,
                     raw_message=response_message,
                 )
 
-                messages.append({"role": "assistant", **response_message})
+                # For embedded format keep the original text; for structured
+                # format use the full message dict (which carries tool_calls).
+                if embedded:
+                    messages.append({"role": "assistant", "content": content})
+                else:
+                    messages.append({"role": "assistant", **response_message})
+
+                embedded_results: List[str] = []
 
                 for tc in tool_calls:
                     tool_name = tc["function"]["name"]
@@ -138,11 +203,28 @@ class RecommendationAgent:
                         content=f"`{tool_name}` → {self._summarise(result)}",
                     )
 
+                    if embedded:
+                        embedded_results.append(
+                            f"[{tool_name}]: {json.dumps(result)}"
+                        )
+                    else:
+                        messages.append({
+                            "role": "tool",
+                            "tool_call_id": tc["id"],
+                            "name": tool_name,
+                            "content": json.dumps(result),
+                        })
+
+                if embedded:
+                    # Inject all results as one user turn so the model can
+                    # continue; this mirrors how it will see tool output.
                     messages.append({
-                        "role": "tool",
-                        "tool_call_id": tc["id"],
-                        "name": tool_name,
-                        "content": json.dumps(result),
+                        "role": "user",
+                        "content": (
+                            "Tool results:\n"
+                            + "\n".join(embedded_results)
+                            + "\n\nPlease continue to the next phase."
+                        ),
                     })
                 continue
 
@@ -363,6 +445,33 @@ class RecommendationAgent:
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
+
+    @staticmethod
+    def _parse_embedded_tool_calls(content: str) -> List[dict]:
+        """Parse tool calls that a model emitted as text instead of tool_calls.
+
+        Handles the Hermes-style format used by some smaller llama variants:
+            <function(tool_name>{"arg": "val"} </function>
+        Returns a list in the same shape as the OpenAI tool_calls field.
+        """
+        import re
+        calls = []
+        for i, m in enumerate(re.finditer(
+            r"<function\(([^>]+)>\s*([\s\S]*?)\s*</function>",
+            content,
+        )):
+            name     = m.group(1).strip()
+            args_raw = m.group(2).strip()
+            try:
+                args = json.loads(args_raw) if args_raw else {}
+            except json.JSONDecodeError:
+                args = {}
+            calls.append({
+                "id":       f"embedded_{i}",
+                "type":     "function",
+                "function": {"name": name, "arguments": json.dumps(args)},
+            })
+        return calls
 
     @staticmethod
     def _parse_final(text: str) -> dict:
