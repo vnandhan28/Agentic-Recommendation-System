@@ -334,7 +334,7 @@ class RecommendationAgent:
 
     def _call_groq(self, system: str, messages: List[dict]) -> dict:
         import time
-        from openai import OpenAI, RateLimitError
+        from openai import OpenAI, RateLimitError, BadRequestError
         client = OpenAI(
             api_key=config.api_key,
             base_url="https://api.groq.com/openai/v1",
@@ -362,6 +362,18 @@ class RecommendationAgent:
                         for tc in msg.tool_calls
                     ]
                 return result
+            except BadRequestError as exc:
+                # llama-3.1-8b-instant sometimes emits function calls in a
+                # non-standard text format that Groq rejects before returning a
+                # response. Recover by parsing the tool call out of the error.
+                body = exc.body if isinstance(exc.body, dict) else {}
+                err = body.get("error", {})
+                if err.get("code") == "tool_use_failed":
+                    failed_gen = err.get("failed_generation", "")
+                    tool_calls = self._parse_embedded_tool_calls(failed_gen)
+                    if tool_calls:
+                        return {"content": "", "tool_calls": tool_calls}
+                raise
             except RateLimitError as exc:
                 if attempt == 3:
                     raise
@@ -450,27 +462,66 @@ class RecommendationAgent:
     def _parse_embedded_tool_calls(content: str) -> List[dict]:
         """Parse tool calls that a model emitted as text instead of tool_calls.
 
-        Handles the Hermes-style format used by some smaller llama variants:
-            <function(tool_name>{"arg": "val"} </function>
+        Handles two formats seen in smaller llama variants:
+          Format 1 (Hermes-style): <function(name>{"arg": "val"}</function>
+          Format 2 (equals-style): <function=name({"arg": "val"})</function>
         Returns a list in the same shape as the OpenAI tool_calls field.
         """
         import re
         calls = []
-        for i, m in enumerate(re.finditer(
+
+        for m in re.finditer(
             r"<function\(([^>]+)>\s*([\s\S]*?)\s*</function>",
             content,
-        )):
-            name     = m.group(1).strip()
+        ):
+            name = m.group(1).strip()
             args_raw = m.group(2).strip()
             try:
                 args = json.loads(args_raw) if args_raw else {}
             except json.JSONDecodeError:
                 args = {}
             calls.append({
-                "id":       f"embedded_{i}",
+                "id":       f"embedded_{len(calls)}",
                 "type":     "function",
                 "function": {"name": name, "arguments": json.dumps(args)},
             })
+
+        if not calls:
+            # Format 2 (equals + parens): <function=name({"arg": "val"})</function>
+            for m in re.finditer(
+                r"<function=([^\(]+)\((\{[\s\S]*?\})\)\s*</function>",
+                content,
+            ):
+                name = m.group(1).strip()
+                args_raw = m.group(2).strip()
+                try:
+                    args = json.loads(args_raw) if args_raw else {}
+                except json.JSONDecodeError:
+                    args = {}
+                calls.append({
+                    "id":       f"embedded_{len(calls)}",
+                    "type":     "function",
+                    "function": {"name": name, "arguments": json.dumps(args)},
+                })
+
+        if not calls:
+            # Format 3 (equals + comma): <function=name,{"arg": "val"}</function>
+            for m in re.finditer(
+                r"<function=([^,\(]+),(\{[\s\S]*?\})\s*</function>",
+                content,
+            ):
+                name = m.group(1).strip()
+                args_raw = m.group(2).strip()
+                try:
+                    args = json.loads(args_raw) if args_raw else {}
+                except json.JSONDecodeError:
+                    args = {}
+                calls.append({
+                    "id":       f"embedded_{len(calls)}",
+                    "type":     "function",
+                    "function": {"name": name, "arguments": json.dumps(args)},
+                })
+
         return calls
 
     @staticmethod
