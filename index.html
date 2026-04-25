@@ -37,55 +37,25 @@
       border-bottom: 1px solid var(--border);
       padding: 0 32px;
       height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 200;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 200;
       box-shadow: var(--shadow-sm);
     }
     .nav-left { display: flex; align-items: center; gap: 10px; }
-    .nav-logo {
-      font-size: 1.15rem;
-      font-weight: 800;
-      color: var(--brand);
-      letter-spacing: -0.4px;
-    }
-    .nav-tagline {
-      font-size: .75rem;
-      color: var(--muted);
-      border-left: 1px solid var(--border);
-      padding-left: 10px;
-    }
+    .nav-logo { font-size: 1.15rem; font-weight: 800; color: var(--brand); letter-spacing: -0.4px; }
+    .nav-tagline { font-size: .75rem; color: var(--muted); border-left: 1px solid var(--border); padding-left: 10px; }
     .nav-right { display: flex; align-items: center; gap: 8px; }
     .login-label { font-size: .78rem; color: var(--muted); }
     .btn-user {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      color: var(--text);
-      border-radius: 6px;
-      padding: 5px 12px;
-      font-size: .78rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: all .15s;
+      background: var(--bg); border: 1px solid var(--border); color: var(--text);
+      border-radius: 6px; padding: 5px 12px; font-size: .78rem; font-weight: 500;
+      cursor: pointer; transition: all .15s;
     }
     .btn-user:hover { border-color: var(--brand); color: var(--brand); background: var(--brand-light); }
-    .btn-user.active {
-      background: var(--brand);
-      color: #fff;
-      border-color: var(--brand);
-      font-weight: 600;
-    }
+    .btn-user.active { background: var(--brand); color: #fff; border-color: var(--brand); font-weight: 600; }
     .logged-in-badge {
-      font-size: .75rem;
-      color: #16a34a;
-      font-weight: 600;
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      border-radius: 20px;
-      padding: 3px 10px;
+      font-size: .75rem; color: #16a34a; font-weight: 600;
+      background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 20px; padding: 3px 10px;
     }
 
     /* ── Layout ── */
@@ -93,366 +63,236 @@
 
     /* ── Login gate ── */
     #login-gate {
-      background: #fffbeb;
-      border: 1px solid #fde68a;
-      border-radius: var(--radius);
-      padding: 12px 16px;
-      font-size: .83rem;
-      color: #92400e;
-      margin-bottom: 24px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      background: #fffbeb; border: 1px solid #fde68a; border-radius: var(--radius);
+      padding: 12px 16px; font-size: .83rem; color: #92400e;
+      margin-bottom: 24px; display: flex; align-items: center; gap: 8px;
     }
     #login-gate.hidden { display: none; }
-    #clicks-counter {
-      font-size: .75rem;
-      color: var(--muted);
-      margin-bottom: 20px;
-    }
+    #clicks-counter { font-size: .75rem; color: var(--muted); margin-bottom: 20px; }
 
-    /* ── Category section ── */
+    /* ── Category & product cards (unchanged) ── */
     .category-section { margin-bottom: 40px; }
     .category-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 14px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 14px; padding-bottom: 10px; border-bottom: 2px solid var(--border);
     }
-    .category-icon {
-      width: 40px; height: 40px;
-      border-radius: 8px;
-      overflow: hidden;
-      flex-shrink: 0;
-    }
-    .category-icon img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-    .category-name {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--text);
-    }
+    .category-icon { width: 40px; height: 40px; border-radius: 8px; overflow: hidden; flex-shrink: 0; }
+    .category-icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .category-name { font-size: 1rem; font-weight: 700; color: var(--text); }
     .category-count {
-      font-size: .72rem;
-      color: var(--muted);
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 2px 8px;
+      font-size: .72rem; color: var(--muted); background: var(--bg);
+      border: 1px solid var(--border); border-radius: 20px; padding: 2px 8px;
     }
-
-    /* ── Product row (horizontal scroll) ── */
-    .product-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 14px;
-    }
-
-    /* ── Product card ── */
+    .product-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
     .product-card {
-      background: var(--surface);
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      padding: 16px;
-      cursor: pointer;
-      transition: box-shadow .18s, border-color .18s, transform .12s;
-      position: relative;
-      user-select: none;
+      background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border);
+      padding: 16px; cursor: pointer; transition: box-shadow .18s, border-color .18s, transform .12s;
+      position: relative; user-select: none;
     }
-    .product-card:hover {
-      box-shadow: var(--shadow-md);
-      border-color: #bfdbfe;
-      transform: translateY(-2px);
-    }
-    .product-card.clicked {
-      border-color: var(--brand);
-      background: var(--brand-light);
-    }
+    .product-card:hover { box-shadow: var(--shadow-md); border-color: #bfdbfe; transform: translateY(-2px); }
+    .product-card.clicked { border-color: var(--brand); background: var(--brand-light); }
     .product-card.clicked::after {
-      content: "✓";
-      position: absolute;
-      top: 10px; right: 12px;
-      color: var(--brand);
-      font-weight: 700;
-      font-size: .8rem;
+      content: "✓"; position: absolute; top: 10px; right: 12px;
+      color: var(--brand); font-weight: 700; font-size: .8rem;
     }
-    .card-thumb {
-      width: 100%;
-      height: 110px;
-      border-radius: 6px;
-      overflow: hidden;
-      margin-bottom: 12px;
-      background: var(--bg);
-    }
-    .card-thumb img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      display: block;
-      transition: transform .3s;
-    }
+    .card-thumb { width: 100%; height: 110px; border-radius: 6px; overflow: hidden; margin-bottom: 12px; background: var(--bg); }
+    .card-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
     .product-card:hover .card-thumb img { transform: scale(1.04); }
     .card-title {
-      font-size: .82rem;
-      font-weight: 600;
-      line-height: 1.35;
-      margin-bottom: 10px;
-      min-height: 2.4em;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      color: var(--text);
+      font-size: .82rem; font-weight: 600; line-height: 1.35; margin-bottom: 10px;
+      min-height: 2.4em; display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden; color: var(--text);
     }
-    .card-footer {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .card-price {
-      font-size: .9rem;
-      font-weight: 700;
-      color: var(--brand);
-    }
-    .card-rating {
-      font-size: .73rem;
-      color: var(--accent);
-      font-weight: 600;
-      display: flex;
-      align-items: center;
-      gap: 2px;
-    }
-    .card-brand {
-      font-size: .68rem;
-      color: var(--muted);
-      margin-top: 4px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
+    .card-footer { display: flex; align-items: center; justify-content: space-between; }
+    .card-price { font-size: .9rem; font-weight: 700; color: var(--brand); }
+    .card-rating { font-size: .73rem; color: var(--accent); font-weight: 600; display: flex; align-items: center; gap: 2px; }
+    .card-brand { font-size: .68rem; color: var(--muted); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
     /* ── Skeleton ── */
-    @keyframes shimmer {
-      0%   { background-position: -800px 0; }
-      100% { background-position:  800px 0; }
-    }
-    .skeleton {
-      background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%);
-      background-size: 800px 100%;
-      animation: shimmer 1.5s infinite linear;
-      border-radius: 4px;
-    }
+    @keyframes shimmer { 0% { background-position: -800px 0; } 100% { background-position: 800px 0; } }
+    .skeleton { background: linear-gradient(90deg, #e2e8f0 25%, #f1f5f9 50%, #e2e8f0 75%); background-size: 800px 100%; animation: shimmer 1.5s infinite linear; border-radius: 4px; }
     .skeleton-section { margin-bottom: 40px; }
     .sk-header { height: 16px; width: 160px; margin-bottom: 18px; border-radius: 6px; }
-    .sk-row-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 14px;
-    }
-    .sk-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 16px;
-    }
+    .sk-row-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+    .sk-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
     .sk-thumb { height: 80px; border-radius: 6px; margin-bottom: 12px; }
-    .sk-t1 { height: 11px; margin-bottom: 6px; }
-    .sk-t2 { height: 11px; width: 70%; margin-bottom: 12px; }
+    .sk-t1 { height: 11px; margin-bottom: 6px; } .sk-t2 { height: 11px; width: 70%; margin-bottom: 12px; }
     .sk-bottom { display: flex; justify-content: space-between; }
-    .sk-price { height: 13px; width: 38%; }
-    .sk-stars { height: 13px; width: 28%; }
+    .sk-price { height: 13px; width: 38%; } .sk-stars { height: 13px; width: 28%; }
 
     /* ── Loading bar ── */
     #load-bar {
-      position: fixed; top: 0; left: 0;
-      height: 3px;
+      position: fixed; top: 0; left: 0; height: 3px;
       background: linear-gradient(90deg, #60a5fa, var(--brand), #60a5fa);
-      background-size: 300% 100%;
-      animation: bar-move 1s ease infinite;
-      z-index: 999;
-      transition: width .3s, opacity .4s;
+      background-size: 300% 100%; animation: bar-move 1s ease infinite;
+      z-index: 999; transition: width .3s, opacity .4s;
     }
-    @keyframes bar-move {
-      0%   { background-position: 100% 0; }
-      100% { background-position:   0% 0; }
-    }
+    @keyframes bar-move { 0% { background-position: 100% 0; } 100% { background-position: 0% 0; } }
 
     /* ── Chat panel ── */
     .chat-panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 24px;
-      box-shadow: var(--shadow-sm);
-      margin-top: 8px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 20px 24px;
+      box-shadow: var(--shadow-sm); margin-bottom: 28px;
     }
-    .chat-panel-header {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 16px;
-    }
-    .chat-panel-header h2 {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--text);
-    }
+    .chat-panel-header { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+    .chat-panel-header h2 { font-size: 1rem; font-weight: 700; color: var(--text); }
     .ai-badge {
-      background: var(--brand);
-      color: #fff;
-      font-size: .68rem;
-      font-weight: 700;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      border-radius: 4px;
-      padding: 2px 7px;
+      background: var(--brand); color: #fff; font-size: .68rem; font-weight: 700;
+      letter-spacing: .06em; text-transform: uppercase; border-radius: 4px; padding: 2px 7px;
     }
+    .btn-new-chat {
+      margin-left: auto; background: none; border: 1px solid var(--border);
+      border-radius: 6px; padding: 4px 12px; font-size: .75rem; font-weight: 600;
+      color: var(--muted); cursor: pointer; display: none; align-items: center; gap: 4px; transition: all .15s;
+    }
+    .btn-new-chat:hover { border-color: var(--brand); color: var(--brand); background: var(--brand-light); }
+
+    /* ── Chat messages ── */
+    .chat-messages {
+      min-height: 72px; max-height: 600px; overflow-y: auto;
+      padding: 4px 0 12px; display: flex; flex-direction: column; gap: 14px;
+      scroll-behavior: smooth; margin-bottom: 16px;
+    }
+    .chat-empty {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-height: 72px; text-align: center; color: var(--muted); font-size: .84rem; gap: 6px;
+    }
+
+    /* ── Message wrappers ── */
+    .msg { display: flex; gap: 10px; max-width: 82%; }
+    .msg-agent { align-self: flex-start; }
+    .msg-user  { align-self: flex-end; flex-direction: row-reverse; }
+    .msg-wide  { max-width: 100%; width: 100%; }
+    .msg-avatar {
+      width: 30px; height: 30px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .7rem; font-weight: 800; flex-shrink: 0; margin-top: 2px;
+    }
+    .msg-agent .msg-avatar { background: var(--brand); color: #fff; }
+    .msg-user  .msg-avatar { background: var(--accent); color: #fff; }
+    .msg-body { display: flex; flex-direction: column; min-width: 0; }
+    .msg-bubble {
+      border-radius: 16px; padding: 9px 14px; font-size: .85rem; line-height: 1.55;
+      white-space: pre-wrap; word-break: break-word;
+    }
+    .msg-agent .msg-bubble { background: var(--bg); border: 1px solid var(--border); border-bottom-left-radius: 4px; color: var(--text); }
+    .msg-user  .msg-bubble { background: var(--brand); color: #fff; border-bottom-right-radius: 4px; }
+
+    /* ── Agent trace ── */
+    .agent-trace {
+      background: #f8fafc; border: 1px solid #e2e8f0;
+      border-radius: 14px; padding: 16px 18px; margin-bottom: 12px;
+      font-size: .82rem;
+    }
+    .trace-header {
+      display: flex; align-items: center; gap: 8px;
+      font-size: .72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 14px;
+      padding-bottom: 10px; border-bottom: 1px solid #e2e8f0;
+    }
+    .trace-section {
+      font-size: .83rem; font-weight: 700; color: #1e293b;
+      margin: 12px 0 6px; display: flex; align-items: center; gap: 7px;
+      animation: fadeSlide .25s ease;
+    }
+    .trace-section:first-of-type { margin-top: 0; }
+    .trace-action {
+      display: flex; align-items: baseline; gap: 8px;
+      padding: 3px 0 3px 26px;
+      animation: fadeSlide .2s ease;
+      font-size: .8rem;
+    }
+    .trace-action-icon { font-size: .82rem; flex-shrink: 0; }
+    .trace-action-label { color: #475569; }
+    .trace-action-arrow { color: #cbd5e1; margin: 0 2px; }
+    .trace-action-result { color: #64748b; }
+    .trace-action-result.ok  { color: #16a34a; }
+    .trace-action-result.dim { color: #94a3b8; font-style: italic; }
+    .trace-eval {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 0; font-size: .8rem;
+      color: #b45309; font-style: italic;
+      animation: fadeSlide .25s ease;
+    }
+    @keyframes fadeSlide { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Typing dots */
+    .typing-dots { display: inline-flex; gap: 3px; margin-left: 2px; }
+    .typing-dots span { width: 4px; height: 4px; background: var(--brand); border-radius: 50%; animation: tdot .7s infinite; }
+    .typing-dots span:nth-child(2) { animation-delay: .12s; }
+    .typing-dots span:nth-child(3) { animation-delay: .24s; }
+    @keyframes tdot { 0%,80%,100% { transform: translateY(0); } 40% { transform: translateY(-4px); } }
+
+    /* ── Recommendation cards ── */
+    .chat-recs-header {
+      font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: var(--muted); margin-bottom: 10px;
+    }
+    .chat-rec-grid {
+      display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;
+    }
+    @media (max-width: 1100px) { .chat-rec-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 640px)  { .chat-rec-grid { grid-template-columns: 1fr; } }
+    .chat-rec-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 10px; padding: 12px; transition: box-shadow .15s, border-color .15s;
+    }
+    .chat-rec-card:hover { box-shadow: var(--shadow-md); border-color: #bfdbfe; }
+    .chat-rec-top { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
+    .chat-rec-rank {
+      width: 20px; height: 20px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .65rem; font-weight: 800; color: #fff; flex-shrink: 0;
+    }
+    .rk1{background:#f59e0b} .rk2{background:#94a3b8} .rk3{background:#b45309} .rk4{background:#6366f1} .rk5{background:#8b5cf6}
+    .chat-rec-cat {
+      font-size: .62rem; font-weight: 600; color: var(--brand); background: var(--brand-light);
+      border-radius: 10px; padding: 2px 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .chat-rec-img { width: 100%; height: 68px; object-fit: cover; border-radius: 6px; margin-bottom: 8px; display: block; background: var(--bg); }
+    .chat-rec-title {
+      font-size: .8rem; font-weight: 700; color: var(--text); margin-bottom: 6px; line-height: 1.35;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .chat-rec-meta { display: flex; gap: 10px; margin-bottom: 8px; font-size: .78rem; }
+    .chat-rec-price { color: var(--brand); font-weight: 700; }
+    .chat-rec-rating { color: var(--accent); font-weight: 600; }
+    .chat-rec-expl {
+      font-size: .72rem; color: var(--muted); line-height: 1.5;
+      border-top: 1px solid var(--border); padding-top: 8px;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+
+    /* ── Input area ── */
+    .chat-input-area { display: flex; flex-direction: column; gap: 6px; }
+    .input-hint { font-size: .73rem; color: var(--muted); }
     .chat-row { display: flex; gap: 10px; }
     #chat-input {
-      flex: 1;
-      border: 1.5px solid var(--border);
-      border-radius: 8px;
-      padding: 10px 14px;
-      font-size: .88rem;
-      font-family: inherit;
-      outline: none;
-      resize: none;
-      height: 44px;
-      transition: border-color .15s;
-      color: var(--text);
-      background: var(--bg);
+      flex: 1; border: 1.5px solid var(--border); border-radius: 8px;
+      padding: 10px 14px; font-size: .88rem; font-family: inherit;
+      outline: none; resize: none; height: 44px; max-height: 120px; overflow-y: auto;
+      transition: border-color .15s; color: var(--text); background: var(--bg);
     }
     #chat-input:focus { border-color: var(--brand); background: var(--surface); }
     #send-btn {
-      background: var(--brand);
-      color: #fff;
-      border: none;
-      border-radius: 8px;
-      padding: 0 22px;
-      font-size: .88rem;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background .15s, transform .1s;
-      white-space: nowrap;
+      background: var(--brand); color: #fff; border: none; border-radius: 8px;
+      padding: 0 22px; font-size: .88rem; font-weight: 600; cursor: pointer;
+      transition: background .15s, transform .1s; white-space: nowrap; height: 44px;
     }
     #send-btn:hover:not(:disabled) { background: var(--brand-dark); transform: translateY(-1px); }
     #send-btn:disabled { opacity: .45; cursor: not-allowed; }
-
-    #chat-status {
-      margin-top: 10px;
-      font-size: .78rem;
-      color: var(--muted);
-      min-height: 20px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .spinner {
-      width: 13px; height: 13px;
-      border: 2px solid #cbd5e1;
-      border-top-color: var(--brand);
-      border-radius: 50%;
-      animation: spin .7s linear infinite;
-      flex-shrink: 0;
-    }
+    #chat-status { font-size: .78rem; color: var(--muted); min-height: 20px; display: flex; align-items: center; gap: 6px; }
+    .spinner { width: 13px; height: 13px; border: 2px solid #cbd5e1; border-top-color: var(--brand); border-radius: 50%; animation: spin .7s linear infinite; flex-shrink: 0; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* ── Rec results ── */
-    #results { margin-top: 24px; }
-    .results-label {
-      font-size: .72rem;
-      font-weight: 600;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 14px;
-    }
-    .rec-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-    }
-    @media (max-width: 720px) { .rec-grid { grid-template-columns: 1fr; } }
-
-    .rec-card {
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px 16px 16px;
-      background: var(--surface);
-      position: relative;
-      transition: box-shadow .18s;
-    }
-    .rec-card:hover { box-shadow: var(--shadow-md); }
-    .rec-rank-badge {
-      position: absolute;
-      top: -11px; left: 14px;
-      width: 24px; height: 24px;
-      border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      font-size: .75rem;
-      font-weight: 800;
-      color: #fff;
-    }
-    .rank-1 { background: #f59e0b; }
-    .rank-2 { background: #94a3b8; }
-    .rank-3 { background: #b45309; }
-    .rec-thumb {
-      width: 100%; height: 100px;
-      border-radius: 6px;
-      overflow: hidden;
-      margin: 4px 0 12px;
-      background: var(--bg);
-    }
-    .rec-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .rec-title { font-size: .88rem; font-weight: 700; margin-bottom: 8px; line-height: 1.35; }
-    .rec-meta { display: flex; gap: 12px; margin-bottom: 8px; font-size: .82rem; }
-    .rec-price { color: var(--brand); font-weight: 700; }
-    .rec-rating { color: var(--accent); font-weight: 600; }
-    .rec-cat-pill {
-      display: inline-block;
-      background: var(--brand-light);
-      color: var(--brand);
-      font-size: .68rem;
-      font-weight: 600;
-      border-radius: 20px;
-      padding: 2px 9px;
-      margin-bottom: 10px;
-    }
-    .rec-explanation {
-      font-size: .78rem;
-      color: #475569;
-      line-height: 1.55;
-      border-top: 1px solid var(--border);
-      padding-top: 10px;
-    }
-
-    /* ── Results panel (between search and catalog) ── */
-    .results-panel {
-      background: var(--surface);
-      border: 1px solid #bfdbfe;
-      border-radius: 14px;
-      padding: 20px 24px 24px;
-      margin-top: 16px;
-      box-shadow: 0 0 0 4px rgba(29,78,216,.05);
-    }
-
-    /* ── Divider ── */
-    .section-divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 28px 0;
-    }
+    .section-divider { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
   </style>
 </head>
 <body>
 
 <div id="load-bar" style="width:20%"></div>
 
-<!-- Nav -->
 <nav>
   <div class="nav-left">
     <div class="nav-logo">ShopBot</div>
@@ -463,138 +303,104 @@
   </div>
 </nav>
 
-<!-- Page -->
 <div class="page">
 
-  <!-- Login notice -->
   <div id="login-gate">
     <span>👆</span>
     Log in as one of the test users above, then click products you like to personalise recommendations.
   </div>
 
-  <!-- Search bar — always on top -->
   <div class="chat-panel">
     <div class="chat-panel-header">
       <h2>Ask the Agent</h2>
       <span class="ai-badge">AI</span>
+      <button id="new-chat-btn" class="btn-new-chat">+ New chat</button>
     </div>
-    <div class="chat-row">
-      <textarea id="chat-input" placeholder="e.g. recommend me something for travel…" rows="1"></textarea>
-      <button id="send-btn" disabled>Ask</button>
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-area">
+      <div id="input-hint" class="input-hint">Ask about products to get personalised recommendations</div>
+      <div class="chat-row">
+        <textarea id="chat-input" placeholder="What are you looking for today?" rows="1"></textarea>
+        <button id="send-btn" disabled>Send</button>
+      </div>
+      <div id="chat-status"></div>
     </div>
-    <div id="chat-status"></div>
   </div>
 
-  <!-- Recommendations inject here, between search and catalog -->
-  <div id="results"></div>
-
   <hr class="section-divider" />
-
-  <!-- Catalog -->
   <div id="catalog"></div>
   <div id="clicks-counter"></div>
 
 </div>
 
 <script>
-// ── State ─────────────────────────────────────────────────
+// ── Global state ──────────────────────────────────────────
 let currentUser  = null;
 let clickedItems = new Set();
 
-// ── Category image seeds (picsum.photos/seed/<seed>) ─────
-const CAT_SEEDS = {
-  "toys":        "toy",
-  "electronics": "electronics",
-  "sports":      "sports",
-  "books":       "library",
-  "clothing":    "fashion",
-  "home":        "kitchen",
-  "beauty":      "cosmetics",
-  "automotive":  "car",
-  "pet":         "puppy",
-  "health":      "pharmacy",
-  "grocery":     "fruit",
-  "musical":     "guitar",
-  "office":      "desk",
-  "video":       "gaming",
-  "movies":      "cinema",
-  "tools":       "workshop",
-  "garden":      "garden",
-  "baby":        "baby",
-  "industrial":  "factory",
-  "software":    "computer",
-};
+// Conversation state:
+// "idle"                  → user sends initial query → Phase 1 (clarification)
+// "awaiting_clarification"→ user answers → Phase 2 (agent stream)
+// "awaiting_feedback"     → user gives feedback → Phase 3 (agent stream again)
+let chatState = "idle";
+let chatCtx   = { query: "", clarificationQ: "", clarificationA: "", lastRecs: [] };
+let chatMessages = [];
 
+// ── Image helpers ─────────────────────────────────────────
+const CAT_SEEDS = {
+  toys:"toy", electronics:"electronics", sports:"sports", books:"library",
+  clothing:"fashion", home:"kitchen", beauty:"cosmetics", automotive:"car",
+  pet:"puppy", health:"pharmacy", grocery:"fruit", musical:"guitar",
+  office:"desk", video:"gaming", movies:"cinema", tools:"workshop",
+  garden:"garden", baby:"baby", industrial:"factory", software:"computer",
+};
 function catSeed(cat) {
-  const lower = cat.toLowerCase();
-  for (const [key, seed] of Object.entries(CAT_SEEDS)) {
-    if (lower.includes(key)) return seed;
-  }
+  const l = cat.toLowerCase();
+  for (const [k, s] of Object.entries(CAT_SEEDS)) if (l.includes(k)) return s;
   return "shopping";
 }
+function catImageUrl(cat, w, h) { return `https://picsum.photos/seed/${catSeed(cat)}/${w}/${h}`; }
+function productImageUrl(id, w, h) { return `https://picsum.photos/seed/${id}/${w}/${h}`; }
 
-function catImageUrl(cat, w, h) {
-  return `https://picsum.photos/seed/${catSeed(cat)}/${w}/${h}`;
-}
-
-// Product image: use item_id as seed for variety within a category
-function productImageUrl(itemId, w, h) {
-  return `https://picsum.photos/seed/${itemId}/${w}/${h}`;
-}
-
-// ── Helpers ───────────────────────────────────────────────
-function esc(s) {
-  return String(s ?? "")
-    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-}
-function stars(r) {
-  const full = Math.round(Number(r));
-  return "★".repeat(Math.max(0,full)) + "☆".repeat(Math.max(0,5-full));
-}
-function fmt(n) { return Number(n) > 0 ? "$" + Number(n).toFixed(2) : "—"; }
+// ── Misc helpers ──────────────────────────────────────────
+function esc(s) { return String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function stars(r) { const f = Math.round(Number(r)); return "★".repeat(Math.max(0,f))+"☆".repeat(Math.max(0,5-f)); }
+function fmt(n) { return Number(n) > 0 ? "$"+Number(n).toFixed(2) : "—"; }
 
 // ── Loading bar ───────────────────────────────────────────
 const loadBar = document.getElementById("load-bar");
-function setProgress(p) { loadBar.style.width = p + "%"; }
+function setProgress(p) { loadBar.style.width = p+"%"; }
 function hideBar() {
   loadBar.style.width = "100%";
   setTimeout(() => { loadBar.style.opacity = "0"; }, 200);
   setTimeout(() => { loadBar.style.display = "none"; }, 600);
 }
 
-// ── Skeleton ──────────────────────────────────────────────
+// ── Skeletons ─────────────────────────────────────────────
 function showSkeletons() {
-  const catalog = document.getElementById("catalog");
-  catalog.innerHTML = [1,2].map(() => `
+  document.getElementById("catalog").innerHTML = [1,2].map(() => `
     <div class="skeleton-section">
       <div class="skeleton sk-header"></div>
       <div class="sk-row-grid">
         ${Array.from({length:5}, () => `
           <div class="sk-card">
             <div class="skeleton sk-thumb"></div>
-            <div class="skeleton sk-t1"></div>
-            <div class="skeleton sk-t2"></div>
-            <div class="sk-bottom">
-              <div class="skeleton sk-price"></div>
-              <div class="skeleton sk-stars"></div>
-            </div>
-          </div>
-        `).join("")}
+            <div class="skeleton sk-t1"></div><div class="skeleton sk-t2"></div>
+            <div class="sk-bottom"><div class="skeleton sk-price"></div><div class="skeleton sk-stars"></div></div>
+          </div>`).join("")}
       </div>
-    </div>
-  `).join("");
+    </div>`).join("");
 }
 
 // ── Boot ──────────────────────────────────────────────────
 async function boot() {
   showSkeletons();
+  renderChat();
   setProgress(25);
-
   const [products, users] = await Promise.all([
     fetch("/api/products").then(r => r.json()),
     fetch("/api/users").then(r => r.json()),
   ]);
-
   setProgress(80);
   renderUsers(users);
   setProgress(95);
@@ -602,7 +408,7 @@ async function boot() {
   hideBar();
 }
 
-// ── Render users ──────────────────────────────────────────
+// ── Users ─────────────────────────────────────────────────
 function renderUsers(users) {
   const area  = document.getElementById("login-area");
   const label = document.getElementById("login-label");
@@ -621,89 +427,64 @@ function renderUsers(users) {
 function loginAs(user, btn) {
   currentUser = user;
   clickedItems.clear();
-
   document.querySelectorAll(".btn-user").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
-
   let badge = document.getElementById("logged-badge");
   if (!badge) {
     badge = document.createElement("span");
-    badge.id = "logged-badge";
-    badge.className = "logged-in-badge";
+    badge.id = "logged-badge"; badge.className = "logged-in-badge";
     document.getElementById("login-area").appendChild(badge);
   }
   badge.textContent = `✓ ${user.name}`;
-
   document.getElementById("login-gate").classList.add("hidden");
   document.getElementById("send-btn").disabled = false;
   document.querySelectorAll(".product-card").forEach(c => c.classList.remove("clicked"));
   updateCounter();
+  resetChat();
 }
 
-// ── Render catalog grouped by category ───────────────────
+// ── Catalog ───────────────────────────────────────────────
 function renderCatalog(products) {
   const byCategory = {};
-  products.forEach(p => {
-    if (!byCategory[p.category]) byCategory[p.category] = [];
-    byCategory[p.category].push(p);
-  });
-
+  products.forEach(p => { if (!byCategory[p.category]) byCategory[p.category] = []; byCategory[p.category].push(p); });
   const catalog = document.getElementById("catalog");
   catalog.innerHTML = "";
-
   Object.entries(byCategory).forEach(([cat, items]) => {
     const section = document.createElement("div");
     section.className = "category-section";
     section.innerHTML = `
       <div class="category-header">
-        <div class="category-icon">
-          <img src="${catImageUrl(cat, 80, 80)}" alt="${esc(cat)}" loading="lazy" />
-        </div>
+        <div class="category-icon"><img src="${catImageUrl(cat,80,80)}" alt="${esc(cat)}" loading="lazy"/></div>
         <span class="category-name">${esc(cat)}</span>
-        <span class="category-count">${items.length} item${items.length !== 1 ? "s" : ""}</span>
+        <span class="category-count">${items.length} item${items.length!==1?"s":""}</span>
       </div>
-      <div class="product-row" id="row-${CSS.escape(cat)}"></div>
-    `;
-
+      <div class="product-row" id="row-${CSS.escape(cat)}"></div>`;
     const row = section.querySelector(".product-row");
     items.forEach(p => {
       const card = document.createElement("div");
-      card.className = "product-card";
-      card.dataset.itemId = p.item_id;
+      card.className = "product-card"; card.dataset.itemId = p.item_id;
       card.innerHTML = `
-        <div class="card-thumb">
-          <img src="${productImageUrl(p.item_id, 240, 110)}" alt="${esc(p.title)}" loading="lazy" />
-        </div>
+        <div class="card-thumb"><img src="${productImageUrl(p.item_id,240,110)}" alt="${esc(p.title)}" loading="lazy"/></div>
         <div class="card-title">${esc(p.title)}</div>
         ${p.brand ? `<div class="card-brand">${esc(p.brand)}</div>` : ""}
         <div class="card-footer">
           <span class="card-price">${fmt(p.price_usd)}</span>
           <span class="card-rating">${stars(p.avg_rating)} ${Number(p.avg_rating).toFixed(1)}</span>
-        </div>
-      `;
+        </div>`;
       card.addEventListener("click", () => handleClick(card, p));
       row.appendChild(card);
     });
-
     catalog.appendChild(section);
   });
 }
 
-// ── Click handler ─────────────────────────────────────────
 async function handleClick(card, product) {
-  if (!currentUser) {
-    document.getElementById("login-gate").scrollIntoView({ behavior: "smooth" });
-    return;
-  }
+  if (!currentUser) { document.getElementById("login-gate").scrollIntoView({behavior:"smooth"}); return; }
   if (clickedItems.has(product.item_id)) return;
   clickedItems.add(product.item_id);
   card.classList.add("clicked");
   updateCounter();
-  fetch("/api/click", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ user_id: currentUser.user_id, item_id: product.item_id }),
-  });
+  fetch("/api/click", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({user_id:currentUser.user_id,item_id:product.item_id}) });
 }
 
 function updateCounter() {
@@ -712,77 +493,392 @@ function updateCounter() {
   const n = clickedItems.size;
   el.textContent = n === 0
     ? `Logged in as ${currentUser.name} — click products to personalise recommendations`
-    : `${currentUser.name} · ${n} product${n > 1 ? "s" : ""} selected`;
+    : `${currentUser.name} · ${n} product${n>1?"s":""} selected`;
 }
 
-// ── Chat ──────────────────────────────────────────────────
+// ── Chat: message rendering ───────────────────────────────
+
+function pushMsg(role, type, content, extra = {}) {
+  chatMessages.push({ role, type, content, ...extra });
+  renderChat();
+}
+
+function renderChat() {
+  const container = document.getElementById("chat-messages");
+
+  if (chatMessages.length === 0) {
+    container.innerHTML = `
+      <div class="chat-empty">
+        <div style="font-size:1.6rem">🛍️</div>
+        <div>Ask me anything — I'll reason through the catalog to find your perfect match.</div>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = "";
+  for (const msg of chatMessages) {
+    const el = document.createElement("div");
+    el.className = `msg msg-${msg.role}`;
+    if (msg.type === "trace" || msg.type === "recommendations") el.classList.add("msg-wide");
+
+    const av = document.createElement("div");
+    av.className = "msg-avatar";
+    av.textContent = msg.role === "agent" ? "AI" : (currentUser?.name?.[0]?.toUpperCase() || "U");
+
+    const body = document.createElement("div");
+    body.className = "msg-body";
+
+    if (msg.type === "trace") {
+      body.innerHTML = buildTraceHTML(msg);
+    } else if (msg.type === "recommendations") {
+      body.innerHTML = buildRecsHTML(msg.content);
+    } else {
+      const bubble = document.createElement("div");
+      bubble.className = "msg-bubble";
+      bubble.textContent = msg.content;
+      body.appendChild(bubble);
+    }
+
+    el.appendChild(av);
+    el.appendChild(body);
+    container.appendChild(el);
+  }
+  container.scrollTop = container.scrollHeight;
+  document.getElementById("new-chat-btn").style.display = chatMessages.length > 0 ? "inline-flex" : "none";
+}
+
+// ── Trace helpers ─────────────────────────────────────────
+
+function phaseLabel(content) {
+  const c = (content || "").toLowerCase();
+  if (c.includes("phase 1") || c.includes("understand")) return ["🧠", "Getting to know the shopper"];
+  if (c.includes("phase 2") || c.includes("searching"))  return ["🔍", "Searching the catalog"];
+  if (c.includes("phase 3") || c.includes("refin"))      return ["🔄", "Refining the results"];
+  if (c.includes("phase 4") || c.includes("verify"))     return ["✅", "Checking the top picks"];
+  return ["💭", content];
+}
+
+function toolIcon(name) {
+  switch (name) {
+    case "fetch_user_history":   return "👤";
+    case "search_catalog":       return "🔍";
+    case "filter_by_attributes": return "🎚";
+    case "get_item_details":     return "📋";
+    default:                     return "⚙";
+  }
+}
+
+function humanizeCall(name, args) {
+  switch (name) {
+    case "fetch_user_history":   return "Getting shopper profile";
+    case "search_catalog":       return `Searching for "${args?.query || ""}"`;
+    case "filter_by_attributes": {
+      const parts = [];
+      if (args?.category)   parts.push(args.category);
+      if (args?.max_price)  parts.push(`under $${args.max_price}`);
+      if (args?.min_price)  parts.push(`over $${args.min_price}`);
+      if (args?.min_rating) parts.push(`rated ${args.min_rating}+`);
+      if (args?.brand)      parts.push(args.brand);
+      return `Filtering: ${parts.join(" · ") || "catalog"}`;
+    }
+    case "get_item_details": return "Checking product details";
+    default:                 return name;
+  }
+}
+
+function humanizeResult(toolName, summary) {
+  if (!summary) return null;
+  const lower = summary.toLowerCase();
+  // Silently skip failed get_item_details calls
+  if (lower.includes("not found") || lower.includes("error")) return null;
+  switch (toolName) {
+    case "fetch_user_history": {
+      const [name, sens] = summary.split(" — ");
+      return { text: `${name}${sens ? ` · ${sens} budget` : ""}`, cls: "ok" };
+    }
+    case "search_catalog":
+    case "filter_by_attributes": {
+      const n = parseInt(summary);
+      if (n === 0) return { text: "no matches — trying a different angle", cls: "dim" };
+      return { text: `${n} candidates found`, cls: "ok" };
+    }
+    case "get_item_details":
+      return summary ? { text: summary, cls: "ok" } : null;
+    default:
+      return { text: summary, cls: "" };
+  }
+}
+
+// ── Trace HTML builder ────────────────────────────────────
+
+function buildTraceHTML(msg) {
+  const steps = msg.steps || [];
+  const done  = msg.done;
+
+  let html = `<div class="agent-trace">`;
+  html += `
+    <div class="trace-header">
+      <span>⚡</span> Agent reasoning
+      ${!done
+        ? `<span class="typing-dots"><span></span><span></span><span></span></span>`
+        : `<span style="color:#16a34a;font-size:.75rem;font-weight:600;text-transform:none;letter-spacing:0">✓ done</span>`}
+    </div>`;
+
+  // Walk steps; pair each tool_call with the tool_result that follows it
+  let i = 0;
+  while (i < steps.length) {
+    const step = steps[i];
+
+    if (step.type === "evaluating") {
+      html += `<div class="trace-eval"><span>📊</span> ${esc(step.content)}</div>`;
+      i++;
+
+    } else if (step.type === "thinking") {
+      const [icon, label] = phaseLabel(step.content);
+      html += `<div class="trace-section"><span>${icon}</span> ${esc(label)}</div>`;
+      i++;
+
+    } else if (step.type === "tool_call") {
+      const call   = step;
+      const next   = steps[i + 1];
+      const result = next?.type === "tool_result" ? next : null;
+
+      const label  = humanizeCall(call.tool_name, call.tool_args);
+      const res    = result ? humanizeResult(call.tool_name, result.result_summary) : null;
+
+      // Skip the whole row if the result is an error we want to hide
+      const skip   = result && result.result_summary === null;
+      if (!skip) {
+        html += `
+          <div class="trace-action">
+            <span class="trace-action-icon">${toolIcon(call.tool_name)}</span>
+            <span class="trace-action-label">${esc(label)}</span>
+            ${res ? `<span class="trace-action-arrow">→</span><span class="trace-action-result ${res.cls}">${esc(res.text)}</span>` : ""}
+          </div>`;
+      }
+      i += result ? 2 : 1;
+
+    } else if (step.type === "error") {
+      html += `<div class="trace-eval" style="color:#ef4444"><span>⚠</span> ${esc(step.content)}</div>`;
+      i++;
+
+    } else {
+      i++;
+    }
+  }
+
+  html += `</div>`;
+
+  if (done && msg.recommendations?.length > 0) {
+    html += buildRecsHTML(msg.recommendations);
+  }
+  if (done && msg.error) {
+    html += `<div class="msg-bubble" style="color:#ef4444;margin-top:8px">⚠ ${esc(msg.error)}</div>`;
+  }
+
+  return html;
+}
+
+// ── Recs HTML builder ─────────────────────────────────────
+
+function buildRecsHTML(recs) {
+  const cards = recs.map((r, i) => {
+    const price  = r.price_usd  ?? r.price  ?? 0;
+    const rating = r.avg_rating ?? r.rating ?? 0;
+    const rank   = r.rank ?? (i + 1);
+    return `
+      <div class="chat-rec-card">
+        <div class="chat-rec-top">
+          <span class="chat-rec-rank rk${Math.min(rank,5)}">${rank}</span>
+          <span class="chat-rec-cat">${esc(r.category || "")}</span>
+        </div>
+        <img class="chat-rec-img" src="${productImageUrl(r.item_id, 300, 68)}" alt="${esc(r.title)}"
+             loading="lazy" onerror="this.style.display='none'"/>
+        <div class="chat-rec-title">${esc(r.title)}</div>
+        <div class="chat-rec-meta">
+          <span class="chat-rec-price">${fmt(price)}</span>
+          <span class="chat-rec-rating">★ ${Number(rating).toFixed(1)}</span>
+        </div>
+        <div class="chat-rec-expl">${esc(r.explanation)}</div>
+      </div>`;
+  }).join("");
+  return `<div class="chat-recs-header">Top picks for you</div><div class="chat-rec-grid">${cards}</div>`;
+}
+
+// ── Chat: input helpers ───────────────────────────────────
+
+function updateInputHint() {
+  const el = document.getElementById("input-hint");
+  if (chatState === "awaiting_clarification")
+    el.textContent = "Answer the question above to get your personalised picks";
+  else if (chatState === "awaiting_feedback")
+    el.textContent = "Tell me what to change, or click 'New Chat' to start fresh";
+  else
+    el.textContent = "Ask about products to get personalised recommendations";
+}
+
+function resetChat() {
+  chatState    = "idle";
+  chatCtx      = { query:"", clarificationQ:"", clarificationA:"", lastRecs:[] };
+  chatMessages = [];
+  renderChat();
+  updateInputHint();
+  const inp = document.getElementById("chat-input");
+  if (inp) { inp.value = ""; inp.style.height = "44px"; }
+  document.getElementById("chat-status").innerHTML = "";
+}
+
+// ── Chat: agent SSE stream ────────────────────────────────
+
+async function startAgentStream(payload) {
+  // Create a trace message that will be updated live
+  const traceMsg = { role:"agent", type:"trace", steps:[], done:false, recommendations:null, error:null };
+  chatMessages.push(traceMsg);
+  renderChat();
+
+  const status  = document.getElementById("chat-status");
+  const sendBtn = document.getElementById("send-btn");
+
+  try {
+    const response = await fetch("/api/recommend/stream", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+    const reader  = response.body.getReader();
+    const decoder = new TextDecoder();
+    let   buffer  = "";
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop(); // keep the incomplete tail
+
+      for (const line of lines) {
+        if (!line.startsWith("data: ")) continue;
+        const raw = line.slice(6).trim();
+        if (raw === "[DONE]") { traceMsg.done = true; renderChat(); continue; }
+
+        let event;
+        try { event = JSON.parse(raw); } catch { continue; }
+
+        if (event.type === "final") {
+          traceMsg.recommendations = event.recommendations || [];
+          chatCtx.lastRecs = traceMsg.recommendations;
+          traceMsg.done = true;
+        } else if (event.type === "error") {
+          traceMsg.error = event.content;
+          traceMsg.done  = true;
+        } else {
+          traceMsg.steps.push(event);
+        }
+        renderChat();
+      }
+    }
+
+  } catch (err) {
+    traceMsg.error = String(err);
+    traceMsg.done  = true;
+    renderChat();
+  }
+
+  // After stream ends
+  if (traceMsg.recommendations && traceMsg.recommendations.length > 0) {
+    chatState = "awaiting_feedback";
+    pushMsg("agent", "text", "How do these look? Tell me what to change, or click 'New Chat' to start over.");
+    status.innerHTML = `<span style="color:#16a34a">✓ ${traceMsg.recommendations.length} picks for <strong>${esc(currentUser.name)}</strong></span>`;
+  } else if (!traceMsg.error) {
+    status.innerHTML = "";
+  }
+  sendBtn.disabled = false;
+  updateInputHint();
+}
+
+// ── Chat: send ────────────────────────────────────────────
+
 document.getElementById("send-btn").addEventListener("click", sendQuery);
 document.getElementById("chat-input").addEventListener("keydown", e => {
   if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendQuery(); }
 });
+document.getElementById("chat-input").addEventListener("input", function() {
+  this.style.height = "44px";
+  this.style.height = Math.min(this.scrollHeight, 120) + "px";
+});
+document.getElementById("new-chat-btn").addEventListener("click", resetChat);
 
 async function sendQuery() {
   const input   = document.getElementById("chat-input");
-  const query   = input.value.trim();
+  const text    = input.value.trim();
   const status  = document.getElementById("chat-status");
-  const results = document.getElementById("results");
-  if (!query || !currentUser) return;
+  const sendBtn = document.getElementById("send-btn");
 
-  document.getElementById("send-btn").disabled = true;
-  status.innerHTML = `<span class="spinner"></span> Agent is searching…`;
-  results.innerHTML = "";
+  if (!text || !currentUser) return;
+  sendBtn.disabled = true;
+  input.value = "";
+  input.style.height = "44px";
 
-  try {
-    const res  = await fetch("/api/recommend", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ user_id: currentUser.user_id, query }),
-    });
-    const data = await res.json();
-    if (data.error) {
-      status.innerHTML = `<span style="color:#ef4444">⚠ ${esc(data.error)}</span>`;
-      return;
+  pushMsg("user", "text", text);
+
+  if (chatState === "idle") {
+    // ── Phase 1: get a clarifying question ─────────────────
+    chatCtx.query = text;
+    status.innerHTML = `<span class="spinner"></span> Thinking of a question…`;
+
+    try {
+      const res  = await fetch("/api/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_id: currentUser.user_id, query: text }),
+      });
+      const data = await res.json();
+
+      if (data.error) {
+        pushMsg("agent", "text", `Sorry: ${data.error}`);
+      } else if (data.type === "clarification") {
+        chatCtx.clarificationQ = data.question;
+        chatState = "awaiting_clarification";
+        pushMsg("agent", "text", data.question);
+      }
+    } catch (err) {
+      pushMsg("agent", "text", `Network error: ${esc(String(err))}`);
     }
-    status.innerHTML = `<span style="color:#16a34a">✓ ${data.recommendations.length} recommendations for <strong>${esc(currentUser.name)}</strong></span>`;
-    renderRecs(data.recommendations);
-  } catch (err) {
-    status.innerHTML = `<span style="color:#ef4444">⚠ Network error: ${esc(String(err))}</span>`;
-  } finally {
-    document.getElementById("send-btn").disabled = false;
+    status.innerHTML = "";
+    sendBtn.disabled = false;
+
+  } else {
+    // ── Phase 2 / 3: run the full agentic loop (streaming) ─
+    status.innerHTML = `<span class="spinner"></span> Agent is working…`;
+
+    let payload;
+    if (chatState === "awaiting_clarification") {
+      chatCtx.clarificationA = text;
+      payload = {
+        user_id:                currentUser.user_id,
+        query:                  chatCtx.query,
+        clarification_question: chatCtx.clarificationQ,
+        clarification_answer:   text,
+      };
+    } else {
+      // awaiting_feedback
+      payload = {
+        user_id:                  currentUser.user_id,
+        query:                    chatCtx.query,
+        clarification_question:   chatCtx.clarificationQ,
+        clarification_answer:     chatCtx.clarificationA,
+        feedback:                 text,
+        previous_recommendations: chatCtx.lastRecs,
+      };
+    }
+
+    await startAgentStream(payload);
   }
-}
 
-// ── Render recommendations ────────────────────────────────
-function renderRecs(recs) {
-  const container = document.getElementById("results");
-  container.innerHTML = `
-    <div class="results-panel">
-      <div class="results-label">Top picks for you</div>
-      <div class="rec-grid" id="rec-grid"></div>
-    </div>
-  `;
-  const grid = document.getElementById("rec-grid");
-
-  recs.forEach((r, i) => {
-    const card = document.createElement("div");
-    card.className = "rec-card";
-    card.innerHTML = `
-      <div class="rec-rank-badge rank-${r.rank}">${r.rank}</div>
-      <div class="rec-thumb">
-        <img src="${productImageUrl(r.item_id, 320, 100)}" alt="${esc(r.title)}" loading="lazy" />
-      </div>
-      <div class="rec-title">${esc(r.title)}</div>
-      <div class="rec-meta">
-        <span class="rec-price">${fmt(r.price)}</span>
-        <span class="rec-rating">★ ${Number(r.rating).toFixed(1)}</span>
-      </div>
-      <span class="rec-cat-pill">${esc(r.category)}</span>
-      <div class="rec-explanation">${esc(r.explanation)}</div>
-    `;
-    grid.appendChild(card);
-  });
-
-  container.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  updateInputHint();
 }
 
 // ── Go ────────────────────────────────────────────────────

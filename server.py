@@ -17,7 +17,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from dotenv import load_dotenv
-from flask import Flask, jsonify, request, send_file
+from flask import Flask, Response, jsonify, request, send_file, stream_with_context
 
 load_dotenv()
 
@@ -61,9 +61,10 @@ TEST_USERS = _load_test_users()
 # Keyed by item_id for fast look-up during recommendations
 CATALOG_MAP: dict[str, dict] = {p["item_id"]: p for p in json.loads(CATALOG_PATH.read_text())}
 
-# VectorStore is loaded lazily on the first /api/recommend call so Flask
-# can serve the page immediately without blocking on model initialisation.
+# VectorStore and Agent are loaded lazily so Flask can serve the page
+# immediately without blocking on model initialisation.
 _STORE = None
+_AGENT = None
 
 def _get_store():
     global _STORE
@@ -71,6 +72,13 @@ def _get_store():
         from agentic_rs.vectorstore.build import VectorStore
         _STORE = VectorStore()
     return _STORE
+
+def _get_agent():
+    global _AGENT
+    if _AGENT is None:
+        from agentic_rs.agent.loop import RecommendationAgent
+        _AGENT = RecommendationAgent(_get_store())
+    return _AGENT
 
 # ---------------------------------------------------------------------------
 # SQLite helpers
@@ -96,6 +104,36 @@ def _init_db() -> None:
 
 
 _init_db()
+
+
+# ---------------------------------------------------------------------------
+# Conversational helpers
+# ---------------------------------------------------------------------------
+
+def _generate_clarification(query: str) -> str:
+    """Generate one targeted clarifying question to narrow down the query."""
+    import openai
+    client = openai.OpenAI(
+        api_key=os.environ["GROQ_API_KEY"],
+        base_url="https://api.groq.com/openai/v1",
+    )
+    model = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
+    prompt = (
+        f'A shopper typed: "{query}"\n\n'
+        "Generate ONE short clarifying question to narrow down the best product match. "
+        "Pick the single most impactful dimension — for example: budget range, "
+        "specific use case, who it's for, or a must-have feature. "
+        "Keep it conversational and under 25 words.\n\n"
+        "Return ONLY the question text, nothing else."
+    )
+    resp = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.7,
+        max_tokens=80,
+    )
+    return resp.choices[0].message.content.strip()
+
 
 # ---------------------------------------------------------------------------
 # Routes
@@ -134,6 +172,7 @@ def record_click():
 
 @app.route("/api/recommend", methods=["POST"])
 def recommend():
+    """Phase 1 only: generate a single clarifying question."""
     data    = request.get_json(force=True)
     user_id = data.get("user_id", "").strip()
     query   = data.get("query", "").strip()
@@ -141,120 +180,105 @@ def recommend():
     if not user_id or not query:
         return jsonify({"error": "user_id and query required"}), 400
 
-    # 1. Fetch click history from SQLite
-    with _get_conn() as conn:
-        rows = conn.execute(
-            "SELECT item_id FROM clicks WHERE user_id = ? ORDER BY clicked_at DESC LIMIT 10",
-            (user_id,),
-        ).fetchall()
-    clicked_ids   = [r["item_id"] for r in rows]
-    clicked_items = [CATALOG_MAP[i] for i in clicked_ids if i in CATALOG_MAP]
-
-    # 2. Semantic search — query only, no click history mixed in.
-    # Click history is for LLM personalisation only, not retrieval.
-    # Mixing clicks into the vector query biases results toward browsed
-    # categories even when the query asks for something completely different.
-    candidates: list[dict] = _get_store().search_items(query, n_results=12)
-
-    if not candidates:
-        return jsonify({"error": "No candidates found in catalog"}), 404
-
-    # 3. Build LLM prompt — click history is soft context only
-    click_ctx = ""
-    if clicked_items:
-        lines = "\n".join(
-            f"  • {p['title']} ({p['category']}, ${p['price_usd']:.2f}, ★{p['avg_rating']})"
-            for p in clicked_items
-        )
-        click_ctx = (
-            f"\nUser's recent browsing (use only to personalise explanations, "
-            f"do NOT use to override the query intent):\n{lines}\n"
-        )
-
-    candidate_lines = "\n".join(
-        f"{i+1}. [{c['item_id']}] {c['title']} — "
-        f"${c.get('price_usd', 0):.2f} — {c.get('category', '')} — ★{c.get('avg_rating', 0)}"
-        for i, c in enumerate(candidates)
-    )
-
-    prompt = f"""You are a personalised shopping assistant.
-The user asked: "{query}"
-
-Your task:
-1. Pick exactly 5 products from the candidate list that BEST MATCH THE QUERY.
-   The query is the primary signal — only recommend products clearly relevant to it.
-2. Use the browsing history (if provided) solely to write a more personalised explanation.
-   Do NOT pick a product just because the user browsed a related category.
-{click_ctx}
-Candidates (choose only from this list):
-{candidate_lines}
-
-Respond with ONLY a JSON object (no markdown fences):
-{{
-  "recommendations": [
-    {{
-      "rank": 1,
-      "item_id": "...",
-      "title": "...",
-      "price": 0.00,
-      "rating": 0.0,
-      "category": "...",
-      "explanation": "2-3 sentence personalised reason"
-    }}
-  ]
-}}
-"""
-
-    # 5. Call Groq via OpenAI-compatible SDK
-    import openai
-    client = openai.OpenAI(
-        api_key=os.environ["GROQ_API_KEY"],
-        base_url="https://api.groq.com/openai/v1",
-    )
-    model = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
-
-    response = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.6,
-        max_tokens=1200,
-    )
-    text = response.choices[0].message.content.strip()
-
-    # 6. Parse JSON — strip markdown fences then try progressively looser strategies
-    text = re.sub(r"```[a-z]*\n?", "", text).strip()
-    text = re.sub(r"\n?```", "", text).strip()
-
-    payload = None
-
-    # Strategy 1: direct parse
     try:
-        payload = json.loads(text)
-    except json.JSONDecodeError:
-        pass
+        question = _generate_clarification(query)
+        return jsonify({"type": "clarification", "question": question})
+    except Exception as exc:
+        return jsonify({"error": f"Failed to generate question: {exc}"}), 500
 
-    # Strategy 2: extract outermost {...} block
-    if payload is None:
-        m = re.search(r"\{.*\}", text, re.DOTALL)
-        if m:
-            try:
-                payload = json.loads(m.group())
-            except json.JSONDecodeError:
-                pass
 
-    # Strategy 3: truncated JSON — find last complete recommendation object and close arrays/objects
-    if payload is None:
-        recs = re.findall(
-            r'\{\s*"rank"\s*:\s*\d+.*?"explanation"\s*:\s*"[^"]*"\s*\}',
-            text, re.DOTALL
+def _rec_to_dict(r) -> dict:
+    """Serialize a Recommendation (Pydantic or dataclass) to a plain dict."""
+    if hasattr(r, "model_dump"):
+        return r.model_dump()
+    return {
+        "rank": r.rank, "item_id": r.item_id, "title": r.title,
+        "price_usd": r.price_usd, "avg_rating": r.avg_rating,
+        "explanation": r.explanation,
+    }
+
+
+@app.route("/api/recommend/stream", methods=["POST"])
+def recommend_stream():
+    """
+    Phase 2 / 3: run the full agentic loop and stream AgentStep events as SSE.
+    The client sends conversation context (clarification Q&A or feedback) which
+    is appended to the query so the agent sees it as part of the request.
+    """
+    data = request.get_json(force=True)
+    user_id                = data.get("user_id", "").strip()
+    query                  = data.get("query", "").strip()
+    clarification_question = data.get("clarification_question", "").strip()
+    clarification_answer   = data.get("clarification_answer", "").strip()
+    feedback               = data.get("feedback", "").strip()
+    previous_recs          = data.get("previous_recommendations", [])
+
+    if not user_id or not query:
+        return jsonify({"error": "user_id and query required"}), 400
+
+    # Build the enriched query the agent will see
+    enhanced = query
+    if clarification_question and clarification_answer:
+        enhanced += (
+            f"\n\nPreference clarification:\n"
+            f"  Q: {clarification_question}\n"
+            f"  A: {clarification_answer}"
         )
-        if recs:
-            payload = {"recommendations": [json.loads(r) for r in recs]}
+    if feedback and previous_recs:
+        prev_titles = ", ".join(r.get("title", "") for r in previous_recs[:3])
+        enhanced += (
+            f"\n\nUser feedback on previous picks ({prev_titles}…): \"{feedback}\"\n"
+            "Recommend DIFFERENT products that directly address this feedback."
+        )
 
-    if payload is None:
-        return jsonify({"error": "LLM returned unparseable response", "raw": text}), 500
+    agent = _get_agent()
 
-    return jsonify(payload)
+    def generate():
+        try:
+            for step in agent.run(user_id=user_id, query=enhanced):
+                event: dict = {
+                    "type":      step.step_type.value,
+                    "iteration": step.iteration,
+                    "content":   step.content,
+                }
+                if step.tool_name:
+                    event["tool_name"] = step.tool_name
+                if step.tool_args:
+                    event["tool_args"] = step.tool_args
+                if step.tool_result:
+                    r = step.tool_result
+                    if "error" in r:
+                        event["result_summary"] = None   # hidden from trace
+                    elif "items" in r:
+                        event["result_summary"] = f"{r.get('count', len(r['items']))} items"
+                    elif "user" in r:
+                        u = r["user"]
+                        event["result_summary"] = (
+                            f"{u.get('name', '')} — {u.get('price_sensitivity', '')}"
+                        )
+                    elif "item" in r:
+                        event["result_summary"] = r["item"].get("title", "")
+                    else:
+                        event["result_summary"] = str(r)[:80]
+                if step.recommendations:
+                    event["recommendations"] = [
+                        _rec_to_dict(r) for r in step.recommendations
+                    ]
+                yield f"data: {json.dumps(event)}\n\n"
+        except Exception as exc:
+            yield f"data: {json.dumps({'type': 'error', 'content': str(exc)})}\n\n"
+        finally:
+            yield "data: [DONE]\n\n"
+
+    return Response(
+        stream_with_context(generate()),
+        content_type="text/event-stream",
+        headers={
+            "Cache-Control":    "no-cache",
+            "X-Accel-Buffering": "no",
+            "Connection":        "keep-alive",
+        },
+    )
 
 
 # ---------------------------------------------------------------------------
